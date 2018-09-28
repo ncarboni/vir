@@ -46,16 +46,6 @@
         <rdfs:comment>The back or underside of a single sheet of paper, or the left-hand page of an open book. The feature is presents in object such as codex, books, pamphlets, documents, photographs and painting.</rdfs:comment>
         <rdfs:label xml:lang="en">Verso</rdfs:label>
     </rdfs:Class>
-    <rdfs:Class rdf:about="IC5_Color">
-        <rdfs:subClassOf rdf:resource="http://www.ics.forth.gr/isl/CRMsci/S9_Property_Type"/>
-        <rdfs:comment>The class comprise concept coming from vocabularies and thesauri used to characterise the combination of a particular pigment (or set of pigments) with the reflected or transmitted light</rdfs:comment>
-        <rdfs:label xml:lang="en">Color</rdfs:label>
-    </rdfs:Class>
-    <rdfs:Class rdf:about="IC8_Layer">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature"/>
-        <rdfs:comment>A layer is a stratum composed by one or more materials that cover a surface, or part of it, of a physical body. A Layer usually can rest on a physical object (wall), but can rest also on a previous layer</rdfs:comment>
-        <rdfs:label xml:lang="en">Layer</rdfs:label>
-    </rdfs:Class>
     <rdfs:Class rdf:about="IC9_Representation">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
         <rdfs:comment>A visual item that represent the nuclear characteristic of a particular set of symbols associate with a cognitive type of a person, animal or concept</rdfs:comment>
@@ -252,18 +242,6 @@
         <rdfs:range rdf:resource="IC16_Character"/>
         <rdfs:subPropertyOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/R57i_is_basis_for"/>
     </rdf:Property>
-    <rdf:Property rdf:about="K27_rest_on">
-        <rdfs:domain rdf:resource="IC8_Layer"/>
-        <rdfs:comment xml:lang="en">This property associates an instance of S8 Layer with the Physical Thing it rest on</rdfs:comment>
-        <rdfs:label xml:lang="en">rest on</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P56i_is_found_on"/>
-    </rdf:Property>
-    <rdf:Property rdf:about="K27i_has_layer">
-        <rdfs:comment>This property associates an instance of S8 Layer with the Physical Thing it rest on</rdfs:comment>
-        <rdfs:label xml:lang="en">has layer</rdfs:label>
-        <rdfs:range rdf:resource="IC8_Layer"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P56_bears_feature"/>
-    </rdf:Property>
     <rdf:Property rdf:about="K34_illustrate">
         <rdfs:domain rdf:resource="IC9_Representation"/>
         <rdfs:comment>This property associate an information object to a iconographical representation</rdfs:comment>
@@ -277,20 +255,6 @@
         <rdfs:label xml:lang="en">is illustrated by</rdfs:label>
         <rdfs:range rdf:resource="IC9_Representation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
-    </rdf:Property>
-    <rdf:Property rdf:about="K38_observed_colour">
-        <rdfs:domain rdf:resource="IC12_Visual_Recognition"/>
-        <rdfs:comment>The property documents the type of color observed during a visual recognition activity</rdfs:comment>
-        <rdfs:label xml:lang="en">observed colour</rdfs:label>
-        <rdfs:range rdf:resource="IC5_Color"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.ics.forth.gr/isl/CRMsci/O9_observed_property_type"/>
-    </rdf:Property>
-    <rdf:Property rdf:about="K38i_has_been_obvserved_in">
-        <rdfs:domain rdf:resource="IC5_Color"/>
-        <rdfs:comment>The property documents the type of color observed during a visual recognition activity</rdfs:comment>
-        <rdfs:label xml:lang="en">has been observed in</rdfs:label>
-        <rdfs:range rdf:resource="IC12_Visual_Recognition"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.ics.forth.gr/isl/CRMsci/O9i_property_type_was_observed_by"/>
     </rdf:Property>
     <rdf:Property rdf:about="K4_is_visual_prototype_of">
         <rdfs:domain rdf:resource="IC9_Representation"/>
