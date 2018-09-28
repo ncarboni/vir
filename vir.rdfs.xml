@@ -4,31 +4,32 @@
     xml:base="http://nicolacarboni.com/static/ontology/vir/" 
     xml:lang="en">
 
-
+    <rdf:Description rdf:about="K21_depict">
+        <rdfs:comment>This property indicates the entity referred by the rvisual epresentation</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
+    <rdfs:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/F38_Character">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E71_Man-Made_Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Character</rdfs:label>
+    </rdfs:Class>
     <rdfs:Class rdf:about="IC10_Attribute">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
-        <rdfs:comment>An object that help identify and usually accompanied certain type of iconographic representation, and help define the character or a type of character portrayed. They usually are taken from on episode of the life of the character depicted</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
+        <rdfs:comment>A set of features considered by a viewer more salient than others and used as a key for the identification of a Representation. The attribute could correspond to iconographical elements or simple signs which the viewer uses to provide a stable identity to a visual object.</rdfs:comment>
         <rdfs:label xml:lang="en">Iconographical Attribute</rdfs:label>
     </rdfs:Class>
     <rdfs:Class rdf:about="IC11_Personification">
-        <rdfs:subClassOf rdf:resource="IC9_Representation"/>
+        <rdfs:subClassOf rdf:resource="IC16_Character"/>
         <rdfs:comment>A human, or anthropomorphic figure, that represents an abstract idea or a concept</rdfs:comment>
         <rdfs:label xml:lang="en">Personification</rdfs:label>
     </rdfs:Class>
     <rdfs:Class rdf:about="IC12_Visual_Recognition">
         <rdfs:subClassOf rdf:resource="http://www.ics.forth.gr/isl/CRMsci/S4_Observation"/>
-        <rdfs:comment>The activity of assigning the iconographical status to a man-made object, or to one of its parts. It takes into account the possibility to link it to a speech act or a document where the authoritative proposition is clearly made</rdfs:comment>
+        <rdfs:comment xml:lang="en">The activity of assigning the iconographical status to a man-made object, or to one of its parts. It takes into account the possibility to link it to a speech act or a document where the authoritative proposition is clearly made</rdfs:comment>
         <rdfs:label xml:lang="en">Visual Recognition</rdfs:label>
     </rdfs:Class>
-    <rdfs:Class rdf:about="IC16_Character">
-        <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F38_Character"/>
-        <rdfs:comment>This class comprises fictional individuals, or groups, appearing in a 2D/3D representation. Each character portrayed can have a type. Every saints portrayed is considered here as a character and not as an actor</rdfs:comment>
-        <rdfs:label xml:lang="en">Character</rdfs:label>
-    </rdfs:Class>
-    <rdfs:Class rdf:about="IC17_Anchorage">
-        <rdfs:subClassOf rdf:resource="http://www.ics.forth.gr/isl/CRMsci/S4_Observation"/>
-        <rdfs:comment>The class document the phenomenon of anchorage defined by Barthes as linguistic elements, which can serve to &apos;anchor&apos; (or constrain) to a specific readings of an image. Example can be inscription, which constrain a specific readings of an iconographical object, or the caption used for a photos.</rdfs:comment>
-        <rdfs:label xml:lang="en">Anchorage</rdfs:label>
+    <rdfs:Class rdf:about="IC18_Composition">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
     </rdfs:Class>
     <rdfs:Class rdf:about="IC19_Recto">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature"/>
@@ -81,41 +82,69 @@
     </rdf:Property>
     <rdf:Property rdf:about="K11i_was_assigned_by">
         <rdfs:domain rdf:resource="IC9_Representation"/>
-        <rdfs:comment>The property indicates the status assigned during the visual recognition event</rdfs:comment>
+        <rdfs:comment xml:lang="en">The property indicates the status assigned during the visual recognition event</rdfs:comment>
         <rdfs:label xml:lang="en">was assigned by</rdfs:label>
         <rdfs:range rdf:resource="IC12_Visual_Recognition"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by"/>
     </rdf:Property>
+    <rdf:Property rdf:about="K14_symbolize">
+        <rdfs:domain rdf:resource="IC10_Attribute"/>
+        <rdfs:comment>The property indicates the symbolic value of the attribute presents in a representation</rdfs:comment>
+        <rdfs:label xml:lang="en">Symbolize</rdfs:label>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
+    </rdf:Property>
+    <rdf:Property rdf:about="K14i_has_symbolic_value">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+        <rdfs:comment>The property indicates the symbolic value of the attribute presents in a representation</rdfs:comment>
+        <rdfs:label xml:lang="en">has symbolic value</rdfs:label>
+        <rdfs:range rdf:resource="IC10_Attribute"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
+    </rdf:Property>
+    <rdf:Property rdf:about="K15_use_feature">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+        <rdfs:comment>The property indicates the specific attribute used during the production of a visual object</rdfs:comment>
+        <rdfs:label xml:lang="en">use feature</rdfs:label>
+        <rdfs:range rdf:resource="IC10_Attribute"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique"/>
+    </rdf:Property>
+    <rdf:Property rdf:about="K15i_The_property_indicates_the_specific_attribute_used_during_the_production_of_a_visual_object">
+        <rdfs:domain rdf:resource="IC10_Attribute"/>
+        <rdfs:comment>The property indicates the specific attribute used during the production of a visual object</rdfs:comment>
+        <rdfs:label xml:lang="en">has been used by</rdfs:label>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P33i_was_used_by"/>
+    </rdf:Property>
     <rdf:Property rdf:about="K17_has_attribute">
         <rdfs:domain rdf:resource="IC9_Representation"/>
-        <rdfs:comment>This property associates an attribute with the iconographical object where it is depicted</rdfs:comment>
+        <rdfs:comment xml:lang="en">This property associates an attribute with the iconographical object where it is depicted</rdfs:comment>
         <rdfs:label xml:lang="en">has attribute</rdfs:label>
         <rdfs:range rdf:resource="IC10_Attribute"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"/>
     </rdf:Property>
     <rdf:Property rdf:about="K17i_is_attribute_of">
         <rdfs:domain rdf:resource="IC10_Attribute"/>
-        <rdfs:comment>This property associates an attribute with the iconographical object where it is depicted</rdfs:comment>
+        <rdfs:comment xml:lang="en">This property associates an attribute with the iconographical object where it is depicted</rdfs:comment>
         <rdfs:label xml:lang="en">is attribute of</rdfs:label>
         <rdfs:range rdf:resource="IC9_Representation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of"/>
     </rdf:Property>
     <rdf:Property rdf:about="K1_denotes">
-        <rdfs:domain rdf:resource="IC1_Iconographical_Atom"/>
-        <rdfs:comment>The property document the assignment of an iconographical object to a specific physical man-made object</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+        <rdfs:comment>The property documents the assignment of an iconographical object to a specific physical man-made object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation</rdfs:comment>
         <rdfs:label xml:lang="en">Denote</rdfs:label>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P65_shows_visual_item"/>
     </rdf:Property>
     <rdf:Property rdf:about="K1i_is_denoted_by">
-        <rdfs:comment>The property document the assignment of an iconographical object to a specific physical man-made object</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is denoted by</rdfs:label>
-        <rdfs:range rdf:resource="IC1_Iconographical_Atom"/>
+        <rdfs:comment>The property documents the assignment of an iconographical object to a specific physical man-made object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation.</rdfs:comment>
+        <rdfs:label xml:lang="en">is denoted by</rdfs:label>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by"/>
     </rdf:Property>
     <rdf:Property rdf:about="K20_forms_part_of">
         <rdfs:domain rdf:resource="IC9_Representation"/>
-        <rdfs:comment>This property put in relation an iconographical object with a part of itself.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This property put in relation an iconographical object with a part of itself.</rdfs:comment>
         <rdfs:label xml:lang="en">forms part of</rdfs:label>
         <rdfs:range rdf:resource="IC9_Representation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
@@ -127,19 +156,19 @@
         <rdfs:range rdf:resource="IC9_Representation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P148i_is_component_of"/>
     </rdf:Property>
-    <rdf:Property rdf:about="K21_depict">
+    <rdf:Property rdf:about="K21_depict_things_of_type">
         <rdfs:domain rdf:resource="IC10_Attribute"/>
-        <rdfs:comment xml:lang="em">This property indicates the entity referred by the rvisual epresentation</rdfs:comment>
-        <rdfs:label xml:lang="en">depict</rdfs:label>
-        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
+        <rdfs:comment>This property indicates the type of object depicted by an iconographical attribute</rdfs:comment>
+        <rdfs:label xml:lang="en">depict things of type</rdfs:label>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies"/>
     </rdf:Property>
     <rdf:Property rdf:about="K21i_is_depiction_of_attribute">
-        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
-        <rdfs:comment>This property indicates the entity referred by the rvisual epresentation</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+        <rdfs:comment>This property indicates the type of object depicted by an iconographical attribute</rdfs:comment>
         <rdfs:label xml:lang="en">is depiction of attribute</rdfs:label>
         <rdfs:range rdf:resource="IC10_Attribute"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by"/>
     </rdf:Property>
     <rdf:Property rdf:about="K22_has_personification">
         <rdfs:domain rdf:resource="IC9_Representation"/>
@@ -157,38 +186,52 @@
     </rdf:Property>
     <rdf:Property rdf:about="K23_connote">
         <rdfs:domain rdf:resource="IC9_Representation"/>
-        <rdfs:comment>This property indicates the connotation relationships, formalised by Barthes, between a conceptual entity and an iconographical object</rdfs:comment>
+        <rdfs:comment>This property indicates the connotation relationships, formalised by Barthes, between a conceptual entity and an iconographical object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It doesn&#8217;t offer any information about when and whom established the connotation relationship</rdfs:comment>
         <rdfs:label xml:lang="en">connote</rdfs:label>
-        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+        <rdfs:range rdf:resource="IC9_Representation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
     </rdf:Property>
     <rdf:Property rdf:about="K23i_is_connotation_of">
-        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
-        <rdfs:comment>This property indicates the connotation relationships, formalised by Barthes, between a conceptual entity and an iconographical object.</rdfs:comment>
+        <rdfs:domain rdf:resource="IC9_Representation"/>
+        <rdfs:comment>This property indicates the connotation relationships, formalised by Barthes, between a conceptual entity and an iconographical object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It doesn&#8217;t offer any information about when and whom established the connotation relationship</rdfs:comment>
         <rdfs:label xml:lang="en">is connoted by</rdfs:label>
         <rdfs:range rdf:resource="IC9_Representation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
     </rdf:Property>
     <rdf:Property rdf:about="K24_portray">
         <rdfs:domain rdf:resource="IC9_Representation"/>
-        <rdfs:comment>This property put in relation an iconographical object with the portrayed character.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This property put in relation an iconographical object with the portrayed character.</rdfs:comment>
         <rdfs:label xml:lang="en">portray</rdfs:label>
         <rdfs:range rdf:resource="IC16_Character"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
     </rdf:Property>
     <rdf:Property rdf:about="K24i_is_portrayed_in">
         <rdfs:domain rdf:resource="IC16_Character"/>
-        <rdfs:comment>This property put in relation an iconographical object with the portrayed character.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This property put in relation an iconographical object with the portrayed character.</rdfs:comment>
         <rdfs:label xml:lang="en">is portrayed by</rdfs:label>
         <rdfs:range rdf:resource="IC9_Representation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
     </rdf:Property>
+    <rdf:Property rdf:about="K25_express">
+        <rdfs:domain rdf:resource="IC10_Attribute"/>
+        <rdfs:comment>This property put in relation a symbolic object with a personification in a work of art</rdfs:comment>
+        <rdfs:label xml:lang="en">express</rdfs:label>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
+    </rdf:Property>
     <rdf:Property rdf:about="K25_symbolize">
         <rdfs:domain rdf:resource="IC11_Personification"/>
-        <rdfs:comment>This property put in relation a conceptual object with its personification in a work of art</rdfs:comment>
+        <rdfs:comment xml:lang="en">This property put in relation a conceptual object with its personification in a work of art</rdfs:comment>
         <rdfs:label xml:lang="en">symbolize</rdfs:label>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
+    </rdf:Property>
+    <rdf:Property rdf:about="K25i_is_abstraction_of">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+        <rdfs:comment xml:lang="en">This property put in relation a symbolic object with a personification in a work of art</rdfs:comment>
+        <rdfs:label xml:lang="en">is abstraction of</rdfs:label>
+        <rdfs:range rdf:resource="IC10_Attribute"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
     </rdf:Property>
     <rdf:Property rdf:about="K25i_is_personification_of">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
@@ -211,7 +254,7 @@
     </rdf:Property>
     <rdf:Property rdf:about="K27_rest_on">
         <rdfs:domain rdf:resource="IC8_Layer"/>
-        <rdfs:comment>This property associates an instance of S8 Layer with the Physical Thing it rest on</rdfs:comment>
+        <rdfs:comment xml:lang="en">This property associates an instance of S8 Layer with the Physical Thing it rest on</rdfs:comment>
         <rdfs:label xml:lang="en">rest on</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P56i_is_found_on"/>
     </rdf:Property>
@@ -234,34 +277,6 @@
         <rdfs:label xml:lang="en">is illustrated by</rdfs:label>
         <rdfs:range rdf:resource="IC9_Representation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
-    </rdf:Property>
-    <rdf:Property rdf:about="K36_anchors">
-        <rdfs:domain rdf:resource="IC17_Anchorage"/>
-        <rdfs:comment>The property documents the symbolic object which has been used in the anchoring activity.</rdfs:comment>
-        <rdfs:label xml:lang="en">anchors</rdfs:label>
-        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P141_assigned"/>
-    </rdf:Property>
-    <rdf:Property rdf:about="K36i_was_anchored_by">
-        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
-        <rdfs:comment>The property documents the symbolic object which has been used in the anchoring activity</rdfs:comment>
-        <rdfs:label xml:lang="en">was anchored by</rdfs:label>
-        <rdfs:range rdf:resource="IC17_Anchorage"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by"/>
-    </rdf:Property>
-    <rdf:Property rdf:about="K37_anchors_to">
-        <rdfs:domain rdf:resource="IC17_Anchorage"/>
-        <rdfs:comment>The property documents the image used within the anchoring activity</rdfs:comment>
-        <rdfs:label xml:lang="en">anchors to</rdfs:label>
-        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P141_assigned"/>
-    </rdf:Property>
-    <rdf:Property rdf:about="K37i_is_anchored_by">
-        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
-        <rdfs:comment>The property documents the image used within the anchoring activity</rdfs:comment>
-        <rdfs:label xml:lang="en">is anchored by</rdfs:label>
-        <rdfs:range rdf:resource="IC17_Anchorage"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by"/>
     </rdf:Property>
     <rdf:Property rdf:about="K38_observed_colour">
         <rdfs:domain rdf:resource="IC12_Visual_Recognition"/>
@@ -290,6 +305,24 @@
         <rdfs:label xml:lang="en">has visual prototype</rdfs:label>
         <rdfs:range rdf:resource="IC9_Representation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by"/>
+
+<!--
+    
+    In order to sustain proposition aboout the type of mode of prototypical representation (studio, copy...) we introduce a .1 property. For its modelling we follow the CRMpc 1.1 methodology which introduced all the XX.1 properties of CIDOC-CRM as subclasses of PC0 CRM_Property. For more information see http://www.cidoc-crm.org/sites/default/files/Roles.pdf and the official extension.
+
+-->
+
+        <rdfs:Class rdf:about="PCK4_is_visual_prototype_of"> 
+            <rdfs:subClassOf rdf:resource="PC0_Typed_CRM_Property"/>
+        <rdfs:comment></rdfs:comment>
+        </rdfs:Class>
+
+        <rdf:Property rdf:about="K4.1_prototypical_model">
+            <rdfs:domain rdf:resource="PCK4_is_visual_prototype_of"/>
+            <rdfs:range rdf:resource="E55_Type"/>   
+        </rdf:Property>
+
+
     </rdf:Property>
     <rdf:Property rdf:about="K6_has_back">
         <rdfs:domain rdf:resource="IC19_Recto"/>
@@ -300,9 +333,9 @@
     </rdf:Property>
     <rdf:Property rdf:about="K6i_has_front">
         <rdfs:domain rdf:resource="IC20_Verso"/>
-        <rdfs:comment>The property documents the presence of a Verso or a Recto, respectively in the back or in the front of an object.</rdfs:comment>
-        <rdfs:label xml:lang="en">has front</rdfs:label>
         <rdfs:range rdf:resource="IC19_Recto">
+        <rdfs:comment xml:lang="en">The property documents the presence of a Verso or a Recto, respectively in the back or in the front of an object.</rdfs:comment>
+        <rdfs:label xml:lang="en">has front</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of"/>
     </rdf:Property>
     <rdf:Property rdf:about="K7_is_recto_of">
@@ -335,14 +368,14 @@
     </rdf:Property>
     <rdf:Property rdf:about="K9_Assigned_status_to">
         <rdfs:domain rdf:resource="IC12_Visual_Recognition"/>
-        <rdfs:comment>The property documents the assignment of status to a specific physical thing</rdfs:comment>
+        <rdfs:comment xml:lang="en">The property documents the assignment of status to a specific physical thing</rdfs:comment>
         <rdfs:label xml:lang="en">Assigned status to</rdfs:label>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to"/>
     </rdf:Property>
     <rdf:Property rdf:about="K9i_has_status_assigned_by">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
-        <rdfs:comment>The property documents the assignment of status to a specific physical thing.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The property documents the assignment of status to a specific physical thing.</rdfs:comment>
         <rdfs:label xml:lang="en">has status assigned by</rdfs:label>
         <rdfs:range rdf:resource="IC12_Visual_Recognition"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by"/>
