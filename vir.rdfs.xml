@@ -51,6 +51,16 @@
         <rdfs:comment>A visual item that represent the nuclear characteristic of a particular set of symbols associate with a cognitive type of a person, animal or concept</rdfs:comment>
         <rdfs:label xml:lang="en">Iconographical Object</rdfs:label>
     </rdfs:Class>
+    <rdfs:Class rdf:about="PCK4_is_visual_prototype_of"> 
+            <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/PC0_Typed_CRM_Property"/>
+        <rdfs:comment></rdfs:comment>
+        </rdfs:Class>
+
+        <rdf:Property rdf:about="K4.1_prototypical_model">
+            <rdfs:domain rdf:resource="PCK4_is_visual_prototype_of"/>
+            <rdfs:range rdf:resource="E55_Type"/>   
+        </rdf:Property>
+
     <rdf:Property rdf:about="K10_on_the_base_of">
         <rdfs:comment>The property describes the source used for the status assignment</rdfs:comment>
         <rdfs:label xml:lang="en">On the base of</rdfs:label>
@@ -269,22 +279,7 @@
         <rdfs:label xml:lang="en">has visual prototype</rdfs:label>
         <rdfs:range rdf:resource="IC9_Representation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by"/>
-
-<!--
-    
-    In order to sustain proposition aboout the type of mode of prototypical representation (studio, copy...) we introduce a .1 property. For its modelling we follow the CRMpc 1.1 methodology which introduced all the XX.1 properties of CIDOC-CRM as subclasses of PC0 CRM_Property. For more information see http://www.cidoc-crm.org/sites/default/files/Roles.pdf and the official extension.
-
--->
-
-        <rdfs:Class rdf:about="PCK4_is_visual_prototype_of"> 
-            <rdfs:subClassOf rdf:resource="PC0_Typed_CRM_Property"/>
-        <rdfs:comment></rdfs:comment>
-        </rdfs:Class>
-
-        <rdf:Property rdf:about="K4.1_prototypical_model">
-            <rdfs:domain rdf:resource="PCK4_is_visual_prototype_of"/>
-            <rdfs:range rdf:resource="E55_Type"/>   
-        </rdf:Property>
+        
 
 
     </rdf:Property>
@@ -297,10 +292,10 @@
     </rdf:Property>
     <rdf:Property rdf:about="K6i_has_front">
         <rdfs:domain rdf:resource="IC20_Verso"/>
-        <rdfs:range rdf:resource="IC19_Recto">
+        <rdfs:range rdf:resource="IC19_Recto"/>
         <rdfs:comment xml:lang="en">The property documents the presence of a Verso or a Recto, respectively in the back or in the front of an object.</rdfs:comment>
         <rdfs:label xml:lang="en">has front</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of"/>
     </rdf:Property>
     <rdf:Property rdf:about="K7_is_recto_of">
         <rdfs:domain rdf:resource="IC19_Recto"/>
