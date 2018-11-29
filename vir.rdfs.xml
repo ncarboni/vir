@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
-    xml:base="http://nicolacarboni.com/static/ontology/vir/" 
+    xml:base="http://w3id.org/vir/" 
     xml:lang="en">
 
     <rdf:Description rdf:about="K21_depict">
