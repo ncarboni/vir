@@ -1,40 +1,7 @@
 
 {{TOC}}
 
-  ------------------------ ------------ --------- --------- --------- ------------------- ------------------------- ------------------------ ------------------------- ---------------
-  [E1]{.underline}         CRM Entity                                                                                                                                  
-  [E7]{.underline}         \-           \-        \-        \-        Activity                                                                                         
-  [E13]{.underline}        \-           \-        \-        \-        \-                  Attribute Assignment                                                         
-  [E14]{.underline}        \-           \-        \-        \-        \-                  \-                        Condition Assessment                               
-  [E15]{.underline}        \-           \-        \-        \-        \-                  \-                        Identifier Assignment                              
-  [E16]{.underline}        \-           \-        \-        \-        \-                  \-                        Measurement                                        
-  **IC12**                 **-**        **-**     **-**     **-**     **-**               **-**                     **Visual Recognition**                             
-  [E17]{.underline}        \-           \-        \-        \-        \-                  \-                        Type Assignment                                    
-  [E18]{.underline}        \-           \-        \-        \-        Physical Thing                                                                                   
-  [E26]{.underline}        \-           \-        \-        \-        \-                  Physical Feature                                                             
-  **[IC19]{.underline}**   **-**        **-**     **-**     **-**     **-**               **-**                     **Recto**                                          
-  **[IC20]{.underline}**   **-**        **-**     **-**     **-**     **-**               **-**                     **Verso**                                          
-  [E24]{.underline}        \-           \-        \-        \-        \-                  Physical Man-Made Thing                                                      
-  [E22]{.underline}        \-           \-        \-        \-        \-                  \-                        Man-Made Object                                    
-  [E25]{.underline}        \-           \-        \-        \-        \-                  \-                        Man-Made Feature                                   
-  **IC1**                  **-**        **-**     **-**     **-**     **-**               **-**                     **-**                    **Iconographical Atom**   
-  [E28]{.underline}        \-           \-        \-        \-        Conceptual Object                                                                                
-  ***IC16***               ***-***      ***-***   ***-***   ***-***   ***-***             **Character**                                                                
-  ***IC11***               ***-***      ***-***   ***-***   ***-***   ***-***             **-**                     **Personification**                                
-  *[E90]{.underline}*      *-*          *-*       *-*       *-*       *-*                 Symbolic Object                                                              
-  *[E73]{.underline}*      *-*          *-*       *-*       *-*       *-*                 *-*                       Information Object                                 
-  *[E27]{.underline}*      *-*          *-*       *-*       *-*       *-*                 *-*                       *-*                      Design or Procedure       
-  ***IC10***               ***-***      ***-***   ***-***   ***-***   ***-***             ***-***                   ***-***                  ***-***                   **Attribute**
-  *[E31]{.underline}*      *-*          *-*       *-*       *-*       *-*                 *-*                       *-*                      Document                  
-  *[E33]{.underline}*      *-*          *-*       *-*       *-*       *-*                 *-*                       *-*                      Linguistic Object         
-  *[E36]{.underline}*      *-*          *-*       *-*       *-*       *-*                 *-*                       *-*                      Visual item               
-  ***IC9***                ***-***      ***-***   ***-***   ***-***   ***-***             ***-***                   ***-***                  **Representation**        
-  ***IC10***               ***-***      ***-***   ***-***   ***-***   ***-***             ***-***                   ***-***                  **Attribute**             
-  *[E38]{.underline}*      *-*          *-*       *-*       *-*       *-*                 *-*                       *-*                      Image                     
-  *[E41]{.underline}*      *-*          *-*       *-*       *-*       *-*                 *-*                       Appellation                                        
-  [E89]{.underline}        \-           \-        \-        \-        \-                  Propositional Object                                                         
-  [E55]{.underline}        \-           \-        \-        \-        \-                  Type                                                                         
-  ------------------------ ------------ --------- --------- --------- ------------------- ------------------------- ------------------------ ------------------------- ---------------
+
 
 ## Classes
 
@@ -69,8 +36,8 @@ type
 + [K20 is composed of (forms part of)]: [IC9 Representation] 
 + [K22 has personification (is present in)]: [IC11 Personification]
 + [K23 connote (is connotation of)]: [IC9 Representation]
-+ [K17 has attribute (is attribute of)]: [IC10 Attribute]
-+ [K24 portray (is portrayed in)]: [IC16 Character]
++ [K17 has attribute (is attribute of)](#k17): [IC10 Attribute]
++ [K24 portray (is portrayed in)](#k24): [IC16 Character]
 + [K34 illustrate (is illustrated by)]: E73 Information Object
 + [K4 is visual prototype of (has visual prototype)]: [IC9 Representation]
 
@@ -89,10 +56,10 @@ A set of features considered by a viewer more salient than others and used as a 
 
 #### Proprieties:
 
-+ [K17 is attribute of (has attribute)]: [IC9 Representation]
++ [K17 is attribute of (has attribute)](#k17): [IC9 Representation]
 + [K21 depict things of type (is depiction of attribute)]: E55 Type
 + [K14 symbolize (has symbolic value)]: E90 Symbolic Object
-+ [K15 has been used by (use feature)]: E12 Production
++ [K15 has been used by (use feature)](#k15): E12 Production
 
 ### IC11 Personification
 
@@ -142,7 +109,7 @@ representation. Each character portrayed can have a type, for example "Saint" or
 #### Proprieties:
 
 + [K26 has source (is source of)]: E39 Actor
-+ K24 is portrayed in (portray): [IC9 Representation]
++ [K24 is portrayed in (portray)](#k24): [IC9 Representation]
 
 ### IC19 Recto
 
@@ -157,7 +124,7 @@ The front or face of a single sheet or the right-hand page of an open book. The 
 
 #### Proprieties:
 
-+ [K6 has back (has front)]: [IC20 Verso]
++ [K6 has back (has front)](#k6): [IC20 Verso]
 + [K7 is recto of (has recto)]: E22 Man-Made Object
 
 ### IC20 Verso
@@ -173,7 +140,7 @@ The back or underside of a single sheet of paper, or the left-hand page of an op
 
 #### Proprieties:
 
-+ [K6 has front (has back)]: [IC19 Recto]
++ [K6 has front (has back)](#k6): [IC19 Recto]
 + [K8 is verso of (has verso)]: E22 Man-Made Object
 
 ## Properties
@@ -198,8 +165,8 @@ The property documents the use of a specific prototypical example for an image. 
 
 Domain: [K4 is visual prototype of (has visual prototype)]  
 Range: E55 Type  
-
-#### K6 has back (has front)
+<a name="k6">
+#### K6 has back (has front)</a>
 
 Domain: [IC19 Recto]  
 Range: [IC20 Verso]  
@@ -256,16 +223,16 @@ Range: E90 Symbolic Object
 Subproperty: P138 Represents   
 
 The property indicates the symbolic value of the attribute presents in a representation.
-
-#### K15 use features (has been used by)
+<a name="k15">
+#### K15 use features (has been used by)</a>
 
 Domain: E12 Production   
 Range: [IC10 Attribute]   
 Subproperty: P33 used specific technique   
 
 The property indicates the specific attribute used during the production of a visual object
-
-#### K17 Has attribute (is attribute of)
+<a name="k17">
+#### K17 has attribute (is attribute of)</a>
 
 Domain: [IC9 Representation]   
 Range: [IC10 Attribute]   
@@ -305,8 +272,8 @@ Subproperty: P138 Represents
 
 This property indicates the connotation relationships, formalized by Barthes, between a conceptual entity and an iconographical object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It
 doesn't offer any information about when and whom established the connotation relationship.
-
-#### K24 Portray (is portrayed in)
+<a name="k24">
+#### K24 Portray (is portrayed in)</a>
 
 Domain: [IC9 Representation]  
 Range: [IC16 Character]  
