@@ -16,14 +16,35 @@ For the classes, the identifier consists of the two letters IC followed by a num
 
 ## Examples
 
-In this section we are going to present diverse examples of the possible use for the model in identifying iconographical objects, attributes and personification, as well as linking a particular text to a visual representation or specifying its visual prototype
+In this section we are going to present diverse examples of the possible use for the model in identifying iconographical objects, attributes and personification, as well as linking a particular text to a visual representation or specifying its visual prototype.
+
+
+/NEW_symbolic.png  
+
+*<small>Fig 1 — Mapping of the information about the visual recognition of the panel of Anastasia and Anastasia in Asinou, Cyprus</small>*  
+
+The example uses a specific wall painting present in the narthex of the Asinou Church. The panel is identified and described throughout a [IC12 Visual Recognition], which defined a specific portion of the wall as the [IC1 Iconographical Atom] carrying carrying two [IC9 Representation]s, Anastasia Samaralina and St. Anastasia.  
+The [IC12 Visual Recognition] is defined as an interpretation over a physical portion of the reality which classify it with the assignment of a specific meaning, in this case the two representations. The granularity of the recognition is, however, defined by the researchers, and the same [IC1 Iconographical Atom] can carry single or multiple representations depending on the interpretative action that has being carried out.
+
 
 
 /san_george_asinou.png 
 
-*<small>Mapping of the information about the St. George wall painting in Asinou, Cyprus</small>*
+*<small>Fig 2 — Mapping of the information about the St. George wall painting in Asinou, Cyprus</small>*
 
+The figure above present show the mapping of the [IC10 Attribute]s and [IC16 Character]s depicted in a [IC9 Representation]. The identified figure of "St. George killing the dragon" is recognised to have six attributes (castle, horses, lakes, spears, princess, dragon) and to portray the figure of Saint George. The number of attributes of a representation changes depending on the time and context of production, and no  fixed amount is here intended.
 
+/asinou_personification.png
+
+*<small>Fig 3 — Mapping of the information about a Personification</small>*
+
+Figure 3 presents the mapping of the information about the depiction of a specific character, a [IC11 Personification], which is a human, or anthropomorphic figure, that represents an abstract idea or a concept.
+
+/prototype.png
+
+*<small>Fig 4 — Mapping of the information about a prototype</small>*
+
+This last example presents the mapping of the information about the prototype of a representation. In this case, the "Allegory of the Immaculate Conception" by Vasari is linked with a drawing previously made by the author and used as a preparatory sketch. The possibility to define the type of prototype is given using K4.1 has type, which allow to specify further information such as "after" as in this case, or "preparatory sketch" and others. 
 
 ## Classes
 
@@ -87,8 +108,7 @@ A set of features considered by a viewer more salient than others and used as a 
 
 Subclass of: **IC16 Character**
 
-A human, or anthropomorphic figure, that represents an abstract idea or
-a concept.
+A human, or anthropomorphic figure, that represents an abstract idea or a concept.
 
 **Example:**
 
