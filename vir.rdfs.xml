@@ -8,10 +8,7 @@
         <rdfs:comment>This property indicates the entity referred by the rvisual epresentation</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
-    <rdfs:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/F38_Character">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E71_Man-Made_Thing"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Character</rdfs:label>
-    </rdfs:Class>
+    
     <rdfs:Class rdf:about="IC10_Attribute">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
