@@ -178,9 +178,8 @@
 
 
 
-    
-
-    
+  
+      
 <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
@@ -199,7 +198,7 @@
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html"><code style="font-size: 115%;">https://w3id.org/vir/</code></a></li>
+        <li ><a href="index.html"><code style="font-size: 115%;">https://w3id.org/vir/</code></a></li>
         
 
        
@@ -207,7 +206,7 @@
 
         <li  ><a href="entities-az.html">Entities A-Z</a></li>
         
-        <li ><a href="entities-tree-classes.html">Classes</a></li>
+        <li class="active"><a href="entities-tree-classes.html">Classes</a></li>
         
         
         <li ><a href="entities-tree-properties.html">Properties</a></li>
@@ -227,8 +226,7 @@
   </div>
 </nav>
 
-
-    
+  
 
 
 
@@ -255,7 +253,7 @@
         </li>
 
         
-          <li class="-second-level" id="sd_classes"><a href="entities-tree-classes.html">Classes (23)</a>
+          <li class="-second-level" id="sd_classes"><a class="active"href="entities-tree-classes.html">Classes (23)</a>
           </li>
 
             
@@ -429,14 +427,37 @@
 	
 
 
+
     
         
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <ol class="breadcrumb">
-  <li class="active">
-    Home
+  <li>
+    <a href="index.html">Home</a>
   </li>
+  <li>
+        <a href="entities-az.html">Entities</a>
+    </li>
+    <li class="active">
+          Classes
+      </li>
 </ol>
 
 
@@ -476,190 +497,124 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
 
 
 
-        <div class="page-header">
 
-            <h3>Home
+  <div class="page-header">
 
-            </h3><br>
-<p> This document presents an extension of CIDOC-CRM to support propositions about visual items. With the term visual items we refers to those signs identified in the visual space as distinct and documentable units, and subject of a status assignment by a group or a single person.</p> 
-<p>Goal of this model is to provide a framework for specifying, as the interpretation of an actor, the identity and the relation of those signs, providing the necessary classes to sustain propositions about their constituent elements, reference, symbolic content and source.</p>
-<p>The overall model is based on a constructivist approach, which differentiates between the reality identified, and the interpretation given to its visual structure by a person. This distinction allows us to present the gestalt of an item as a first layer of meaning in the identification of visual features. The assignment, by an actor, of one (or multiple) particular identity/ies to a representation is the second level of meaning. The model takes into account that the recognition of a representation is based on the attributes linked to it by a certain tradition.</p> 
-<p>Moreover, the model clearly separates the identity of the object and its subject matter which, as each construct which is culturally linked, can vary between different systems. For such reason, while providing the means for expressing the relationships between a representation and its subject matter, the ontology does not offer any subject-based classification, but rely on the ones already present and accepted by the art historical community, such as iconclass, the thésaurus iconographique of Garnier and others. 
-</p>
-<h4>Naming</h4><br>
-<p>
-All the classes declared were given both a name and an identifier constructed according to the conventions used in the CIDOC CRM model.
-For the classes, the identifier consists of the two letters IC followed by a number. Resulting properties were also given a name and an identifier: the letter K followed by a number. Inverse properties share the same identifier, the letter K followed by a number, plus the character “i” (inverse). every time the property is mentioned “backwards”, i.e., from target to domain (inverse link). </p>
+      <h3>Classes Tree
+      </h3>
+      <input id="search-input" type="text" class="form-control" placeholder="Filter...">
 
-        </div>
+  </div>
 
 
 
+     <div class="row"><div class="col-md-12">
+        <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Tree</h3>
+      </div>
+      <div class="panel-body entities-list">
 
-      <div class="row">
+          <table class="h"><tr>
+							<td class="tc" colspan=4><a title="http://w3id.org/vir/IC16_Character" class="treelinks" href="class-httpw3idorgviric16_character.html">http://w3id.org/vir/IC16_Character</a></td>
+						  </tr> <tr>
+							<td class="space"></td>
+							<td class="bar"></td>
+							<td class="space"></td>
+							<td><table class="h"><tr>
+							<td class="tc" colspan=4><a title="http://w3id.org/vir/IC11_Personification" class="treelinks" href="class-httpw3idorgviric11_personification.html">http://w3id.org/vir/IC11_Personification</a></td>
+						  </tr></table></td>
+							</tr><tr>
+							<td class="tc" colspan=4><a title="http://www.cidoc-crm.org/cidoc-crm/E12_Production" class="treelinks" href="class-httpwwwcidoc-crmorgcidoc-crme12_production.html">http://www.cidoc-crm.org/cidoc-crm/E12_Production</a></td>
+						  </tr><tr>
+							<td class="tc" colspan=4><a title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing" class="treelinks" href="class-httpwwwcidoc-crmorgcidoc-crme18_physical_thing.html">...p://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing</a></td>
+						  </tr><tr>
+							<td class="tc" colspan=4><a title="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object" class="treelinks" href="class-httpwwwcidoc-crmorgcidoc-crme22_man-made_object.html">...://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object</a></td>
+						  </tr> <tr>
+							<td class="space"></td>
+							<td class="bar"></td>
+							<td class="space"></td>
+							<td><table class="h"><tr>
+							<td class="tc" colspan=4><a title="http://w3id.org/vir/IC18_Composition" class="treelinks" href="class-httpw3idorgviric18_composition.html">http://w3id.org/vir/IC18_Composition</a></td>
+						  </tr></table></td>
+							</tr><tr>
+							<td class="tc" colspan=4><a title="http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature" class="treelinks" href="class-httpwwwcidoc-crmorgcidoc-crme25_man-made_feature.html">...//www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature</a></td>
+						  </tr> <tr>
+							<td class="space"></td>
+							<td class="bar"></td>
+							<td class="space"></td>
+							<td><table class="h"><tr>
+							<td class="tc" colspan=4><a title="http://w3id.org/vir/IC1_Iconographical_Atom" class="treelinks" href="class-httpw3idorgviric1_iconographical_atom.html">http://w3id.org/vir/IC1_Iconographical_Atom</a></td>
+						  </tr></table></td>
+							</tr><tr>
+							<td class="tc" colspan=4><a title="http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature" class="treelinks" href="class-httpwwwcidoc-crmorgcidoc-crme26_physical_feature.html">...//www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature</a></td>
+						  </tr> <tr>
+							<td class="space"></td>
+							<td class="bar"></td>
+							<td class="space"></td>
+							<td><table class="h"><tr>
+							<td class="tc" colspan=4><a title="http://w3id.org/vir/IC19_Recto" class="treelinks" href="class-httpw3idorgviric19_recto.html">http://w3id.org/vir/IC19_Recto</a></td>
+						  </tr><tr>
+							<td class="tc" colspan=4><a title="http://w3id.org/vir/IC20_Verso" class="treelinks" href="class-httpw3idorgviric20_verso.html">http://w3id.org/vir/IC20_Verso</a></td>
+						  </tr></table></td>
+							</tr><tr>
+							<td class="tc" colspan=4><a title="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure" class="treelinks" href="class-httpwwwcidoc-crmorgcidoc-crme29_design_or_procedure.html">...ww.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure</a></td>
+						  </tr> <tr>
+							<td class="space"></td>
+							<td class="bar"></td>
+							<td class="space"></td>
+							<td><table class="h"><tr>
+							<td class="tc" colspan=4><a title="http://w3id.org/vir/IC10_Attribute" class="treelinks" href="class-httpw3idorgviric10_attribute.html">http://w3id.org/vir/IC10_Attribute</a></td>
+						  </tr></table></td>
+							</tr><tr>
+							<td class="tc" colspan=4><a title="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item" class="treelinks" href="class-httpwwwcidoc-crmorgcidoc-crme36_visual_item.html">...http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item</a></td>
+						  </tr> <tr>
+							<td class="space"></td>
+							<td class="bar"></td>
+							<td class="space"></td>
+							<td><table class="h"><tr>
+							<td class="tc" colspan=4><a title="http://w3id.org/vir/IC10_Attribute" class="treelinks" href="class-httpw3idorgviric10_attribute.html">http://w3id.org/vir/IC10_Attribute</a></td>
+						  </tr><tr>
+							<td class="tc" colspan=4><a title="http://w3id.org/vir/IC9_Representation" class="treelinks" href="class-httpw3idorgviric9_representation.html">http://w3id.org/vir/IC9_Representation</a></td>
+						  </tr></table></td>
+							</tr><tr>
+							<td class="tc" colspan=4><a title="http://www.cidoc-crm.org/cidoc-crm/E55_Type" class="treelinks" href="class-httpwwwcidoc-crmorgcidoc-crme55_type.html">http://www.cidoc-crm.org/cidoc-crm/E55_Type</a></td>
+						  </tr><tr>
+							<td class="tc" colspan=4><a title="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object" class="treelinks" href="class-httpwwwcidoc-crmorgcidoc-crme73_information_object.html">...www.cidoc-crm.org/cidoc-crm/E73_Information_Object</a></td>
+						  </tr><tr>
+							<td class="tc" colspan=4><a title="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object" class="treelinks" href="class-httpwwwcidoc-crmorgcidoc-crme89_propositional_object.html">...w.cidoc-crm.org/cidoc-crm/E89_Propositional_Object</a></td>
+						  </tr><tr>
+							<td class="tc" colspan=4><a title="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object" class="treelinks" href="class-httpwwwcidoc-crmorgcidoc-crme90_symbolic_object.html">...://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object</a></td>
+						  </tr><tr>
+							<td class="tc" colspan=4><a title="http://www.cidoc-crm.org/cidoc-crm/PC0_Typed_CRM_Property" class="treelinks" href="class-httpwwwcidoc-crmorgcidoc-crmpc0_typed_crm_property.html">...www.cidoc-crm.org/cidoc-crm/PC0_Typed_CRM_Property</a></td>
+						  </tr> <tr>
+							<td class="space"></td>
+							<td class="bar"></td>
+							<td class="space"></td>
+							<td><table class="h"><tr>
+							<td class="tc" colspan=4><a title="http://w3id.org/vir/PCK4_is_visual_prototype_of" class="treelinks" href="class-httpw3idorgvirpck4_is_visual_prototype_of.html">http://w3id.org/vir/PCK4_is_visual_prototype_of</a></td>
+						  </tr></table></td>
+							</tr><tr>
+							<td class="tc" colspan=4><a title="http://www.ics.forth.gr/isl/CRMsci/S4_Observation" class="treelinks" href="class-httpwwwicsforthgrislcrmscis4_observation.html">http://www.ics.forth.gr/isl/CRMsci/S4_Observation</a></td>
+						  </tr> <tr>
+							<td class="space"></td>
+							<td class="bar"></td>
+							<td class="space"></td>
+							<td><table class="h"><tr>
+							<td class="tc" colspan=4><a title="http://w3id.org/vir/IC12_Visual_Recognition" class="treelinks" href="class-httpw3idorgviric12_visual_recognition.html">http://w3id.org/vir/IC12_Visual_Recognition</a></td>
+						  </tr></table></td>
+							</tr></table>
 
-        
-        <div class="col-md-6">
-
-           
-
-
-           <div class="row"><div class="col-md-12">
-              <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Metrics</h3>
-            </div>
-            <div class="panel-body">
-                <dl>
-
-                 
-
-                  
-
-                      <dt>Ontologies</dt>
-                      <dd>0</dd>
-
-                  
-
-                    
-
-                  
-
-                      <dt>Triples</dt>
-                      <dd>273</dd>
-
-                  
-
-                    
-
-                  
-
-                      <dt>Classes</dt>
-                      <dd>23</dd>
-
-                  
-
-                    
-
-                  
-
-                      <dt>Properties</dt>
-                      <dd>41</dd>
-
-                  
-
-                    
-
-                  
-
-                      
-
-                  
-
-                    
-
-                  
-
-                    
-
-                </dl>
-            </div>
-          </div>
-           </div></div>
-
-
-
-
-        </div>
-         
-
-
-        
-        <div class="col-md-6">
-
-
-          
-            <div class="row">
-              <div class="col-md-12">
-                <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title">Namespaces</h3>
-              </div>
-              <div class="panel-body" style="overflow: auto;">
-                 <dl class="-dl-horizontal" style="--margin-left: -100px;">
-
-                 
-                     <dt><span class="label label-info">dc</span></dt>
-                     <dd><a href="http://purl.org/dc/elements/1.1/" target="_blank">http://purl.org/dc/elements/1.1/</a></dd>
-
-                 
-                     <dt><span class="label label-info">owl</span></dt>
-                     <dd><a href="http://www.w3.org/2002/07/owl#" target="_blank">http://www.w3.org/2002/07/owl#</a></dd>
-
-                 
-                     <dt><span class="label label-info">rdf</span></dt>
-                     <dd><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#" target="_blank">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a></dd>
-
-                 
-                     <dt><span class="label label-info">rdfs</span></dt>
-                     <dd><a href="http://www.w3.org/2000/01/rdf-schema#" target="_blank">http://www.w3.org/2000/01/rdf-schema#</a></dd>
-
-                 
-                     <dt><span class="label label-info">sh</span></dt>
-                     <dd><a href="http://www.w3.org/ns/shacl#" target="_blank">http://www.w3.org/ns/shacl#</a></dd>
-
-                 
-                     <dt><span class="label label-info">skos</span></dt>
-                     <dd><a href="http://www.w3.org/2004/02/skos/core#" target="_blank">http://www.w3.org/2004/02/skos/core#</a></dd>
-
-                 
-                     <dt><span class="label label-info">vann</span></dt>
-                     <dd><a href="http://purl.org/vocab/vann/" target="_blank">http://purl.org/vocab/vann/</a></dd>
-
-                 
-                     <dt><span class="label label-info">void</span></dt>
-                     <dd><a href="http://rdfs.org/ns/void#" target="_blank">http://rdfs.org/ns/void#</a></dd>
-
-                 
-                     <dt><span class="label label-info">xml</span></dt>
-                     <dd><a href="http://www.w3.org/XML/1998/namespace" target="_blank">http://www.w3.org/XML/1998/namespace</a></dd>
-
-                 
-                     <dt><span class="label label-info">xsd</span></dt>
-                     <dd><a href="http://www.w3.org/2001/XMLSchema#" target="_blank">http://www.w3.org/2001/XMLSchema#</a></dd>
-
-                 
-
-                </dl>
-              </div>
-            </div>
-              </div>
-            </div>
-            
-        </div>
-         
 
       </div>
+    </div>
+     </div></div>
+
+
 
 
 
@@ -745,6 +700,39 @@ $('#search-input-sidebar').keyup(function() {
 
 
 
+<script type="text/javascript">
+
+// http://stackoverflow.com/questions/9127498/how-to-perform-a-real-time-search-and-filter-on-a-html-table
+
+  $('#search-input').keyup(function() {
+
+    var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+
+    // var $rows = $(this).next(".entities-list").find("div");
+    var $rows = $(this).parent().next().find(".entities-list tr");
+
+    $rows.show().filter(function() {
+        var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+        return !~text.indexOf(val);
+    }).hide();
+});
+
+
+</script>
+
+
+
+<!-- Scroll Sidebar Script -->
+
+<script type="text/javascript">
+
+  $(document).ready(function (){
+    $('#sidebar-wrapper').animate({
+        scrollTop: $("#sd_classes").offset().top - 100
+    }, 100);
+  });
+
+</script>
 
 
 
