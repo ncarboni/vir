@@ -108,7 +108,7 @@
         <rdfs:range rdf:resource="IC10_Attribute"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique"/>
     </rdf:Property>
-    <rdf:Property rdf:about="K15i_The_property_indicates_the_specific_attribute_used_during_the_production_of_a_visual_object">
+    <rdf:Property rdf:about="K15i_has been used by">
         <rdfs:domain rdf:resource="IC10_Attribute"/>
         <rdfs:comment>The property indicates the specific attribute used during the production of a visual object</rdfs:comment>
         <rdfs:label xml:lang="en">has been used by</rdfs:label>
