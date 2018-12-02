@@ -1,6 +1,28 @@
 
 {{TOC}}
 
+## Introduction
+
+This document presents an extension of CIDOC-CRM to support propositions about visual items. With the term visual items we refers to those signs identified in the visual space as distinct and documentable units, and subject of a status assignment by a group or a single person. 
+Goal of this model is to provide a framework for specifying, as the interpretation of an actor, the identity and the relation of those signs, providing the necessary classes to sustain propositions about their constituent elements, reference, symbolic content and source.
+The overall model is based on a constructivist approach, which differentiates between the reality identified, and the interpretation given to its visual structure by a person. This distinction allows us to present the gestalt of an item as a first layer of meaning in the identification of visual features. The assignment, by an actor, of one (or multiple) particular identity/ies to a representation is the second level of meaning. The model takes into account that the recognition of a representation is based on the attributes linked to it by a certain tradition.
+Moreover, the model clearly separates the identity of the object and its subject matter which, as each construct which is culturally linked, can vary between different systems. For such reason, while providing the means for expressing the relationships between a representation and its subject matter, the ontology does not offer any subject-based classification, but rely on the ones already present and accepted by the art historical community, such as iconclass, the thésaurus iconographique of Garnier and others. 
+
+
+### Naming
+
+All the classes declared were given both a name and an identifier constructed according to the conventions used in the CIDOC CRM model.
+For the classes, the identifier consists of the two letters IC followed by a number. Resulting properties were also given a name and an identifier: the letter K followed by a number. Inverse properties share the same identifier, the letter K followed by a number, plus the character “i” (inverse). every time the property is mentioned “backwards”, i.e., from target to domain (inverse link). 
+
+## Examples
+
+In this section we are going to present diverse examples of the possible use for the model in identifying iconographical objects, attributes and personification, as well as linking a particular text to a visual representation or specifying its visual prototype
+
+
+/san_george_asinou.png 
+
+*<small>Mapping of the information about the St. George wall painting in Asinou, Cyprus</small>*
+
 
 
 ## Classes
