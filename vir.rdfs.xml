@@ -8,7 +8,6 @@
         <rdfs:comment>This property indicates the entity referred by the rvisual epresentation</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
-    
     <rdfs:Class rdf:about="IC10_Attribute">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
@@ -55,7 +54,7 @@
 
         <rdf:Property rdf:about="K4.1_prototypical_model">
             <rdfs:domain rdf:resource="PCK4_is_visual_prototype_of"/>
-            <rdfs:range rdf:resource="E55_Type"/>   
+            <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>   
         </rdf:Property>
 
     <rdf:Property rdf:about="K10_on_the_base_of">
