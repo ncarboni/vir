@@ -27,12 +27,11 @@ The example uses a specific wall painting present in the narthex of the Asinou C
 The [IC12 Visual Recognition] is defined as an interpretation over a physical portion of the reality which classify it with the assignment of a specific meaning, in this case the two representations. The granularity of the recognition is, however, defined by the researchers, and the same [IC1 Iconographical Atom] can carry single or multiple representations depending on the interpretative action that has being carried out.
 
 
-
-/san_george_asinou.png 
+/san_george_itatti.png
 
 *<small>Fig 2 — Mapping of the information about the St. George wall painting in Asinou, Cyprus</small>*
 
-The figure above present show the mapping of the [IC10 Attribute]s and [IC16 Character]s depicted in a [IC9 Representation]. The identified figure of "St. George killing the dragon" is recognised to have six attributes (castle, horses, lakes, spears, princess, dragon) and to portray the figure of Saint George. The number of attributes of a representation changes depending on the time and context of production, and no  fixed amount is here intended.
+The figure above present show the mapping of the [IC10 Attribute]s and [IC16 Character]s depicted in a [IC9 Representation]. The identified figure of "St. George killing the dragon" is recognised to have six attributes (castle, horses, lakes, spears, princess, dragon) and to portray the figure of Saint George. The number of attributes of a representation changes depending on the time and context of production, and no fixed amount is here intended.
 
 /asinou_personification.png
 
