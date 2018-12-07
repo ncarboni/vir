@@ -25,21 +25,26 @@
         </div>	
         
         <hr />
-
+<div id="Abstract">
 <h2 id="abstract">Abstract</h2>
-<p>This document presents an extension of CIDOC-CRM to support propositions about visual items. With the term visual items we refers to those signs identified in the visual space as distinct and documentable units, and subject of a status assignment by a group or a single person.</p>
-
-
+<p>This document presents VIR (VIsual Representation), an extension of CIDOC-CRM to support propositions about visual items.</p>
+<p><strong>Namespace:</strong> The namespace for VIR terms is <span class="repeated" style="font-family: courier;">
+        http://w3id.org/vir#</span> </p> 
+<p><strong>Prefix:</strong> The suggested prefix for VIR is <span class="repeated" style="font-family: courier;">
+        bot</span> </p>
+<p><strong>RDFS:</strong> an RDFS version of the ontology is available on <a href="https://github.com/ncarboni/vir/blob/master/vir.rdfs.xml">github</a></p>
+</div>
        <div id="toc">
+        <h2 id="abstract">Table of Content</h2>
         <ul>
 <li><a href="#introduction">Introduction</a>
 
 <ul>
 <li><a href="#naming">Naming</a></li>
 </ul></li>
-<li><a href="#examples">Examples</a></li>
+<!--<li><a href="#examples">Examples</a></li>-->
+<li><a href="#graphicaloverview">Graphical Overview</a></li>
 <li><a href="#classes">Classes</a>
-
 <ul>
 <li><a href="#IC1_Iconographical_Atom">IC1 Iconographical Atom</a></li>
 <li><a href="#IC9_Representation">IC9 Representation</a></li>
@@ -55,7 +60,7 @@
 <ul>
 <li><a href="#K1_denotes">K1 denotes (is denoted by)</a></li>
 <li><a href="#K4_is_visual_prototype_of">K4 is visual prototype of (has visual prototype)</a></li>
-<li><a href="#K4.1_prototypical_model">K4.1 prototypical mode</a></li>
+<li><a href="#K4_1_prototypical_model">K4.1 prototypical mode</a></li>
 <li><a href="#K6_has_back">K6 has back (has front)</a></li>
 <li><a href="#K7_is_recto_of">K7 is recto of (has recto)</a></li>
 <li><a href="#K8_is_verso_of">K8 is verso of (has verso)</a></li>
@@ -77,18 +82,26 @@
 </ul>
 </div>
 
-<h2 id="introduction">Introduction</h2>
+<p>This document presents VIR, an extension of CIDOC-CRM created to sustain propositions on the nature of visual elements and permit these descriptions to be published on the Web.<br/>
+With the term visual elements we hereby refers to those signs identified in the visual space as distinct and documentable units, and subject to an analytical interpretation.<br/>
+Scope of this ontology is to s to provide a framework to support the identification, annotation and interconnections between diverse visual elements and presents and assist their documentation and retrieval. Specifically, the model aims to clarify the identity and the relation of these visual signs, providing the necessary classes to characterise their constituent elements, reference, symbolic content and source of interpretation.</p>
 
-<p>This document presents an extension of CIDOC-CRM to support propositions about visual items. With the term visual items we refers to those signs identified in the visual space as distinct and documentable units, and subject of a status assignment by a group or a single person.<br/>
-Goal of this model is to provide a framework for specifying, as the interpretation of an actor, the identity and the relation of those signs, providing the necessary classes to sustain propositions about their constituent elements, reference, symbolic content and source.<br/>
-The overall model is based on a constructivist approach, which differentiates between the reality identified, and the interpretation given to its visual structure by a person. This distinction allows us to present the gestalt of an item as a first layer of meaning in the identification of visual features. The assignment, by an actor, of one (or multiple) particular identity/ies to a representation is the second level of meaning. The model takes into account that the recognition of a representation is based on the attributes linked to it by a certain tradition.<br/>
-Moreover, the model clearly separates the identity of the object and its subject matter which, as each construct which is culturally linked, can vary between different systems. For such reason, while providing the means for expressing the relationships between a representation and its subject matter, the ontology does not offer any subject-based classification, but rely on the ones already present and accepted by the art historical community, such as iconclass, the thesaurus iconographique of Garnier and others. </p>
+<p>VIR expands on key entities and properties from CIDOC-CRM, introducing new classes and relationships responding to the visual and art historical community, specifically building up on the iconographical tradition. The result is a model which differentiates between interpretation and element identified, providing a clear distinction between denotation and signification of an element. As consequence of such distinction, the ontology allows for the definition of diverse denotative criterias for the same representation, which could change based on traditions and perspective.<br/>
+Moreover, the model clearly separates the identity of the object and its subject matter. For such reason, while providing the means for expressing the relationships between a representation and its subject(s), the ontology does not provide any type of subject-based classification, but rely on the ones already present and widely accepted by the art historical community, such as <a href="http://www.iconclass.org/help/lod">Iconclass</a>, the <a href="https://warburg.libguides.com/classification">Warburg Classification</a> or the Thesaurus Iconographique by Garnier.</p>
 
 <h3 id="naming">Naming</h3>
 
 <p>All the classes declared were given both a name and an identifier constructed according to the conventions used in the CIDOC CRM model.<br/>
-For the classes, the identifier consists of the two letters IC followed by a number. Resulting properties were also given a name and an identifier: the letter K followed by a number. Inverse properties share the same identifier, the letter K followed by a number, plus the character "i" (inverse). every time the property is mentioned "backwards", i.e., from target to domain (inverse link). </p>
+For the classes, the identifier consists of the two letters IC followed by a number. Resulting properties were also given a name and an identifier: the letter K followed by a number.<br/>
+They correspond respectively to letters “E” and “P” in the CIDOC CRM naming conventions, where “E” originally meant “entity” (although the CIDOC CRM “entities” are now consistently called “classes”), and “P” means “property”.<br/>
+Inverse properties share the same identifier, the letter K followed by the same number, plus the character &#8220;i&#8221; (inverse).</p>
 
+<h2 id="graphicaloverview">Graphical Overview</h2>
+
+<figure>
+<img src="img/vir.png" alt="" />
+</figure>
+<!--
 <h2 id="examples">Examples</h2>
 
 <p>In this section we are going to present diverse examples of the possible use for the model in identifying iconographical objects, attributes and personification, as well as linking a particular text to a visual representation or specifying its visual prototype.</p>
@@ -103,7 +116,7 @@ For the classes, the identifier consists of the two letters IC followed by a num
 The <a href="#IC12_Visual_Recognition">IC12 Visual Recognition</a> is defined as an interpretation over a physical portion of the reality which classify it with the assignment of a specific meaning, in this case the two representations. The granularity of the recognition is, however, defined by the researchers, and the same <a href="#IC1_Iconographical_Atom">IC1 Iconographical Atom</a> can carry single or multiple representations depending on the interpretative action that has being carried out.</p>
 
 <figure>
-<img src="img/san_george_itatti.png" alt="" />
+<img src="img/vir.svg" alt="" />
 </figure>
 
 <p><em><small>Fig 2 — Mapping of the information about the St. George wall painting in Asinou, Cyprus</small></em></p>
@@ -125,6 +138,7 @@ The <a href="#IC12_Visual_Recognition">IC12 Visual Recognition</a> is defined as
 <p><em><small>Fig 4 — Mapping of the information about a prototype</small></em></p>
 
 <p>This last example presents the mapping of the information about the prototype of a representation. In this case, the Allegory of the Immaculate Conception" by Vasari is linked with a drawing previously made by the author and used as a preparatory sketch. The possibility to define the type of prototype is given using K4.1 has type, which allow to specify further information such as "after" as in this case, or "preparatory sketch" and others. </p>
+-->
 
 <h2 id="classes">Classes</h2>
 
@@ -237,7 +251,7 @@ proposition is clearly made.</p>
 
 <h3 id="IC16_Character">IC16 Character</h3>
 
-<p>Subclass of: <strong>F38 Character</strong></p>
+<p>Subclass of: <strong><a href="http://iflastandards.info/ns/fr/frbr/frbroo/F38">F38 Character</a></strong></p>
 
 <p>This class comprises fictional individuals, or groups, appearing in a<br/>
 representation. Each character portrayed can have a type, for example "Saint" or "layman". Every saint portrayed is considered here as a character and not as an actor.</p>

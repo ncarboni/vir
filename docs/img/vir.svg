@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="10 -117 1321 888" width="1321" height="888">
+  <defs>
+    <font-face font-family="Helvetica" font-size="14" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.7266" ascent="770.0195" descent="-229.98047" font-weight="700">
+      <font-face-src>
+        <font-face-name name="Helvetica-Bold"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="black">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledCenterBall_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-5 -3 6 6" markerWidth="6" markerHeight="6" color="black">
+      <g>
+        <circle cx="-1.7999992" cy="0" r="1.79999817186192" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica" font-size="16" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.7266" ascent="770.0195" descent="-229.98047" font-weight="700">
+      <font-face-src>
+        <font-face-name name="Helvetica-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Arial" font-size="12" panose-1="2 11 7 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="104.98047" slope="0" x-height="518.5547" cap-height="715.8203" ascent="905.2734" descent="-211.91406" font-weight="700">
+      <font-face-src>
+        <font-face-name name="Arial-BoldMT"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Arial" font-size="12" panose-1="2 11 6 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="73.24219" slope="0" x-height="518.5547" cap-height="716.3086" ascent="905.2734" descent="-211.91406" font-weight="400">
+      <font-face-src>
+        <font-face-name name="ArialMT"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.9.2 
+    <dc:date>2018-12-07 18:45:16 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" stroke-opacity="1" fill-opacity="1" stroke="none" stroke-dasharray="none" fill="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Group_21">
+        <g id="Group_22">
+          <g id="Group_23">
+            <g id="Group_24">
+              <g id="Graphic_28">
+                <path d="M 278.5 266.5 L 464 266.5 C 466.20914 266.5 468 268.29086 468 270.5 L 468 312.5 C 468 314.70914 466.20914 316.5 464 316.5 L 278.5 316.5 C 276.29086 316.5 274.5 314.70914 274.5 312.5 L 274.5 270.5 C 274.5 268.29086 276.29086 266.5 278.5 266.5 Z" fill="#f45862"/>
+              </g>
+              <g id="Group_25">
+                <g id="Graphic_27"/>
+                <g id="Graphic_26">
+                  <path d="M 278.5 266.5 L 464 266.5 C 466.20914 266.5 468 268.29086 468 270.5 L 468 312.5 C 468 314.70914 466.20914 316.5 464 316.5 L 278.5 316.5 C 276.29086 316.5 274.5 314.70914 274.5 312.5 L 274.5 270.5 C 274.5 268.29086 276.29086 266.5 278.5 266.5 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(279.5 283)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="9.55127" y="14">IC1 Iconographical Atom</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_46">
+        <g id="Group_47">
+          <g id="Group_48">
+            <g id="Group_49">
+              <g id="Graphic_53">
+                <path d="M 286 111.5 L 456.5 111.5 C 458.70914 111.5 460.5 113.29086 460.5 115.5 L 460.5 157.5 C 460.5 159.70914 458.70914 161.5 456.5 161.5 L 286 161.5 C 283.79086 161.5 282 159.70914 282 157.5 L 282 115.5 C 282 113.29086 283.79086 111.5 286 111.5 Z" fill="#5daeec"/>
+              </g>
+              <g id="Group_50">
+                <g id="Graphic_52"/>
+                <g id="Graphic_51">
+                  <path d="M 286 111.5 L 456.5 111.5 C 458.70914 111.5 460.5 113.29086 460.5 115.5 L 460.5 157.5 C 460.5 159.70914 458.70914 161.5 456.5 161.5 L 286 161.5 C 283.79086 161.5 282 159.70914 282 157.5 L 282 115.5 C 282 113.29086 283.79086 111.5 286 111.5 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(287 128)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="12.421387" y="14">IC Visual Recognition</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_54">
+        <g id="Group_55">
+          <g id="Group_56">
+            <g id="Group_57">
+              <g id="Graphic_61">
+                <path d="M 522.5 474.5 L 669.5 474.5 C 671.7091 474.5 673.5 476.29086 673.5 478.5 L 673.5 520.5 C 673.5 522.70914 671.7091 524.5 669.5 524.5 L 522.5 524.5 C 520.29086 524.5 518.5 522.70914 518.5 520.5 L 518.5 478.5 C 518.5 476.29086 520.29086 474.5 522.5 474.5 Z" fill="#fd0"/>
+              </g>
+              <g id="Group_58">
+                <g id="Graphic_60"/>
+                <g id="Graphic_59">
+                  <path d="M 522.5 474.5 L 669.5 474.5 C 671.7091 474.5 673.5 476.29086 673.5 478.5 L 673.5 520.5 C 673.5 522.70914 671.7091 524.5 669.5 524.5 L 522.5 524.5 C 520.29086 524.5 518.5 522.70914 518.5 520.5 L 518.5 478.5 C 518.5 476.29086 520.29086 474.5 522.5 474.5 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(523.5 491)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="26.86328" y="14">IC10 Attribute</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_62">
+        <g id="Group_63">
+          <g id="Group_64">
+            <g id="Group_65">
+              <g id="Graphic_69">
+                <path d="M 656.5 204.5 L 822 204.5 C 824.2091 204.5 826 206.29086 826 208.5 L 826 250.5 C 826 252.70914 824.2091 254.5 822 254.5 L 656.5 254.5 C 654.29086 254.5 652.5 252.70914 652.5 250.5 L 652.5 208.5 C 652.5 206.29086 654.29086 204.5 656.5 204.5 Z" fill="#fd0"/>
+              </g>
+              <g id="Group_66">
+                <g id="Graphic_68"/>
+                <g id="Graphic_67">
+                  <path d="M 656.5 204.5 L 822 204.5 C 824.2091 204.5 826 206.29086 826 208.5 L 826 250.5 C 826 252.70914 824.2091 254.5 822 254.5 L 656.5 254.5 C 654.29086 254.5 652.5 252.70914 652.5 250.5 L 652.5 208.5 C 652.5 206.29086 654.29086 204.5 656.5 204.5 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(657.5 221)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="17.957031" y="14">IC9 Representation</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_70">
+        <g id="Group_71">
+          <g id="Group_72">
+            <g id="Group_73">
+              <g id="Graphic_77">
+                <path d="M 724 474.5 L 889.5 474.5 C 891.7091 474.5 893.5 476.29086 893.5 478.5 L 893.5 520.5 C 893.5 522.70914 891.7091 524.5 889.5 524.5 L 724 524.5 C 721.7909 524.5 720 522.70914 720 520.5 L 720 478.5 C 720 476.29086 721.7909 474.5 724 474.5 Z" fill="#fd0"/>
+              </g>
+              <g id="Group_74">
+                <g id="Graphic_76"/>
+                <g id="Graphic_75">
+                  <path d="M 724 474.5 L 889.5 474.5 C 891.7091 474.5 893.5 476.29086 893.5 478.5 L 893.5 520.5 C 893.5 522.70914 891.7091 524.5 889.5 524.5 L 724 524.5 C 721.7909 524.5 720 522.70914 720 520.5 L 720 478.5 C 720 476.29086 721.7909 474.5 724 474.5 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(725 491)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="14.836426" y="14">IC11 Personification</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_78">
+        <g id="Group_79">
+          <g id="Group_80">
+            <g id="Group_81">
+              <g id="Graphic_85">
+                <path d="M 1161 204.5 L 1326.5 204.5 C 1328.7091 204.5 1330.5 206.29086 1330.5 208.5 L 1330.5 250.5 C 1330.5 252.70914 1328.7091 254.5 1326.5 254.5 L 1161 254.5 C 1158.7909 254.5 1157 252.70914 1157 250.5 L 1157 208.5 C 1157 206.29086 1158.7909 204.5 1161 204.5 Z" fill="#fd0"/>
+              </g>
+              <g id="Group_82">
+                <g id="Graphic_84"/>
+                <g id="Graphic_83">
+                  <path d="M 1161 204.5 L 1326.5 204.5 C 1328.7091 204.5 1330.5 206.29086 1330.5 208.5 L 1330.5 250.5 C 1330.5 252.70914 1328.7091 254.5 1326.5 254.5 L 1161 254.5 C 1158.7909 254.5 1157 252.70914 1157 250.5 L 1157 208.5 C 1157 206.29086 1158.7909 204.5 1161 204.5 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(1162 221)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="17.957031" y="14">IC9 Representation</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_86">
+        <g id="Group_87">
+          <g id="Group_88">
+            <g id="Group_89">
+              <g id="Graphic_93">
+                <path d="M 929 365.5 L 1094.5 365.5 C 1096.7091 365.5 1098.5 367.29086 1098.5 369.5 L 1098.5 411.5 C 1098.5 413.70914 1096.7091 415.5 1094.5 415.5 L 929 415.5 C 926.7909 415.5 925 413.70914 925 411.5 L 925 369.5 C 925 367.29086 926.7909 365.5 929 365.5 Z" fill="#fd0"/>
+              </g>
+              <g id="Group_90">
+                <g id="Graphic_92"/>
+                <g id="Graphic_91">
+                  <path d="M 929 365.5 L 1094.5 365.5 C 1096.7091 365.5 1098.5 367.29086 1098.5 369.5 L 1098.5 411.5 C 1098.5 413.70914 1096.7091 415.5 1094.5 415.5 L 929 415.5 C 926.7909 415.5 925 413.70914 925 411.5 L 925 369.5 C 925 367.29086 926.7909 365.5 929 365.5 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(930 382)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="32.336426" y="14">IC16 Character</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_94">
+        <g id="Group_95">
+          <g id="Group_96">
+            <g id="Group_97">
+              <g id="Graphic_101">
+                <path d="M 282.385 467 L 452.885 467 C 455.09415 467 456.885 468.79086 456.885 471 L 456.885 513 C 456.885 515.20914 455.09415 517 452.885 517 L 282.385 517 C 280.17588 517 278.385 515.20914 278.385 513 L 278.385 471 C 278.385 468.79086 280.17588 467 282.385 467 Z" fill="#f45862"/>
+              </g>
+              <g id="Group_98">
+                <g id="Graphic_100"/>
+                <g id="Graphic_99">
+                  <path d="M 282.385 467 L 452.885 467 C 455.09415 467 456.885 468.79086 456.885 471 L 456.885 513 C 456.885 515.20914 455.09415 517 452.885 517 L 282.385 517 C 280.17588 517 278.385 515.20914 278.385 513 L 278.385 471 C 278.385 468.79086 280.17588 467 282.385 467 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(283.385 483.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="48.0708" y="14">IC19 Recto</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_102">
+        <g id="Group_103">
+          <g id="Group_104">
+            <g id="Group_105">
+              <g id="Graphic_109">
+                <path d="M 15 351 L 185.5 351 C 187.70914 351 189.5 352.79086 189.5 355 L 189.5 397 C 189.5 399.20914 187.70914 401 185.5 401 L 15 401 C 12.790861 401 11 399.20914 11 397 L 11 355 C 11 352.79086 12.790861 351 15 351 Z" fill="#f45862"/>
+              </g>
+              <g id="Group_106">
+                <g id="Graphic_108"/>
+                <g id="Graphic_107">
+                  <path d="M 15 351 L 185.5 351 C 187.70914 351 189.5 352.79086 189.5 355 L 189.5 397 C 189.5 399.20914 187.70914 401 185.5 401 L 15 401 C 12.790861 401 11 399.20914 11 397 L 11 355 C 11 352.79086 12.790861 351 15 351 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(16 367.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="48.44678" y="14">IC20 Verso</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_110">
+        <line x1="371.25" y1="165.1" x2="371.25" y2="253.6" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_111">
+        <path d="M 464.6 136.5 L 704.5 136.5 L 704.5 191.6" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_112">
+        <path d="M 789.4218 258.3695 L 789.65625 312.76953 L 1012.822 312.76953 L 1012.2796 352.10127" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_113">
+        <line x1="757.5" y1="258.1" x2="757.5" y2="461.6" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_114">
+        <line x1="829.6" y1="229.5" x2="1144.1" y2="229.5" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_115">
+        <path d="M 648.4 229.5 L 588.5 229.5 L 587.55265 461.6001" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_124">
+        <g id="Group_125">
+          <g id="Group_126">
+            <g id="Group_127">
+              <g id="Graphic_131">
+                <path d="M 1110 66 L 1249 66 C 1251.2091 66 1253 67.79086 1253 70 L 1253 112 C 1253 114.20914 1251.2091 116 1249 116 L 1110 116 C 1107.7909 116 1106 114.20914 1106 112 L 1106 70 C 1106 67.79086 1107.7909 66 1110 66 Z" fill="#d5a6bd"/>
+              </g>
+              <g id="Group_128">
+                <g id="Graphic_130"/>
+                <g id="Graphic_129">
+                  <path d="M 1110 66 L 1249 66 C 1251.2091 66 1253 67.79086 1253 70 L 1253 112 C 1253 114.20914 1251.2091 116 1249 116 L 1110 116 C 1107.7909 116 1106 114.20914 1106 112 L 1106 70 C 1106 67.79086 1107.7909 66 1110 66 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(1111 82.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="38.27832" y="14">E55 Type</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Graphic_132">
+        <rect x="273.75" y="198.97417" width="195" height="29" fill="white"/>
+        <text transform="translate(278.75 203.97417)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".01953125" y="15">vir:K9_assign_status_to</tspan>
+        </text>
+      </g>
+      <g id="Graphic_135">
+        <rect x="515.5575" y="122" width="142" height="29" fill="white"/>
+        <text transform="translate(520.5575 127)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".18359375" y="15">vir:K11_assigned</tspan>
+        </text>
+      </g>
+      <g id="Graphic_136">
+        <rect x="501.0077" y="335.6085" width="174" height="29" fill="white"/>
+        <text transform="translate(506.0077 340.6085)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".19140625" y="15">vir:K17_has_attribute</tspan>
+        </text>
+      </g>
+      <g id="Graphic_137">
+        <rect x="839.5813" y="298.26953" width="129" height="29" fill="white"/>
+        <text transform="translate(844.5813 303.26953)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".36328125" y="15">vir:K24_portray</tspan>
+        </text>
+      </g>
+      <g id="Graphic_138">
+        <rect x="686.5" y="402.2095" width="142" height="29" fill="white"/>
+        <text transform="translate(691.5 407.2095)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".18359375" y="15">vir:K11_assigned</tspan>
+        </text>
+      </g>
+      <g id="Graphic_139">
+        <rect x="851.5497" y="215" width="261" height="29" fill="white"/>
+        <text transform="translate(856.5497 220)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".125" y="15">vir:PCK4_is_visual_prototype_of</tspan>
+        </text>
+      </g>
+      <g id="Line_140">
+        <path d="M 982.0497 211.4 L 982.0497 90.71487 L 1093.1 90.87523" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_141">
+        <rect x="869.0497" y="125.68787" width="226" height="29" fill="white"/>
+        <text transform="translate(874.0497 130.68787)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".4140625" y="15">vir:K4.1_prototypical_model</tspan>
+        </text>
+      </g>
+      <g id="Group_142">
+        <g id="Group_143">
+          <g id="Group_144">
+            <g id="Group_145">
+              <g id="Graphic_149">
+                <path d="M 752 720 L 917.5 720 C 919.7091 720 921.5 721.7909 921.5 724 L 921.5 766 C 921.5 768.2091 919.7091 770 917.5 770 L 752 770 C 749.7909 770 748 768.2091 748 766 L 748 724 C 748 721.7909 749.7909 720 752 720 Z" fill="#fd0"/>
+              </g>
+              <g id="Group_146">
+                <g id="Graphic_148"/>
+                <g id="Graphic_147">
+                  <path d="M 752 720 L 917.5 720 C 919.7091 720 921.5 721.7909 921.5 724 L 921.5 766 C 921.5 768.2091 919.7091 770 917.5 770 L 752 770 C 749.7909 770 748 768.2091 748 766 L 748 724 C 748 721.7909 749.7909 720 752 720 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(753 736.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="12.501953" y="14">E90 Symbolic Object</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_150">
+        <line x1="841.6356" y1="528.1" x2="841.6356" y2="707.1" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_151">
+        <rect x="774.6356" y="666.9793" width="134" height="29" fill="white"/>
+        <text transform="translate(779.6356 671.9793)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".1796875" y="15">vir:K25_express</tspan>
+        </text>
+      </g>
+      <g id="Group_152">
+        <g id="Group_153">
+          <g id="Group_154">
+            <g id="Group_155">
+              <g id="Graphic_159">
+                <path d="M 1161 454 L 1326.5 454 C 1328.7091 454 1330.5 455.79086 1330.5 458 L 1330.5 500 C 1330.5 502.20914 1328.7091 504 1326.5 504 L 1161 504 C 1158.7909 504 1157 502.20914 1157 500 L 1157 458 C 1157 455.79086 1158.7909 454 1161 454 Z" fill="#fd0"/>
+              </g>
+              <g id="Group_156">
+                <g id="Graphic_158"/>
+                <g id="Graphic_157">
+                  <path d="M 1161 454 L 1326.5 454 C 1328.7091 454 1330.5 455.79086 1330.5 458 L 1330.5 500 C 1330.5 502.20914 1328.7091 504 1326.5 504 L 1161 504 C 1158.7909 504 1157 502.20914 1157 500 L 1157 458 C 1157 455.79086 1158.7909 454 1161 454 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(1162 470.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="17.957031" y="14">IC9 Representation</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_160">
+        <line x1="1243.75" y1="258.6" x2="1243.75" y2="441.1" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_161">
+        <rect x="1175.75" y="313.5827" width="136" height="29" fill="white"/>
+        <text transform="translate(1180.75 318.5827)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".31640625" y="15">vir:K23_connote</tspan>
+        </text>
+      </g>
+      <g id="Group_162">
+        <g id="Group_163">
+          <g id="Group_164">
+            <g id="Group_165">
+              <g id="Graphic_169">
+                <path d="M 351 682.5 L 490 682.5 C 492.20914 682.5 494 684.2909 494 686.5 L 494 728.5 C 494 730.7091 492.20914 732.5 490 732.5 L 351 732.5 C 348.79086 732.5 347 730.7091 347 728.5 L 347 686.5 C 347 684.2909 348.79086 682.5 351 682.5 Z" fill="#d5a6bd"/>
+              </g>
+              <g id="Group_166">
+                <g id="Graphic_168"/>
+                <g id="Graphic_167">
+                  <path d="M 351 682.5 L 490 682.5 C 492.20914 682.5 494 684.2909 494 686.5 L 494 728.5 C 494 730.7091 492.20914 732.5 490 732.5 L 351 732.5 C 348.79086 732.5 347 730.7091 347 728.5 L 347 686.5 C 347 684.2909 348.79086 682.5 351 682.5 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(352 699)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="38.27832" y="14">E55 Type</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_170">
+        <path d="M 540.8856 528.1 L 540.8856 621.9068 L 408.7569 620.6157 L 408.7569 669.6" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_171">
+        <rect x="317.9026" y="606.4152" width="243" height="29" fill="white"/>
+        <text transform="translate(322.9026 611.4152)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".0234375" y="15">vir:K21_depict_things_of_type</tspan>
+        </text>
+      </g>
+      <g id="Group_172">
+        <g id="Group_173">
+          <g id="Group_174">
+            <g id="Group_175">
+              <g id="Graphic_179">
+                <path d="M 602 611 L 767.5 611 C 769.7091 611 771.5 612.79086 771.5 615 L 771.5 657 C 771.5 659.2091 769.7091 661 767.5 661 L 602 661 C 599.79086 661 598 659.2091 598 657 L 598 615 C 598 612.79086 599.79086 611 602 611 Z" fill="#fd0"/>
+              </g>
+              <g id="Group_176">
+                <g id="Graphic_178"/>
+                <g id="Graphic_177">
+                  <path d="M 602 611 L 767.5 611 C 769.7091 611 771.5 612.79086 771.5 615 L 771.5 657 C 771.5 659.2091 769.7091 661 767.5 661 L 602 661 C 599.79086 661 598 659.2091 598 657 L 598 615 C 598 612.79086 599.79086 611 602 611 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(603 627.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="12.501953" y="14">E90 Symbolic Object</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_180">
+        <path d="M 677.587 506.02067 L 687.3983 506.8048 L 685.5371 597.6028" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_181">
+        <rect x="610.4994" y="560.5478" width="151" height="29" fill="white"/>
+        <text transform="translate(615.4994 565.5478)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".24609375" y="15">vir:K14_symbolize</tspan>
+        </text>
+      </g>
+      <g id="Group_182">
+        <g id="Group_183">
+          <g id="Group_184">
+            <g id="Group_185">
+              <g id="Graphic_189">
+                <path d="M 15 204.5 L 200.5 204.5 C 202.70914 204.5 204.5 206.29086 204.5 208.5 L 204.5 250.5 C 204.5 252.70914 202.70914 254.5 200.5 254.5 L 15 254.5 C 12.790861 254.5 11 252.70914 11 250.5 L 11 208.5 C 11 206.29086 12.790861 204.5 15 204.5 Z" fill="#fd0"/>
+              </g>
+              <g id="Group_186">
+                <g id="Graphic_188"/>
+                <g id="Graphic_187">
+                  <path d="M 15 204.5 L 200.5 204.5 C 202.70914 204.5 204.5 206.29086 204.5 208.5 L 204.5 250.5 C 204.5 252.70914 202.70914 254.5 200.5 254.5 L 15 254.5 C 12.790861 254.5 11 252.70914 11 250.5 L 11 208.5 C 11 206.29086 12.790861 204.5 15 204.5 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(16 221)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="8.898437" y="14">E89 Propositional Object</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_190">
+        <path d="M 278.4 135.87616 L 111.78126 135.87616 L 111.78126 191.6" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_191">
+        <rect x="14.281262" y="152.65238" width="195" height="29" fill="white"/>
+        <text transform="translate(19.281262 157.65238)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".01953125" y="15">vir:K10_on_the_base_of</tspan>
+        </text>
+      </g>
+      <g id="Group_192">
+        <g id="Group_193">
+          <g id="Group_194">
+            <g id="Group_195">
+              <g id="Graphic_199">
+                <path d="M 942.25 567 L 1081.25 567 C 1083.4591 567 1085.25 568.79086 1085.25 571 L 1085.25 613 C 1085.25 615.20914 1083.4591 617 1081.25 617 L 942.25 617 C 940.0409 617 938.25 615.20914 938.25 613 L 938.25 571 C 938.25 568.79086 940.0409 567 942.25 567 Z" fill="#fa9158"/>
+              </g>
+              <g id="Group_196">
+                <g id="Graphic_198"/>
+                <g id="Graphic_197">
+                  <path d="M 942.25 567 L 1081.25 567 C 1083.4591 567 1085.25 568.79086 1085.25 571 L 1085.25 613 C 1085.25 615.20914 1083.4591 617 1081.25 617 L 942.25 617 C 940.0409 617 938.25 615.20914 938.25 613 L 938.25 571 C 938.25 568.79086 940.0409 567 942.25 567 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(943.25 583.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="36.07715" y="14">E39 Actor</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_200">
+        <line x1="1011.75" y1="419.1" x2="1011.75" y2="554.1" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_201">
+        <rect x="930.25" y="518.0986" width="163" height="29" fill="white"/>
+        <text transform="translate(935.25 523.0986)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".45703125" y="15">vir:K26_has_source</tspan>
+        </text>
+      </g>
+      <g id="Line_202">
+        <line x1="371.25" y1="320.6" x2="371.25" y2="454.1" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_203">
+        <rect x="273.75" y="376.9247" width="195" height="29" fill="white"/>
+        <text transform="translate(278.75 381.9247)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".46484375" y="15">crm:P46i_forms_part_of</tspan>
+        </text>
+      </g>
+      <g id="Line_204">
+        <path d="M 306.89282 463.4 L 306.89282 441.79854 L 98.97111 441.79854 L 99.50369 414.39747" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_205">
+        <rect x="142.77689" y="427.29854" width="108" height="29" fill="white"/>
+        <text transform="translate(147.77689 432.29854)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".08203125" y="15">vir:has_back</tspan>
+        </text>
+      </g>
+      <g id="Group_206">
+        <g id="Group_207">
+          <g id="Group_208">
+            <g id="Group_209">
+              <g id="Graphic_213">
+                <path d="M 15 574 L 185.5 574 C 187.70914 574 189.5 575.79086 189.5 578 L 189.5 620 C 189.5 622.20914 187.70914 624 185.5 624 L 15 624 C 12.790861 624 11 622.20914 11 620 L 11 578 C 11 575.79086 12.790861 574 15 574 Z" fill="#f45862"/>
+              </g>
+              <g id="Group_210">
+                <g id="Graphic_212"/>
+                <g id="Graphic_211">
+                  <path d="M 15 574 L 185.5 574 C 187.70914 574 189.5 575.79086 189.5 578 L 189.5 620 C 189.5 622.20914 187.70914 624 185.5 624 L 15 624 C 12.790861 624 11 622.20914 11 620 L 11 578 C 11 575.79086 12.790861 574 15 574 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(16 590.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="11.898437" y="14">E22 Man-Made Object</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_214">
+        <path d="M 274.941 502.0052 L 100.70237 502.0052 L 100.42909 560.60015" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_215">
+        <rect x="111.78126" y="487.5052" width="150" height="29" fill="white"/>
+        <text transform="translate(116.78126 492.5052)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".19140625" y="15">vir:K7_is_recto_of</tspan>
+        </text>
+      </g>
+      <g id="Group_308">
+        <g id="Group_309">
+          <g id="Group_310">
+            <g id="Group_311">
+              <g id="Graphic_315">
+                <rect x="29" y="-91.29856" width="290" height="54.75" fill="white"/>
+              </g>
+              <g id="Group_312">
+                <g id="Graphic_314">
+                  <rect x="29" y="-91.29856" width="290" height="54.75" fill="white"/>
+                </g>
+                <g id="Graphic_313">
+                  <rect x="29" y="-91.29856" width="290" height="54.75" fill="white"/>
+                  <rect x="29" y="-91.29856" width="290" height="54.75" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_330">
+        <g id="Group_331">
+          <g id="Group_332">
+            <g id="Group_333">
+              <g id="Graphic_337">
+                <rect x="29" y="-116.29856" width="290" height="25" fill="#cdced7" fill-opacity=".58147815"/>
+              </g>
+              <g id="Group_334">
+                <g id="Graphic_336">
+                  <rect x="29" y="-116.29856" width="290" height="25" fill="#cdced7" fill-opacity=".58147815"/>
+                </g>
+                <g id="Graphic_335">
+                  <rect x="29" y="-116.29856" width="290" height="25" fill="#cdced7" fill-opacity=".58147815"/>
+                  <rect x="29" y="-116.29856" width="290" height="25" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(34 -113.29856)" fill="black">
+                    <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x="0" y="15">Prefixes:</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_305">
+        <g id="Group_306">
+          <g id="Graphic_307">
+            <rect x="41.25" y="-80.298555" width="267" height="42" fill="black" fill-opacity="0"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_302">
+        <g id="Group_303">
+          <g id="Graphic_304">
+            <rect x="41.25" y="-80.298555" width="267" height="14" fill="black" fill-opacity="0"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_299">
+        <g id="Group_300">
+          <g id="Graphic_301">
+            <rect x="41.25" y="-80.298555" width="30" height="14" fill="black" fill-opacity="0"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_294">
+        <g id="Group_297">
+          <g id="Graphic_298">
+            <rect x="41.25" y="-80.298555" width="30" height="14" fill="black" fill-opacity="0"/>
+          </g>
+        </g>
+        <g id="Graphic_296">
+          <title>Text</title>
+          <text transform="translate(39.75 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="700" fill="black" x=".49316406" y="11">crm</tspan>
+          </text>
+        </g>
+        <g id="Graphic_295">
+          <title>Text</title>
+          <text transform="translate(63.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">:</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_277">
+        <g id="Group_292">
+          <g id="Graphic_293">
+            <rect x="70.59375" y="-80.298555" width="191" height="14" fill="black" fill-opacity="0"/>
+          </g>
+        </g>
+        <g id="Graphic_291">
+          <title>Text</title>
+          <text transform="translate(70.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".4921875" y="11">http</tspan>
+          </text>
+        </g>
+        <g id="Graphic_290">
+          <title>Text</title>
+          <text transform="translate(90.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".49902344" y="11">://</tspan>
+          </text>
+        </g>
+        <g id="Graphic_289">
+          <title>Text</title>
+          <text transform="translate(100.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x="9765625e-10" y="11">www</tspan>
+          </text>
+        </g>
+        <g id="Graphic_288">
+          <title>Text</title>
+          <text transform="translate(125.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">.</tspan>
+          </text>
+        </g>
+        <g id="Graphic_287">
+          <title>Text</title>
+          <text transform="translate(129.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".49316406" y="11">cidoc</tspan>
+          </text>
+        </g>
+        <g id="Graphic_286">
+          <title>Text</title>
+          <text transform="translate(157.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".001953125" y="11">-</tspan>
+          </text>
+        </g>
+        <g id="Graphic_285">
+          <title>Text</title>
+          <text transform="translate(161.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".00390625" y="11">crm</tspan>
+          </text>
+        </g>
+        <g id="Graphic_284">
+          <title>Text</title>
+          <text transform="translate(181.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">.</tspan>
+          </text>
+        </g>
+        <g id="Graphic_283">
+          <title>Text</title>
+          <text transform="translate(184.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".328125" y="11">org</tspan>
+          </text>
+        </g>
+        <g id="Graphic_282">
+          <title>Text</title>
+          <text transform="translate(201.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">/</tspan>
+          </text>
+        </g>
+        <g id="Graphic_281">
+          <title>Text</title>
+          <text transform="translate(205.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".49316406" y="11">cidoc</tspan>
+          </text>
+        </g>
+        <g id="Graphic_280">
+          <title>Text</title>
+          <text transform="translate(233.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".001953125" y="11">-</tspan>
+          </text>
+        </g>
+        <g id="Graphic_279">
+          <title>Text</title>
+          <text transform="translate(237.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".00390625" y="11">crm</tspan>
+          </text>
+        </g>
+        <g id="Graphic_278">
+          <title>Text</title>
+          <text transform="translate(257.25 -79.24484)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">/</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_274">
+        <g id="Group_275">
+          <g id="Graphic_276">
+            <rect x="41.25" y="-66.298555" width="267" height="14" fill="black" fill-opacity="0"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_270">
+        <g id="Group_272">
+          <g id="Graphic_273">
+            <rect x="41.25" y="-66.298555" width="30" height="14" fill="black" fill-opacity="0"/>
+          </g>
+        </g>
+        <g id="Graphic_271">
+          <title>Text</title>
+          <text transform="translate(63.91992 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">:</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_266">
+        <g id="Group_268">
+          <g id="Graphic_269">
+            <rect x="41.25" y="-66.298555" width="23" height="14" fill="black" fill-opacity="0"/>
+          </g>
+        </g>
+        <g id="Graphic_267">
+          <title>Text</title>
+          <text transform="translate(40.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="700" fill="black" x=".16503906" y="11">rdfs</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_247">
+        <g id="Group_264">
+          <g id="Graphic_265">
+            <rect x="70.58789" y="-66.298555" width="212" height="14" fill="black" fill-opacity="0"/>
+          </g>
+        </g>
+        <g id="Graphic_263">
+          <title>Text</title>
+          <text transform="translate(70.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".4921875" y="11">http</tspan>
+          </text>
+        </g>
+        <g id="Graphic_262">
+          <title>Text</title>
+          <text transform="translate(90.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".49902344" y="11">://</tspan>
+          </text>
+        </g>
+        <g id="Graphic_261">
+          <title>Text</title>
+          <text transform="translate(100.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x="9765625e-10" y="11">www</tspan>
+          </text>
+        </g>
+        <g id="Graphic_260">
+          <title>Text</title>
+          <text transform="translate(125.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">.</tspan>
+          </text>
+        </g>
+        <g id="Graphic_259">
+          <title>Text</title>
+          <text transform="translate(129.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".33007812" y="11">w3</tspan>
+          </text>
+        </g>
+        <g id="Graphic_258">
+          <title>Text</title>
+          <text transform="translate(144.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">.</tspan>
+          </text>
+        </g>
+        <g id="Graphic_257">
+          <title>Text</title>
+          <text transform="translate(147.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".328125" y="11">org</tspan>
+          </text>
+        </g>
+        <g id="Graphic_256">
+          <title>Text</title>
+          <text transform="translate(165.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">/</tspan>
+          </text>
+        </g>
+        <g id="Graphic_255">
+          <title>Text</title>
+          <text transform="translate(168.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".15234375" y="11">2000</tspan>
+          </text>
+        </g>
+        <g id="Graphic_254">
+          <title>Text</title>
+          <text transform="translate(195.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">/</tspan>
+          </text>
+        </g>
+        <g id="Graphic_253">
+          <title>Text</title>
+          <text transform="translate(198.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".32617188" y="11">01</tspan>
+          </text>
+        </g>
+        <g id="Graphic_252">
+          <title>Text</title>
+          <text transform="translate(211.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">/</tspan>
+          </text>
+        </g>
+        <g id="Graphic_251">
+          <title>Text</title>
+          <text transform="translate(215.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".4980469" y="11">rdf</tspan>
+          </text>
+        </g>
+        <g id="Graphic_250">
+          <title>Text</title>
+          <text transform="translate(229.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".001953125" y="11">-</tspan>
+          </text>
+        </g>
+        <g id="Graphic_249">
+          <title>Text</title>
+          <text transform="translate(233.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".49121094" y="11">schema</tspan>
+          </text>
+        </g>
+        <g id="Graphic_248">
+          <title>Text</title>
+          <text transform="translate(275.25 -65.244844)" fill="black">
+            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".16308594" y="11">#</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_236">
+        <g id="Group_238">
+          <g id="Graphic_239">
+            <rect x="41.25" y="-52.298555" width="28" height="14" fill="black" fill-opacity="0"/>
+          </g>
+        </g>
+        <g id="Graphic_237">
+          <title>Text</title>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

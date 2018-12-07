@@ -1,25 +1,46 @@
 
+## Abstract
+This document presents VIR (VIsual Representation), an RDFS extension of CIDOC-CRM to support propositions about visual items.  
+<p><strong>Namespace:</strong> The namespace for VIR terms is <span class="repeated" style="font-family: courier;">
+        http://w3id.org/vir#</span> </p> 
+<p><strong>Prefix:</strong> The suggested prefix for VIR is <span class="repeated" style="font-family: courier;">
+        bot</span> </p>
+<p><strong>RDFS:</strong> an RDFS version of the ontology is available on <a href="https://github.com/ncarboni/vir/blob/master/vir.rdfs.xml">github</a></p>
+
+## Table of Content
+
 {{TOC}}
 
 ## Introduction
 
-This document presents an extension of CIDOC-CRM to support propositions about visual items. With the term visual items we refers to those signs identified in the visual space as distinct and documentable units, and subject of a status assignment by a group or a single person. 
-Goal of this model is to provide a framework for specifying, as the interpretation of an actor, the identity and the relation of those signs, providing the necessary classes to sustain propositions about their constituent elements, reference, symbolic content and source.
-The overall model is based on a constructivist approach, which differentiates between the reality identified, and the interpretation given to its visual structure by a person. This distinction allows us to present the gestalt of an item as a first layer of meaning in the identification of visual features. The assignment, by an actor, of one (or multiple) particular identity/ies to a representation is the second level of meaning. The model takes into account that the recognition of a representation is based on the attributes linked to it by a certain tradition.
-Moreover, the model clearly separates the identity of the object and its subject matter which, as each construct which is culturally linked, can vary between different systems. For such reason, while providing the means for expressing the relationships between a representation and its subject matter, the ontology does not offer any subject-based classification, but rely on the ones already present and accepted by the art historical community, such as iconclass, the thésaurus iconographique of Garnier and others. 
+This document presents VIR, an extension of CIDOC-CRM created to sustain propositions on the nature of  visual elements and permit these descriptions to be published on the Web. 
+With the term visual elements we hereby refers to those signs identified in the visual space as distinct and documentable units, and subject to an analytical interpretation. 
+Scope of this ontology is to s to provide a framework to support the identification, annotation and interconnections between diverse visual elements and presents and assist their documentation and retrieval. Specifically, the model aims to clarify the identity and the relation of these visual signs, providing the necessary classes to characterise their constituent elements, reference, symbolic content and source of interpretation.
+
+VIR expands on key entities and properties from CIDOC-CRM, introducing new classes and relationships responding to the visual and art historical community, specifically building up on the iconographical tradition. The result is a model which differentiates between interpretation and element identified, providing a clear distinction between denotation and signification of an element. As consequence of such distinction, the ontology allows for the definition of diverse denotative criterias for the same representation, which could change based on traditions and perspective. 
+Moreover, the model clearly separates the identity of the object and its subject matter. For such reason, while providing the means for expressing the relationships between a representation and its subject(s), the ontology does not provide any type of subject-based classification, but rely on the ones already present and widely accepted by the art historical community, such as [Iconclass](http://www.iconclass.org/help/lod), the [Warburg Classification](https://warburg.libguides.com/classification) or the Thesaurus Iconographique by Garnier.
+ 
 
 
 ### Naming
 
 All the classes declared were given both a name and an identifier constructed according to the conventions used in the CIDOC CRM model.
-For the classes, the identifier consists of the two letters IC followed by a number. Resulting properties were also given a name and an identifier: the letter K followed by a number. Inverse properties share the same identifier, the letter K followed by a number, plus the character “i” (inverse). every time the property is mentioned “backwards”, i.e., from target to domain (inverse link). 
+For the classes, the identifier consists of the two letters IC followed by a number. Resulting properties were also given a name and an identifier: the letter K followed by a number. 
+They correspond respectively to letters “E” and “P” in the CIDOC CRM naming conventions, where “E” originally meant “entity” (although the CIDOC CRM “entities” are now consistently called “classes”), and “P” means “property”.
+Inverse properties share the same identifier, the letter K followed by the same number, plus the character "i" (inverse).
 
-## Examples
+## Graphical Overview
 
-In this section we are going to present diverse examples of the possible use for the model in identifying iconographical objects, attributes and personification, as well as linking a particular text to a visual representation or specifying its visual prototype.
+/img/vir.png
 
+## Class and property usage examples
+
+In this section we present diverse examples in order to illustrate how VIR can be used to encode information about diverse visual items.   
+
+The first example is about a wall painting present in the Narthex of the church of Panagia Phorbiotissa in Asinou, in the Trodos mountain of Cyprus. It is the panel of "Anastasia and Anastasia". 
 
 /img/NEW_symbolic.png  
+
 
 *<small>Fig 1 — Mapping of the information about the visual recognition of the panel of Anastasia and Anastasia in Asinou, Cyprus</small>*  
 
