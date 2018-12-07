@@ -22,19 +22,19 @@
         <font-face-name name="Helvetica-Bold"/>
       </font-face-src>
     </font-face>
-    <font-face font-family="Arial" font-size="12" panose-1="2 11 7 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="104.98047" slope="0" x-height="518.5547" cap-height="715.8203" ascent="905.2734" descent="-211.91406" font-weight="700">
+    <font-face font-family="Helvetica" font-size="13" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.7266" ascent="770.0195" descent="-229.98047" font-weight="700">
       <font-face-src>
-        <font-face-name name="Arial-BoldMT"/>
+        <font-face-name name="Helvetica-Bold"/>
       </font-face-src>
     </font-face>
-    <font-face font-family="Arial" font-size="12" panose-1="2 11 6 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="73.24219" slope="0" x-height="518.5547" cap-height="716.3086" ascent="905.2734" descent="-211.91406" font-weight="400">
+    <font-face font-family="Helvetica" font-size="13" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
       <font-face-src>
-        <font-face-name name="ArialMT"/>
+        <font-face-name name="Helvetica"/>
       </font-face-src>
     </font-face>
   </defs>
   <metadata> Produced by OmniGraffle 7.9.2 
-    <dc:date>2018-12-07 18:45:16 +0000</dc:date>
+    <dc:date>2018-12-07 22:10:52 +0000</dc:date>
   </metadata>
   <g id="Canvas_1" stroke-opacity="1" fill-opacity="1" stroke="none" stroke-dasharray="none" fill="none">
     <title>Canvas 1</title>
@@ -529,15 +529,23 @@
           <g id="Group_310">
             <g id="Group_311">
               <g id="Graphic_315">
-                <rect x="29" y="-91.29856" width="290" height="54.75" fill="white"/>
+                <rect x="29" y="-91.29856" width="290" height="77.298555" fill="white"/>
               </g>
               <g id="Group_312">
                 <g id="Graphic_314">
-                  <rect x="29" y="-91.29856" width="290" height="54.75" fill="white"/>
+                  <rect x="29" y="-91.29856" width="290" height="77.298555" fill="white"/>
                 </g>
                 <g id="Graphic_313">
-                  <rect x="29" y="-91.29856" width="290" height="54.75" fill="white"/>
-                  <rect x="29" y="-91.29856" width="290" height="54.75" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <rect x="29" y="-91.29856" width="290" height="77.298555" fill="white"/>
+                  <rect x="29" y="-91.29856" width="290" height="77.298555" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(34 -86.29856)" fill="black">
+                    <tspan font-family="Helvetica" font-size="13" font-weight="700" fill="black" x="0" y="13">crm</tspan>
+                    <tspan font-family="Helvetica" font-size="13" font-weight="400" fill="black" y="13">: http://www.cidoc-crm.org/cidoc-crm/</tspan>
+                    <tspan font-family="Helvetica" font-size="13" font-weight="700" fill="black" x="0" y="29">rdfs</tspan>
+                    <tspan font-family="Helvetica" font-size="13" font-weight="400" fill="black" y="29">: http://www.w3.org/2000/01/rdf-schema#</tspan>
+                    <tspan font-family="Helvetica" font-size="13" font-weight="700" fill="black" x="0" y="45">vir</tspan>
+                    <tspan font-family="Helvetica" font-size="13" font-weight="400" fill="black" y="45">: http://w3id.org/vir#</tspan>
+                  </text>
                 </g>
               </g>
             </g>
@@ -565,283 +573,6 @@
               </g>
             </g>
           </g>
-        </g>
-      </g>
-      <g id="Group_305">
-        <g id="Group_306">
-          <g id="Graphic_307">
-            <rect x="41.25" y="-80.298555" width="267" height="42" fill="black" fill-opacity="0"/>
-          </g>
-        </g>
-      </g>
-      <g id="Group_302">
-        <g id="Group_303">
-          <g id="Graphic_304">
-            <rect x="41.25" y="-80.298555" width="267" height="14" fill="black" fill-opacity="0"/>
-          </g>
-        </g>
-      </g>
-      <g id="Group_299">
-        <g id="Group_300">
-          <g id="Graphic_301">
-            <rect x="41.25" y="-80.298555" width="30" height="14" fill="black" fill-opacity="0"/>
-          </g>
-        </g>
-      </g>
-      <g id="Group_294">
-        <g id="Group_297">
-          <g id="Graphic_298">
-            <rect x="41.25" y="-80.298555" width="30" height="14" fill="black" fill-opacity="0"/>
-          </g>
-        </g>
-        <g id="Graphic_296">
-          <title>Text</title>
-          <text transform="translate(39.75 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="700" fill="black" x=".49316406" y="11">crm</tspan>
-          </text>
-        </g>
-        <g id="Graphic_295">
-          <title>Text</title>
-          <text transform="translate(63.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">:</tspan>
-          </text>
-        </g>
-      </g>
-      <g id="Group_277">
-        <g id="Group_292">
-          <g id="Graphic_293">
-            <rect x="70.59375" y="-80.298555" width="191" height="14" fill="black" fill-opacity="0"/>
-          </g>
-        </g>
-        <g id="Graphic_291">
-          <title>Text</title>
-          <text transform="translate(70.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".4921875" y="11">http</tspan>
-          </text>
-        </g>
-        <g id="Graphic_290">
-          <title>Text</title>
-          <text transform="translate(90.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".49902344" y="11">://</tspan>
-          </text>
-        </g>
-        <g id="Graphic_289">
-          <title>Text</title>
-          <text transform="translate(100.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x="9765625e-10" y="11">www</tspan>
-          </text>
-        </g>
-        <g id="Graphic_288">
-          <title>Text</title>
-          <text transform="translate(125.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">.</tspan>
-          </text>
-        </g>
-        <g id="Graphic_287">
-          <title>Text</title>
-          <text transform="translate(129.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".49316406" y="11">cidoc</tspan>
-          </text>
-        </g>
-        <g id="Graphic_286">
-          <title>Text</title>
-          <text transform="translate(157.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".001953125" y="11">-</tspan>
-          </text>
-        </g>
-        <g id="Graphic_285">
-          <title>Text</title>
-          <text transform="translate(161.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".00390625" y="11">crm</tspan>
-          </text>
-        </g>
-        <g id="Graphic_284">
-          <title>Text</title>
-          <text transform="translate(181.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">.</tspan>
-          </text>
-        </g>
-        <g id="Graphic_283">
-          <title>Text</title>
-          <text transform="translate(184.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".328125" y="11">org</tspan>
-          </text>
-        </g>
-        <g id="Graphic_282">
-          <title>Text</title>
-          <text transform="translate(201.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">/</tspan>
-          </text>
-        </g>
-        <g id="Graphic_281">
-          <title>Text</title>
-          <text transform="translate(205.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".49316406" y="11">cidoc</tspan>
-          </text>
-        </g>
-        <g id="Graphic_280">
-          <title>Text</title>
-          <text transform="translate(233.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".001953125" y="11">-</tspan>
-          </text>
-        </g>
-        <g id="Graphic_279">
-          <title>Text</title>
-          <text transform="translate(237.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".00390625" y="11">crm</tspan>
-          </text>
-        </g>
-        <g id="Graphic_278">
-          <title>Text</title>
-          <text transform="translate(257.25 -79.24484)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">/</tspan>
-          </text>
-        </g>
-      </g>
-      <g id="Group_274">
-        <g id="Group_275">
-          <g id="Graphic_276">
-            <rect x="41.25" y="-66.298555" width="267" height="14" fill="black" fill-opacity="0"/>
-          </g>
-        </g>
-      </g>
-      <g id="Group_270">
-        <g id="Group_272">
-          <g id="Graphic_273">
-            <rect x="41.25" y="-66.298555" width="30" height="14" fill="black" fill-opacity="0"/>
-          </g>
-        </g>
-        <g id="Graphic_271">
-          <title>Text</title>
-          <text transform="translate(63.91992 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">:</tspan>
-          </text>
-        </g>
-      </g>
-      <g id="Group_266">
-        <g id="Group_268">
-          <g id="Graphic_269">
-            <rect x="41.25" y="-66.298555" width="23" height="14" fill="black" fill-opacity="0"/>
-          </g>
-        </g>
-        <g id="Graphic_267">
-          <title>Text</title>
-          <text transform="translate(40.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="700" fill="black" x=".16503906" y="11">rdfs</tspan>
-          </text>
-        </g>
-      </g>
-      <g id="Group_247">
-        <g id="Group_264">
-          <g id="Graphic_265">
-            <rect x="70.58789" y="-66.298555" width="212" height="14" fill="black" fill-opacity="0"/>
-          </g>
-        </g>
-        <g id="Graphic_263">
-          <title>Text</title>
-          <text transform="translate(70.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".4921875" y="11">http</tspan>
-          </text>
-        </g>
-        <g id="Graphic_262">
-          <title>Text</title>
-          <text transform="translate(90.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".49902344" y="11">://</tspan>
-          </text>
-        </g>
-        <g id="Graphic_261">
-          <title>Text</title>
-          <text transform="translate(100.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x="9765625e-10" y="11">www</tspan>
-          </text>
-        </g>
-        <g id="Graphic_260">
-          <title>Text</title>
-          <text transform="translate(125.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">.</tspan>
-          </text>
-        </g>
-        <g id="Graphic_259">
-          <title>Text</title>
-          <text transform="translate(129.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".33007812" y="11">w3</tspan>
-          </text>
-        </g>
-        <g id="Graphic_258">
-          <title>Text</title>
-          <text transform="translate(144.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">.</tspan>
-          </text>
-        </g>
-        <g id="Graphic_257">
-          <title>Text</title>
-          <text transform="translate(147.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".328125" y="11">org</tspan>
-          </text>
-        </g>
-        <g id="Graphic_256">
-          <title>Text</title>
-          <text transform="translate(165.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">/</tspan>
-          </text>
-        </g>
-        <g id="Graphic_255">
-          <title>Text</title>
-          <text transform="translate(168.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".15234375" y="11">2000</tspan>
-          </text>
-        </g>
-        <g id="Graphic_254">
-          <title>Text</title>
-          <text transform="translate(195.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">/</tspan>
-          </text>
-        </g>
-        <g id="Graphic_253">
-          <title>Text</title>
-          <text transform="translate(198.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".32617188" y="11">01</tspan>
-          </text>
-        </g>
-        <g id="Graphic_252">
-          <title>Text</title>
-          <text transform="translate(211.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".3330078" y="11">/</tspan>
-          </text>
-        </g>
-        <g id="Graphic_251">
-          <title>Text</title>
-          <text transform="translate(215.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".4980469" y="11">rdf</tspan>
-          </text>
-        </g>
-        <g id="Graphic_250">
-          <title>Text</title>
-          <text transform="translate(229.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".001953125" y="11">-</tspan>
-          </text>
-        </g>
-        <g id="Graphic_249">
-          <title>Text</title>
-          <text transform="translate(233.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".49121094" y="11">schema</tspan>
-          </text>
-        </g>
-        <g id="Graphic_248">
-          <title>Text</title>
-          <text transform="translate(275.25 -65.244844)" fill="black">
-            <tspan font-family="Arial" font-size="12" font-weight="400" fill="black" x=".16308594" y="11">#</tspan>
-          </text>
-        </g>
-      </g>
-      <g id="Group_236">
-        <g id="Group_238">
-          <g id="Graphic_239">
-            <rect x="41.25" y="-52.298555" width="28" height="14" fill="black" fill-opacity="0"/>
-          </g>
-        </g>
-        <g id="Graphic_237">
-          <title>Text</title>
         </g>
       </g>
     </g>
