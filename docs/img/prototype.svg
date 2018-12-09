@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="57 -9 1233 589" width="1233" height="589">
+  <defs>
+    <font-face font-family="Helvetica" font-size="14" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.7266" ascent="770.0195" descent="-229.98047" font-weight="700">
+      <font-face-src>
+        <font-face-name name="Helvetica-Bold"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="black">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledCenterBall_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-5 -3 6 6" markerWidth="6" markerHeight="6" color="black">
+      <g>
+        <circle cx="-1.7999992" cy="0" r="1.79999817186192" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica" font-size="16" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.7266" ascent="770.0195" descent="-229.98047" font-weight="700">
+      <font-face-src>
+        <font-face-name name="Helvetica-Bold"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.9.2 
+    <dc:date>2018-12-09 16:16:31 +0000</dc:date>
+  </metadata>
+  <g id="prototypes" stroke-opacity="1" fill-opacity="1" stroke="none" stroke-dasharray="none" fill="none">
+    <title>prototypes</title>
+    <g id="prototypes: Layer 1">
+      <title>Layer 1</title>
+      <g id="Group_40">
+        <g id="Group_41">
+          <g id="Group_42">
+            <g id="Group_43">
+              <g id="Graphic_47">
+                <path d="M 378.5 112.93924 L 568 112.93924 C 570.20914 112.93924 572 114.7301 572 116.93924 L 572 158.93924 C 572 161.14838 570.20914 162.93924 568 162.93924 L 378.5 162.93924 C 376.29086 162.93924 374.5 161.14838 374.5 158.93924 L 374.5 116.93924 C 374.5 114.7301 376.29086 112.93924 378.5 112.93924 Z" fill="#5daeec"/>
+              </g>
+              <g id="Group_44">
+                <g id="Graphic_46"/>
+                <g id="Graphic_45">
+                  <path d="M 378.5 112.93924 L 568 112.93924 C 570.20914 112.93924 572 114.7301 572 116.93924 L 572 158.93924 C 572 161.14838 570.20914 162.93924 568 162.93924 L 378.5 162.93924 C 376.29086 162.93924 374.5 161.14838 374.5 158.93924 L 374.5 116.93924 C 374.5 114.7301 376.29086 112.93924 378.5 112.93924 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(379.5 129.43924)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="14.135254" y="14">IC12 Visual Recognition</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_32">
+        <g id="Group_33">
+          <g id="Group_34">
+            <g id="Group_35">
+              <g id="Graphic_39">
+                <path d="M 400.75 -8 L 549.75 -8 C 551.95914 -8 553.75 -6.209139 553.75 -4 L 553.75 38 C 553.75 40.20914 551.95914 42 549.75 42 L 400.75 42 C 398.54086 42 396.75 40.20914 396.75 38 L 396.75 -4 C 396.75 -6.209139 398.54086 -8 400.75 -8 Z" fill="#fa9158"/>
+              </g>
+              <g id="Group_36">
+                <g id="Graphic_38"/>
+                <g id="Graphic_37">
+                  <path d="M 400.75 -8 L 549.75 -8 C 551.95914 -8 553.75 -6.209139 553.75 -4 L 553.75 38 C 553.75 40.20914 551.95914 42 549.75 42 L 400.75 42 C 398.54086 42 396.75 40.20914 396.75 38 L 396.75 -4 C 396.75 -6.209139 398.54086 -8 400.75 -8 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(401.75 8.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="35.36914" y="14">E21 Person</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_24">
+        <g id="Group_25">
+          <g id="Group_26">
+            <g id="Group_27">
+              <g id="Graphic_31">
+                <path d="M 670 204 L 835.5 204 C 837.7091 204 839.5 205.79086 839.5 208 L 839.5 250 C 839.5 252.20914 837.7091 254 835.5 254 L 670 254 C 667.7909 254 666 252.20914 666 250 L 666 208 C 666 205.79086 667.7909 204 670 204 Z" fill="#fd0"/>
+              </g>
+              <g id="Group_28">
+                <g id="Graphic_30"/>
+                <g id="Graphic_29">
+                  <path d="M 670 204 L 835.5 204 C 837.7091 204 839.5 205.79086 839.5 208 L 839.5 250 C 839.5 252.20914 837.7091 254 835.5 254 L 670 254 C 667.7909 254 666 252.20914 666 250 L 666 208 C 666 205.79086 667.7909 204 670 204 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(671 220.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="17.957031" y="14">IC9 Representation</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_23">
+        <path d="M 575.6 136.33333 L 713.9949 136.33333 L 713.9949 191.1" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_22">
+        <rect x="588.40845" y="121.83333" width="113" height="29" fill="white"/>
+        <text transform="translate(593.40845 126.83333)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".359375" y="15">K11 assigned</tspan>
+        </text>
+      </g>
+      <g id="Line_20">
+        <line x1="473.6225" y1="166.53893" x2="474.7564" y2="253.6011" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_19">
+        <rect x="395.74325" y="199.701" width="157" height="29" fill="white"/>
+        <text transform="translate(400.74325 204.701)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".1484375" y="15">K9 assign status to</tspan>
+        </text>
+      </g>
+      <g id="Group_11">
+        <g id="Group_12">
+          <g id="Group_13">
+            <g id="Group_14">
+              <g id="Graphic_18">
+                <path d="M 382.5 266.5 L 568 266.5 C 570.20914 266.5 572 268.29086 572 270.5 L 572 312.5 C 572 314.70914 570.20914 316.5 568 316.5 L 382.5 316.5 C 380.29086 316.5 378.5 314.70914 378.5 312.5 L 378.5 270.5 C 378.5 268.29086 380.29086 266.5 382.5 266.5 Z" fill="#f45862"/>
+              </g>
+              <g id="Group_15">
+                <g id="Graphic_17"/>
+                <g id="Graphic_16">
+                  <path d="M 382.5 266.5 L 568 266.5 C 570.20914 266.5 572 268.29086 572 270.5 L 572 312.5 C 572 314.70914 570.20914 316.5 568 316.5 L 382.5 316.5 C 380.29086 316.5 378.5 314.70914 378.5 312.5 L 378.5 270.5 C 378.5 268.29086 380.29086 266.5 382.5 266.5 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(383.5 283)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="19.398437" y="14">E22 Man-Made Object</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_48">
+        <line x1="473.72296" y1="109.33973" x2="474.62327" y2="54.898236" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_49">
+        <rect x="399.65337" y="68.813024" width="149" height="29" fill="white"/>
+        <text transform="translate(404.65337 73.81302)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".140625" y="15">P14 carried out by</tspan>
+        </text>
+      </g>
+      <g id="Group_50">
+        <g id="Group_51">
+          <g id="Group_52">
+            <g id="Group_53">
+              <g id="Graphic_57">
+                <path d="M 670 395 L 835.5 395 C 837.7091 395 839.5 396.79086 839.5 399 L 839.5 441 C 839.5 443.20914 837.7091 445 835.5 445 L 670 445 C 667.7909 445 666 443.20914 666 441 L 666 399 C 666 396.79086 667.7909 395 670 395 Z" fill="#fd0"/>
+              </g>
+              <g id="Group_54">
+                <g id="Graphic_56"/>
+                <g id="Graphic_55">
+                  <path d="M 670 395 L 835.5 395 C 837.7091 395 839.5 396.79086 839.5 399 L 839.5 441 C 839.5 443.20914 837.7091 445 835.5 445 L 670 445 C 667.7909 445 666 443.20914 666 441 L 666 399 C 666 396.79086 667.7909 395 670 395 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(671 411.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="17.957031" y="14">IC9 Representation</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_58">
+        <line x1="752.75" y1="391.4" x2="752.75" y2="266.9" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_59">
+        <rect x="657.25" y="314.41797" width="191" height="29" fill="white"/>
+        <text transform="translate(662.25 319.41797)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".25390625" y="15">K4 has visual prototype</tspan>
+        </text>
+      </g>
+      <g id="Group_68">
+        <g id="Group_69">
+          <g id="Group_70">
+            <g id="Group_71">
+              <g id="Graphic_75">
+                <path d="M 1134 296.23857 L 1273 296.23857 C 1275.2091 296.23857 1277 298.02943 1277 300.23857 L 1277 342.23857 C 1277 344.4477 1275.2091 346.23857 1273 346.23857 L 1134 346.23857 C 1131.7909 346.23857 1130 344.4477 1130 342.23857 L 1130 300.23857 C 1130 298.02943 1131.7909 296.23857 1134 296.23857 Z" fill="#d5a6bd"/>
+              </g>
+              <g id="Group_72">
+                <g id="Graphic_74"/>
+                <g id="Graphic_73">
+                  <path d="M 1134 296.23857 L 1273 296.23857 C 1275.2091 296.23857 1277 298.02943 1277 300.23857 L 1277 342.23857 C 1277 344.4477 1275.2091 346.23857 1273 346.23857 L 1134 346.23857 C 1131.7909 346.23857 1130 344.4477 1130 342.23857 L 1130 300.23857 C 1130 298.02943 1131.7909 296.23857 1134 296.23857 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(1135 312.73857)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="38.27832" y="14">E55 Type</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_76">
+        <g id="Group_77">
+          <g id="Group_78">
+            <g id="Group_79">
+              <g id="Group_80">
+                <g id="Graphic_82">
+                  <rect x="1118.75" y="96" width="169.5" height="50" fill="#fce5cd"/>
+                </g>
+                <g id="Graphic_81">
+                  <rect x="1118.75" y="96" width="169.5" height="50" stroke="#333" stroke-linecap="butt" stroke-linejoin="round" stroke-width="2"/>
+                  <text transform="translate(1123.75 112.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="9.722656" y="14">“preparatory sketch”</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_83">
+        <line x1="848.25" y1="327.29094" x2="1117.1019" y2="322.71053" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_84">
+        <rect x="886.4333" y="310.54746" width="187" height="29" fill="white"/>
+        <text transform="translate(891.4333 315.54746)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".0390625" y="15">K4.1 prototypical mode</tspan>
+        </text>
+      </g>
+      <g id="Line_85">
+        <line x1="1203.5" y1="292.63857" x2="1203.5" y2="159.9" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_86">
+        <rect x="1162" y="212.04371" width="83" height="29" fill="white"/>
+        <text transform="translate(1167 217.04371)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".4921875" y="15">rdfs:label</tspan>
+        </text>
+      </g>
+      <g id="Group_87">
+        <g id="Group_88">
+          <g id="Group_89">
+            <g id="Group_90">
+              <g id="Group_91">
+                <g id="Graphic_93">
+                  <rect x="875.5" y="96" width="183" height="50" fill="#fce5cd"/>
+                </g>
+                <g id="Graphic_92">
+                  <rect x="875.5" y="96" width="183" height="50" stroke="#333" stroke-linecap="butt" stroke-linejoin="round" stroke-width="2"/>
+                  <text transform="translate(880.5 112.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="5.993164" y="14">“Triumph of St. George”</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_94">
+        <g id="Group_95">
+          <g id="Group_96">
+            <g id="Group_97">
+              <g id="Group_98">
+                <g id="Graphic_100">
+                  <rect x="928" y="520" width="169.5" height="50" fill="#fce5cd"/>
+                </g>
+                <g id="Graphic_99">
+                  <rect x="928" y="520" width="169.5" height="50" stroke="#333" stroke-linecap="butt" stroke-linejoin="round" stroke-width="2"/>
+                  <text transform="translate(933 528)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="6.6328125" y="14">“Sketch of Triumph of </tspan>
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="40.853516" y="31">St. George”</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_101">
+        <path d="M 843.6 229 L 963 229 L 963 163.73333" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_102">
+        <path d="M 843.1 420 L 1012.5886 420 L 1012.6998 506.1" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_103">
+        <rect x="896.8207" y="214.5" width="83" height="29" fill="white"/>
+        <text transform="translate(901.8207 219.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".4921875" y="15">rdfs:label</tspan>
+        </text>
+      </g>
+      <g id="Graphic_104">
+        <rect x="951.9355" y="405.5" width="83" height="29" fill="white"/>
+        <text transform="translate(956.9355 410.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".4921875" y="15">rdfs:label</tspan>
+        </text>
+      </g>
+      <g id="Group_105">
+        <g id="Group_106">
+          <g id="Group_107">
+            <g id="Group_108">
+              <g id="Graphic_112">
+                <path d="M 658 529 L 847.5 529 C 849.7091 529 851.5 530.79086 851.5 533 L 851.5 575 C 851.5 577.20914 849.7091 579 847.5 579 L 658 579 C 655.7909 579 654 577.20914 654 575 L 654 533 C 654 530.79086 655.7909 529 658 529 Z" fill="#5daeec"/>
+              </g>
+              <g id="Group_109">
+                <g id="Graphic_111"/>
+                <g id="Graphic_110">
+                  <path d="M 658 529 L 847.5 529 C 849.7091 529 851.5 530.79086 851.5 533 L 851.5 575 C 851.5 577.20914 849.7091 579 847.5 579 L 658 579 C 655.7909 579 654 577.20914 654 575 L 654 533 C 654 530.79086 655.7909 529 658 529 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(659 545.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="14.135254" y="14">IC12 Visual Recognition</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_113">
+        <line x1="752.75" y1="525.4" x2="752.75" y2="457.9" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_114">
+        <g id="Group_115">
+          <g id="Group_116">
+            <g id="Group_117">
+              <g id="Graphic_121">
+                <path d="M 382.5 395 L 568 395 C 570.20914 395 572 396.79086 572 399 L 572 441 C 572 443.20914 570.20914 445 568 445 L 382.5 445 C 380.29086 445 378.5 443.20914 378.5 441 L 378.5 399 C 378.5 396.79086 380.29086 395 382.5 395 Z" fill="#f45862"/>
+              </g>
+              <g id="Group_118">
+                <g id="Graphic_120"/>
+                <g id="Graphic_119">
+                  <path d="M 382.5 395 L 568 395 C 570.20914 395 572 396.79086 572 399 L 572 441 C 572 443.20914 570.20914 445 568 445 L 382.5 445 C 380.29086 445 378.5 443.20914 378.5 441 L 378.5 399 C 378.5 396.79086 380.29086 395 382.5 395 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(383.5 411.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="19.398437" y="14">E22 Man-Made Object</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_122">
+        <path d="M 650.4 554 L 475.87975 554 L 475.4281 457.89986" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_123">
+        <rect x="696.25" y="474.7736" width="113" height="29" fill="white"/>
+        <text transform="translate(701.25 479.7736)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".359375" y="15">K11 assigned</tspan>
+        </text>
+      </g>
+      <g id="Graphic_124">
+        <rect x="387.6659" y="494.00056" width="176" height="29" fill="white"/>
+        <text transform="translate(392.6659 499.00056)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".3125" y="15">K9 assigned status to</tspan>
+        </text>
+      </g>
+      <g id="Group_141">
+        <g id="Group_142">
+          <g id="Group_143">
+            <g id="Group_144">
+              <g id="Graphic_148">
+                <path d="M 80 266.5 L 219 266.5 C 221.20914 266.5 223 268.29086 223 270.5 L 223 312.5 C 223 314.70914 221.20914 316.5 219 316.5 L 80 316.5 C 77.79086 316.5 76 314.70914 76 312.5 L 76 270.5 C 76 268.29086 77.79086 266.5 80 266.5 Z" fill="#d5a6bd"/>
+              </g>
+              <g id="Group_145">
+                <g id="Graphic_147"/>
+                <g id="Graphic_146">
+                  <path d="M 80 266.5 L 219 266.5 C 221.20914 266.5 223 268.29086 223 270.5 L 223 312.5 C 223 314.70914 221.20914 316.5 219 316.5 L 80 316.5 C 77.79086 316.5 76 314.70914 76 312.5 L 76 270.5 C 76 268.29086 77.79086 266.5 80 266.5 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(81 283)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="38.27832" y="14">E55 Type</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_149">
+        <g id="Group_150">
+          <g id="Group_151">
+            <g id="Group_152">
+              <g id="Graphic_156">
+                <path d="M 80 395 L 219 395 C 221.20914 395 223 396.79086 223 399 L 223 441 C 223 443.20914 221.20914 445 219 445 L 80 445 C 77.79086 445 76 443.20914 76 441 L 76 399 C 76 396.79086 77.79086 395 80 395 Z" fill="#d5a6bd"/>
+              </g>
+              <g id="Group_153">
+                <g id="Graphic_155"/>
+                <g id="Graphic_154">
+                  <path d="M 80 395 L 219 395 C 221.20914 395 223 396.79086 223 399 L 223 441 C 223 443.20914 221.20914 445 219 445 L 80 445 C 77.79086 445 76 443.20914 76 441 L 76 399 C 76 396.79086 77.79086 395 80 395 Z" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+                  <text transform="translate(81 411.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="38.27832" y="14">E55 Type</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_157">
+        <line x1="374.9" y1="291.5" x2="235.9" y2="291.5" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_158">
+        <rect x="254.57042" y="277" width="99" height="29" fill="white"/>
+        <text transform="translate(259.57042 282)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".03515625" y="15">P2 has type</tspan>
+        </text>
+      </g>
+      <g id="Line_159">
+        <line x1="374.9" y1="420" x2="235.9" y2="420" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_160">
+        <rect x="246.6041" y="405.5" width="99" height="29" fill="white"/>
+        <text transform="translate(251.6041 410.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".03515625" y="15">P2 has type</tspan>
+        </text>
+      </g>
+      <g id="Group_161">
+        <g id="Group_162">
+          <g id="Group_163">
+            <g id="Group_164">
+              <g id="Group_165">
+                <g id="Graphic_167">
+                  <rect x="58" y="111.33333" width="183" height="50" fill="#fce5cd"/>
+                </g>
+                <g id="Graphic_166">
+                  <rect x="58" y="111.33333" width="183" height="50" stroke="#333" stroke-linecap="butt" stroke-linejoin="round" stroke-width="2"/>
+                  <text transform="translate(63 127.83333)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="52.282715" y="14">“painting”</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_168">
+        <line x1="149.5" y1="262.9" x2="149.5" y2="175.23333" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_169">
+        <g id="Group_170">
+          <g id="Group_171">
+            <g id="Group_172">
+              <g id="Group_173">
+                <g id="Graphic_175">
+                  <rect x="58" y="529" width="183" height="50" fill="#fce5cd"/>
+                </g>
+                <g id="Graphic_174">
+                  <rect x="58" y="529" width="183" height="50" stroke="#333" stroke-linecap="butt" stroke-linejoin="round" stroke-width="2"/>
+                  <text transform="translate(63 545.5)" fill="black">
+                    <tspan font-family="Helvetica" font-size="14" font-weight="700" fill="black" x="52.66553" y="14">“drawing”</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Line_176">
+        <line x1="149.5" y1="448.6" x2="149.5" y2="515.1" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledCenterBall_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_177">
+        <rect x="108" y="205.32698" width="83" height="29" fill="white"/>
+        <text transform="translate(113 210.32698)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".4921875" y="15">rdfs:label</tspan>
+        </text>
+      </g>
+      <g id="Graphic_178">
+        <rect x="108" y="474.36294" width="83" height="29" fill="white"/>
+        <text transform="translate(113 479.36294)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="700" fill="black" x=".4921875" y="15">rdfs:label</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
