@@ -92,28 +92,39 @@
 </ul>
 </div>
 
-<p>This document presents VIR, an extension of CIDOC-CRM created to sustain propositions on the nature of visual elements and permit these descriptions to be published on the Web.<br/>
-With the term visual elements we hereby refers to those signs identified in the visual space as distinct and documentable units, and subject to an analytical interpretation.<br/>
-Scope of this ontology is to s to provide a framework to support the identification, annotation and interconnections between diverse visual elements and presents and assist their documentation and retrieval. Specifically, the model aims to clarify the identity and the relation of these visual signs, providing the necessary classes to characterise their constituent elements, reference, symbolic content and source of interpretation.</p>
+<h2 id="introduction">Introduction</h2>
 
-<p>VIR expands on key entities and properties from CIDOC-CRM, introducing new classes and relationships responding to the visual and art historical community, specifically building up on the iconographical tradition. The result is a model which differentiates between interpretation and element identified, providing a clear distinction between denotation and signification of an element. As consequence of such distinction, the ontology allows for the definition of diverse denotative criterias for the same representation, which could change based on traditions and perspective.<br/>
-Moreover, the model clearly separates the identity of the object and its subject matter. For such reason, while providing the means for expressing the relationships between a representation and its subject(s), the ontology does not provide any type of subject-based classification, but rely on the ones already present and widely accepted by the art historical community, such as <a href="http://www.iconclass.org/help/lod">Iconclass</a>, the <a href="https://warburg.libguides.com/classification">Warburg Classification</a> or the Thesaurus Iconographique by Garnier.</p>
+<p>This document presents VIR, an extension of CIDOC-CRM created to sustain propositions on the nature of visual elements and permit these descriptions to be published on the Web.<br/>
+With the term visual element, we refer to those signs identified in the visual space as distinct and documentable units, and subject to an analytical interpretation.<br/>
+The scope of this ontology is to s to provide a framework to support the identification, annotation and interconnections between diverse visual elements and presents and assist their documentation and retrieval. Specifically, the model aims to clarify the identity and the relation of these visual signs, providing the necessary classes to characterise their constituent elements, reference, symbolic content and source of interpretation.</p>
+
+<p>VIR expands on key entities and properties from CIDOC-CRM, introducing new classes and relationships responding to the visual and art historical community, specifically building up on the iconographical tradition. The result is a model which differentiates between interpretation and element identified, providing a clear distinction between denotation and signification of an element. As a consequence of such distinction, the ontology allows for the definition of diverse denotative criteria for the same representation, which could change based on traditions and perspective. Visual objects can be, in fact, polysemic and ambiguous, and it is not so easy to pin down a denotative or connotative meaning because they are very much context-dependent.</p>
+<!--
+<figure>
+<img src="img/khmer_filonzana.png" alt="" />
+</figure>
+<center><strong>Figure 1</strong></center>
+
+<p><br/><br/>
+The two figures above are clear examples. The first one is a column made in order to resemble an elephant, while the second one is the mask of the Filonzana, a typical figure in the carnival of Ottana, in Sardinia, Italy.<br/>
+While the column shows us the capacity for a "simple" element to denote something else, the mask is clearly a polysemic image which could be interpreted only if we do know how it is being used. Its analysis would, in fact, reveal the interconnections between the depicted character and the Parcae, the Moirai or the Fates in other cultures. Its representation, however, it is plain and only who has knowledge of the rite would be able to characterise its meaning, therefore the act of interpretation it is implicit in its recognition and assignment of status.</p> -->
+
+<p>For such reasons, the model clearly separates the identity of the object and its subject matter. Moreover, while providing the means for expressing the relationships between a representation and its subject(s) (the process), the ontology does not provide any type of subject-based classification, but rely on the ones already present and widely accepted by the art historical community, such as <a href="http://www.iconclass.org/help/lod">Iconclass</a>, the <a href="https://warburg.libguides.com/classification">Warburg Classification</a> or the Thesaurus Iconographique by Garnier. </p>
+
+<p>The core of the ontology has been developed working with two very different projects, the documentation of the Panagia Phorbiotissa church in Cyprus and the mapping of the Berenson photo archive of the Harvard University Center for Italian Renaissance Studies. The analysis of two different visual traditions, Byzantine and Western Art, has helped the development of shared characterisation of the classes and properties which, at the time of writing, covers use cases coming from both a research and a classificatory perspective.</p>
 
 <h3 id="naming">Naming</h3>
 
 <p>All the classes declared were given both a name and an identifier constructed according to the conventions used in the CIDOC CRM model.<br/>
 For the classes, the identifier consists of the two letters IC followed by a number. Resulting properties were also given a name and an identifier: the letter K followed by a number.<br/>
-They correspond respectively to letters “E” and “P” in the CIDOC CRM naming conventions, where “E” originally meant “entity” (although the CIDOC CRM “entities” are now consistently called “classes”), and “P” means “property”.<br/>
-Inverse properties share the same identifier, the letter K followed by the same number, plus the character &#8220;i&#8221; (inverse).</p>
+They correspond respectively to letters "E" and "P" in the CIDOC CRM naming conventions, where "E" originally meant "entity" (although the CIDOC CRM "entities" are now consistently called "classes"), and "P" means "property".<br/>
+Inverse properties share the same identifier, the letter K followed by the same number, plus the character "i" (inverse).</p>
 
 <h2 id="graphicaloverview">Graphical Overview</h2>
 
-<figure>
-<img src="img/vir.png" alt="" />
-</figure>
-<p><br/><br/>
+<br/>
 <img src="img/vir.svg" alt="" /><br/>
-<br/><br/>
+<br/>
 <center><small>Figure 2 — Graphical Overview of the classes and properties of VIR</small></center></p>
 
 <h2 id="classandpropertyusageexamples">Class and property usage examples</h2>
