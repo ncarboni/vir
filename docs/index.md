@@ -13,12 +13,22 @@ This document presents VIR (VIsual Representation), an RDFS extension of CIDOC-C
 
 ## Introduction
 
-This document presents VIR, an extension of CIDOC-CRM created to sustain propositions on the nature of  visual elements and permit these descriptions to be published on the Web. 
-With the term visual elements we hereby refers to those signs identified in the visual space as distinct and documentable units, and subject to an analytical interpretation. 
-Scope of this ontology is to s to provide a framework to support the identification, annotation and interconnections between diverse visual elements and presents and assist their documentation and retrieval. Specifically, the model aims to clarify the identity and the relation of these visual signs, providing the necessary classes to characterise their constituent elements, reference, symbolic content and source of interpretation.
+This document presents VIR, an extension of CIDOC-CRM created to sustain propositions on the nature of visual elements and permit these descriptions to be published on the Web. 
+With the term visual element, we refer to those signs identified in the visual space as distinct and documentable units, and subject to an analytical interpretation. 
+The scope of this ontology is to s to provide a framework to support the identification, annotation and interconnections between diverse visual elements and presents and assist their documentation and retrieval. Specifically, the model aims to clarify the identity and the relation of these visual signs, providing the necessary classes to characterise their constituent elements, reference, symbolic content and source of interpretation.
 
-VIR expands on key entities and properties from CIDOC-CRM, introducing new classes and relationships responding to the visual and art historical community, specifically building up on the iconographical tradition. The result is a model which differentiates between interpretation and element identified, providing a clear distinction between denotation and signification of an element. As consequence of such distinction, the ontology allows for the definition of diverse denotative criterias for the same representation, which could change based on traditions and perspective. 
-Moreover, the model clearly separates the identity of the object and its subject matter. For such reason, while providing the means for expressing the relationships between a representation and its subject(s), the ontology does not provide any type of subject-based classification, but rely on the ones already present and widely accepted by the art historical community, such as [Iconclass](http://www.iconclass.org/help/lod), the [Warburg Classification](https://warburg.libguides.com/classification) or the Thesaurus Iconographique by Garnier.
+VIR expands on key entities and properties from CIDOC-CRM, introducing new classes and relationships responding to the visual and art historical community, specifically building up on the iconographical tradition. The result is a model which differentiates between interpretation and element identified, providing a clear distinction between denotation and signification of an element. As a consequence of such distinction, the ontology allows for the definition of diverse denotative criteria for the same representation, which could change based on traditions and perspective. Visual objects can be, in fact, polysemic and ambiguous, and it is not so easy to pin down a denotative or connotative meaning because they are very much context-dependent.
+
+/img/khmer_filonzana.png
+
+<center>**Figure 1**</center>
+<br/>
+The two figures above are clear examples. The first one is a column made in order to resemble an elephant, while the second one is the mask of the Filonzana, a typical figure in the carnival of Ottana, in Sardinia, Italy.
+While the column shows us the capacity for a "simple" element to denote something else, the mask is clearly a polysemic image which could be interpreted only if we do know how it is being used. Its analysis would, in fact, reveal the interconnections between the depicted character and the Parcae, the Moirai or the Fates in other cultures. Its representation, however, it is plain and only who has knowledge of the rite would be able to characterise its meaning, therefore the act of interpretation it is implicit in its recognition and assignment of status.
+
+For such reasons, the model clearly separates the identity of the object and its subject matter. Moreover, while providing the means for expressing the relationships between a representation and its subject(s) (the process), the ontology does not provide any type of subject-based classification, but rely on the ones already present and widely accepted by the art historical community, such as [Iconclass](http://www.iconclass.org/help/lod), the [Warburg Classification](https://warburg.libguides.com/classification) or the Thesaurus Iconographique by Garnier.  
+
+The core of the ontology has been developed working with two very different projects, the documentation of the Panagia Phorbiotissa church in Cyprus and the mapping of the Berenson photo archive of the Harvard University Center for Italian Renaissance Studies. The analysis of two different visual traditions, Byzantine and Western Art, has helped the development of shared characterisation of the classes and properties which, at the time of writing, covers use cases coming from both a research and a classificatory perspective.
  
 
 
@@ -30,41 +40,71 @@ They correspond respectively to letters “E” and “P” in the CIDOC CRM nam
 Inverse properties share the same identifier, the letter K followed by the same number, plus the character "i" (inverse).
 
 ## Graphical Overview
-
-/img/vir.png
+<br/>
+/img/vir.svg
+<br/>
+<center><small>Figure 2 — Graphical Overview of the classes and properties of VIR</small></center>
 
 ## Class and property usage examples
 
-In this section we present diverse examples in order to illustrate how VIR can be used to encode information about diverse visual items.   
+In this section, we present different examples in order to illustrate how VIR can be used to encode information about diverse visual items. In order to make clear the potential of the ontology, we will use diverse representations of St. George, a culturally widespread subject. 
 
-The first example is about a wall painting present in the Narthex of the church of Panagia Phorbiotissa in Asinou, in the Trodos mountain of Cyprus. It is the panel of "Anastasia and Anastasia". 
+### Statue
 
-/img/NEW_symbolic.png  
+The first example is a simple one, the modelling of the [statue of St George slaying the dragon](https://commons.wikimedia.org/wiki/File:Statue_of_St_George_in_Berlin.JPG)  in Berlin. Having already presented in the [Graphical Overview] the prefix used, for readability purpose we will omit this information in the next examples.  
+<br/> 
+/img/st_george_berlin.svg   
+<br/> 
+<center><small>Figure 3</small></center>  
+
+The mapping in Figure 2 presents an overview of the classification of a statue through a (IC12) Visual Recognition event. The classification is purely visual and assign a representation to an object, defining the (IC10) features and (IC16) character it portrays. The classificatory act help us track the provenance of the statements, differentiating diverse recognitions carried out by different agents, which do not share the same knowledge of the classified object. 
+
+### Painted flask
+
+The second example is about the information of a beautiful [ceramic Flask](http://id.lib.harvard.edu/images/olvwork245986/urn-3:FHCL:426930/catalog) coming from Ottoman Turkey.
+
+<br/>
+/img/flask.svg
+<br/>
+<center><small>Figure 4</small></center>  
+
+The flask presents two sides, with two different representations, a standing woman and the depiction of St. George on horseback. Both representations appear in the mapping but slightly differently. For the saint, it has been used the modelling proposed in Figure 3 the statue in Berlin, but only two attributes have been recognised in this case, the horse and the spear. The other representation has been described using the property Denote, a shortcut of the full path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation. In this examples, the statue of Saint George has been classified in relation to two of its Attribute (IC10), which are modelled using a controlled vocabulary. It is important to state that the type here does not identify the attribute depicted but its iconographical type. 
+
+### Photo Archive
+
+The third example is about the photograph of the work of art ["St. George killing the dragon"](https://commons.wikimedia.org/wiki/File:Vittore_carpaccio,_san_giorgio_e_il_drago_01.jpg) by Vittore Carpaccio. The aim of this example it is not to map the information about the original work of art, or the origin of the photo, but only on the iconographical attribution and representation. The mapping is a bit more complicated than the one above, therefore it appears divided into two parts, **a** and **b**. Part **a** presents a mapping of the information about the attribution of the artwork.
+
+<br/>
+/img/carpaccio_note.svg
+<br/>
+<center><small>Figure 5a</small></center>  
+
+The mapping describes two events, the recognition of the representation in the recto and, consequently, the inscription in the Verso of the photograph of the note "With (but not) Carpaccio". The recto and verso of a photograph is described using two VIR classes which, in respect to the classic physical features, allows for clearly stating the front/back relation between the two.
+The inscription is described as a (E12) production event, which results in the engraving of a set of sign in the verso, which carries a (E33) linguistic object. 
+
+<br/>
+/img/carpaccio.svg
+<br/>
+<center><small>Figure 5b</small></center>  
+
+The figure 5b above does complete the information in figure 5a, describing the visual information present in the photo. Several attributes were identified in this representation (dragons, princesses, lakes, vessels, castle), and two of them defined as symbolic. The dragon symbolizes the lust, while the castle the city of Silene in Libya, the place where, in the [Golden Legend](https://en.wikipedia.org/wiki/Saint_George_and_the_Dragon#Golden_Legend), St. George killed the dragon. 
+
+### Preparatory sketches
+
+Representation, sometimes at least, have to be seen as the result of a long process which involves preliminary studies and sketches of what, in the end, would be the final version of an artwork. This fourth example presents the mapping of the information about a preparatory [sketch](https://commons.wikimedia.org/wiki/File:Vittore_carpaccio,_san_giorgio_e_il_drago,_disegno_uffizi.jpg) and the [final version](https://it.wikipedia.org/wiki/File:Vittore_carpaccio,_trionfo_di_san_giorgio_01.jpg) of an artwork using the example of the Triumph of St. George by Vittore Carpaccio. 
+
+<br/>
+/img/prototype.svg
+<br/>
+<center><small>Figure 6</small></center>
+
+The mapping in figure 6 clearly present the relationship between the preparatory sketch and the final version, establishing not only a relation, K4 has visual prototype, between the two, but a relationship type. The aim of this property is to relate artwork with their derivations whatever their type. A copy is to be interpreted as using the original as its prototype, as much as an artwork use the drawing as its original form. For such reason, all the diverse type of prototypical form can be modelled using the K4.1 property and a type.
+
+### Diverse representations
+
+Other cases where VIR can be extremely useful would include the description of similar iconographical types which differ in attributes/features, such as episodes having the same character but diverse denotative meaning (diverse episodes of the saint life), or similar attributes over very much diverse representations (St George killing a Dragon and St. Micheal killing a dragon). The examples are numerous and the time limited, but if some help is required the [issue section in the github repository of VIR](https://github.com/ncarboni/vir/issues) would be the best place to ask.
 
 
-*<small>Fig 1 — Mapping of the information about the visual recognition of the panel of Anastasia and Anastasia in Asinou, Cyprus</small>*  
-
-The example uses a specific wall painting present in the narthex of the Asinou Church. The panel is identified and described throughout a [IC12 Visual Recognition], which defined a specific portion of the wall as the [IC1 Iconographical Atom] carrying carrying two [IC9 Representation]s, Anastasia Samaralina and St. Anastasia.  
-The [IC12 Visual Recognition] is defined as an interpretation over a physical portion of the reality which classify it with the assignment of a specific meaning, in this case the two representations. The granularity of the recognition is, however, defined by the researchers, and the same [IC1 Iconographical Atom] can carry single or multiple representations depending on the interpretative action that has being carried out.
-
-
-/img/san_george_itatti.png
-
-*<small>Fig 2 — Mapping of the information about the St. George wall painting in Asinou, Cyprus</small>*
-
-The figure above present show the mapping of the [IC10 Attribute]s and [IC16 Character]s depicted in a [IC9 Representation]. The identified figure of "St. George killing the dragon" is recognised to have six attributes (castle, horses, lakes, spears, princess, dragon) and to portray the figure of Saint George. The number of attributes of a representation changes depending on the time and context of production, and no fixed amount is here intended.
-
-/img/asinou_personification.png
-
-*<small>Fig 3 — Mapping of the information about a Personification</small>*
-
-Figure 3 presents the mapping of the information about the depiction of a specific character, a [IC11 Personification], which is a human, or anthropomorphic figure, that represents an abstract idea or a concept.
-
-/img/prototype.png
-
-*<small>Fig 4 — Mapping of the information about a prototype</small>*
-
-This last example presents the mapping of the information about the prototype of a representation. In this case, the "Allegory of the Immaculate Conception" by Vasari is linked with a drawing previously made by the author and used as a preparatory sketch. The possibility to define the type of prototype is given using K4.1 has type, which allow to specify further information such as "after" as in this case, or "preparatory sketch" and others. 
 
 ## Classes
 
@@ -121,7 +161,7 @@ A set of features considered by a viewer more salient than others and used as a 
 
 + [K17 is attribute of (has attribute)](#k17): [IC9 Representation]
 + [K21 depict things of type (is depiction of attribute)]: E55 Type
-+ [K14 symbolize (has symbolic value)]: E90 Symbolic Object
++ [K14 symbolize (has symbolic value)]: E1 CRM Entity
 + [K15 has been used by (use feature)](#k15): E12 Production
 
 ### IC11 Personification
@@ -252,7 +292,7 @@ Subproperty: P56 bears feature
 
 The property indicates the presence of a verso in the described object.
 
-### K9 Assigned status to (has status assigned by)
+### K9 assigned status to (has status assigned by)
 
 Domain: [IC12 Visual Recognition] 
 Range: E18 Physical Thing   
@@ -261,7 +301,7 @@ Subproperty: P140 assigned attribute to (was attributed by)
 The property documents the assignment of status to a specific physical
 thing.
 
-### K10 On the base of (is basis for)
+### K10 on the base of (is basis for)
 
 Domain: E7 Activity  
 Range: E89 Propositional Object   
@@ -269,7 +309,7 @@ Subproperty: P16 used specific object (was used for)
 
 The property describes the source used for the status assignment.
 
-### K11 Assigned (was assigned by)
+### K11 assigned (was assigned by)
 
 Domain: [IC12 Visual Recognition] 
 Range: [IC9 Representation]   
@@ -281,7 +321,7 @@ event.
 ### K14 symbolize (has symbolic value)
 
 Domain: [IC10 Attribute]  
-Range: E90 Symbolic Object   
+Range: E1 CRM Entity   
 Subproperty: P138 Represents   
 
 The property indicates the symbolic value of the attribute presents in a representation.
@@ -326,23 +366,21 @@ Subproperty: P138 Represents
 
 This property indicates the membership of a personification in an iconographical object.
 
-### K23 Connote (is connotation of)
+### K23 connote (is connotation of)
 
 Domain: [IC9 Representation]    
 Range: [IC9 Representation]    
 Subproperty: P138 Represents   
 
-This property indicates the connotation relationships, formalized by Barthes, between a conceptual entity and an iconographical object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It
-doesn't offer any information about when and whom established the connotation relationship.
+This property indicates the connotation relationships, formalized by Barthes, between a conceptual entity and an iconographical object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It doesn't offer any information about when and whom established the connotation relationship.
 <a name="k24">
-### K24 Portray (is portrayed in)</a>
+### K24 portray (is portrayed in)</a>
 
 Domain: [IC9 Representation]  
 Range: [IC16 Character]  
 Subproperty: P138 Represents  
 
-This property put in relation an iconographical object with the
-portrayed character.
+This property put in relation an iconographical object with the portrayed character.
 
 ### K25 express (is abstraction of)
 
@@ -352,7 +390,7 @@ Subproperty: P138 Represents
 
 This property put in relation a symbolic object with a personification in a work of art.
 
-### K26 Has source (is source of)
+### K26 has source (is source of)
 
 Domain: [IC16 Character] 
 Range: E39 Actor   
@@ -360,7 +398,7 @@ Shortcut: E57 is based on
 
 This property associates an instance of IC16 Character with an instance of E39 Actor that the character is motivated by or is intended to represent.
 
-### K34 Illustrate (is illustrated by)
+### K34 illustrate (is illustrated by)
 
 Domain: [IC9 Representation]  
 Range: E73 Information Object   
