@@ -30,7 +30,8 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         rdfs:subClassOf crm:E36_Visual_Item, crm:E29_Design_or_Procedure ;
         rdfs:comment "A set of features considered by a viewer more salient than others and used as a key for the identification of a Representation. The attribute could correspond to iconographical elements or simple signs which the viewer uses to provide a stable identity to a visual object." ;
         rdfs:label "Iconographical Attribute" ;
-        skos:closeMatch <http://dbpedia.org/ontology/iconographicAttributes> .
+        skos:closeMatch <http://dbpedia.org/ontology/iconographicAttributes> ;
+        skos:closeMatch <https://www.wikidata.org/wiki/Q204231> .
     
     vir:IC16_Character a rdf:Class ;
         rdfs:subClassOf frbroo:F38_Character ;
@@ -40,17 +41,20 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
     vir:IC11_Personification a rdf:Class ;
         rdfs:subClassOf vir:IC16_Character ;
         rdfs:comment "A human, or anthropomorphic figure, that represents an abstract idea or a concept" ;
-        rdfs:label "Personification" .
+        rdfs:label "Personification" ;
+        skos:closeMatch <https://www.wikidata.org/wiki/Q207174> .
     
     vir:IC12_Visual_Recognition a rdf:Class ;
         rdfs:subClassOf crmsci:S4_Observation ;
         rdfs:comment "The activity of assigning the iconographical status to a man-made object, or to one of its parts. It takes into account the possibility to link it to a speech act or a document where the authoritative proposition is clearly made" ;
-        rdfs:label "Visual Recognition" .
+        rdfs:label "Visual Recognition" ;
+        skos:exactMatch <https://www.wikidata.org/wiki/Q9368452> .
     
     vir:IC19_Recto a rdf:Class ;
         rdfs:subClassOf crm:E26_Physical_Feature ;
         rdfs:comment "The front or face of a single sheet or the right-hand page of an open book. The feature is presents in object such as codex, books, pamphlets, documents, photographs and painting." ;
-        rdfs:label "Recto" .
+        rdfs:label "Recto" ;
+        skos:exactMatch <https://www.wikidata.org/wiki/Q9305022> .
     
     vir:IC1_Iconographical_Atom a rdf:Class ;
         rdfs:subClassOf crm:E25_Man-Made_Feature ;
@@ -68,7 +72,7 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         rdfs:label "Iconographical Object" .
     
     vir:PCK4_is_visual_prototype_of a rdf:Class ;
-            rdfs:subClassOf crm:PC0_Typed_CRM_Property ;
+        rdfs:subClassOf crm:PC0_Typed_CRM_Property ;
         rdfs:comment "n-ary construct to document the use of a specific prototypical example for an image. The nature of the relationships helps define a map of relationships between prototypical items used in the arts. To be used together with 'K4.1_prototypical_model'" .
         
 
