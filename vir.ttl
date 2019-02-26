@@ -10,7 +10,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
 <http://w3id.org/vir#> rdf:type owl:Ontology ;
-                        dc:creator> "Nicola Carboni" ;
+                        dc:creator "Nicola Carboni" ;
                         dc:date "2019-02-26"^^xsd:gYear ;
                         dc:description """This ontology, called VIR, is an extension of CIDOC-CRM created to sustain propositions on the nature of visual elements and permit these descriptions to be published on the Web.
 With the term visual element, we refer to those signs identified in the visual space as distinct and documentable units, and subject to an analytical interpretation.
@@ -104,7 +104,7 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
     vir:K14_symbolize a rdf:Property ;
         rdfs:domain vir:IC10_Attribute ;
         rdfs:comment "The property indicates the symbolic value of the attribute presents in a representation" ;
-        rdfs:label "Symbolize" ;
+        rdfs:label "symbolize" ;
         rdfs:range crm:E90_Symbolic_Object ;
         rdfs:subPropertyOf crm:P138_represents .
     
@@ -233,25 +233,11 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         rdfs:range crm:E90_Symbolic_Object ;
         rdfs:subPropertyOf crm:P138_represents .
     
-    vir:K25_symbolize a rdf:Property;
-        rdfs:domain vir:IC11_Personification;
-        rdfs:comment "This property put in relation a conceptual object with its personification in a work of art" ;
-        rdfs:label "symbolize"
-        rdfs:range crm:E90_Symbolic_Object;
-        rdfs:subPropertyOf crm:P138_represents;
-    
     vir:K25i_is_abstraction_of a rdf:Property ;
         rdfs:domain crm:E90_Symbolic_Object ;
-        rdfs:comment "This property put in relation a symbolic object with a personification in a work of art" ;
+        rdfs:comment "This property put in relation a symbolic object with a personification in a work of art." ;
         rdfs:label "is abstraction of" ;
         rdfs:range vir:IC10_Attribute ;
-        rdfs:subPropertyOf crm:P138i_has_representation .
-    
-    vir:K25i_is_personification_of a rdf:Property ;
-        rdfs:domain crm:E90_Symbolic_Object ;
-        rdfs:comment "This property put in relation a conceptual object with its personification in a work of art" ;
-        rdfs:label "is personification of" ;
-        rdfs:range vir:IC11_Personification ; 
         rdfs:subPropertyOf crm:P138i_has_representation .
     
     vir:K26_has_source a rdf:Property ;
