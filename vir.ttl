@@ -8,6 +8,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://w3id.org/vir#> rdf:type owl:Ontology ;
                         dc:creator "Nicola Carboni" ;
@@ -17,7 +19,9 @@ With the term visual element, we refer to those signs identified in the visual s
 The scope of this ontology is to s to provide a framework to support the identification, annotation and interconnections between diverse visual elements and presents and assist their documentation and retrieval. Specifically, the model aims to clarify the identity and the relation of these visual signs, providing the necessary classes to characterise their constituent elements, reference, symbolic content and source of interpretation.
 VIR expands on key entities and properties from CIDOC-CRM, introducing new classes and relationships responding to the visual and art historical community, specifically building up on the iconographical tradition. The result is a model which differentiates between interpretation and element identified, providing a clear distinction between denotation and signification of an element. As a consequence of such distinction, the ontology allows for the definition of diverse denotative criteria for the same representation, which could change based on traditions and perspective. Visual objects can be, in fact, polysemic and ambiguous, and it is not so easy to pin down a denotative or connotative meaning because they are very much context-dependent.""" ;
                         dc:rights "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)."@en ;
-                        dc:title "VIR - Visual Representation ontology"@en .
+                        dc:title "VIR - Visual Representation ontology"@en ;
+                        vann:preferredNamespacePrefix "vir" ;
+                        owl:versionInfo "1.1" .
 
 
 ### CLASSES
@@ -25,7 +29,8 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
     vir:IC10_Attribute a rdf:Class ;
         rdfs:subClassOf crm:E36_Visual_Item, crm:E29_Design_or_Procedure ;
         rdfs:comment "A set of features considered by a viewer more salient than others and used as a key for the identification of a Representation. The attribute could correspond to iconographical elements or simple signs which the viewer uses to provide a stable identity to a visual object." ;
-        rdfs:label "Iconographical Attribute" .
+        rdfs:label "Iconographical Attribute" ;
+        skos:closeMatch <http://dbpedia.org/ontology/iconographicAttributes> .
     
     vir:IC16_Character a rdf:Class ;
         rdfs:subClassOf frbroo:F38_Character ;
