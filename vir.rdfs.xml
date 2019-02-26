@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
-    xml:base="http://w3id.org/vir/" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+    xmlns:sci="http://www.ics.forth.gr/isl/CRMsci/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+    xmlns:frbr="http://iflastandards.info/ns/fr/frbr/frbroo/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xml:base="http://w3id.org/vir#" 
     xml:lang="en">
+
+    <owl:Ontology rdf:about="http://w3id.org/vir#">
+        <owl:imports rdf:resource="http://www.ics.forth.gr/isl/CRMsci/"/>
+        <owl:imports rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/"/>
+        <owl:imports rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicola Carboni</dc:creator>
+        <dc:title xml:lang="en">VIR - Visual Representation ontology</dc:title>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This ontology, called VIR, is an extension of CIDOC-CRM created to sustain propositions on the nature of visual elements and permit these descriptions to be published on the Web.
+With the term visual element, we refer to those signs identified in the visual space as distinct and documentable units, and subject to an analytical interpretation.
+The scope of this ontology is to s to provide a framework to support the identification, annotation and interconnections between diverse visual elements and presents and assist their documentation and retrieval. Specifically, the model aims to clarify the identity and the relation of these visual signs, providing the necessary classes to characterise their constituent elements, reference, symbolic content and source of interpretation.
+VIR expands on key entities and properties from CIDOC-CRM, introducing new classes and relationships responding to the visual and art historical community, specifically building up on the iconographical tradition. The result is a model which differentiates between interpretation and element identified, providing a clear distinction between denotation and signification of an element. As a consequence of such distinction, the ontology allows for the definition of diverse denotative criteria for the same representation, which could change based on traditions and perspective. Visual objects can be, in fact, polysemic and ambiguous, and it is not so easy to pin down a denotative or connotative meaning because they are very much context-dependent.</dc:description>
+        <dc:rights xml:lang="en">This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/).</dc:rights>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019-02-26</dc:date>
+</owl:Ontology>
 
     <rdf:Description rdf:about="K21_depict">
         <rdfs:comment>This property indicates the entity referred by the rvisual epresentation</rdfs:comment>
