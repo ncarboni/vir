@@ -14,6 +14,11 @@
         <rdfs:comment>A set of features considered by a viewer more salient than others and used as a key for the identification of a Representation. The attribute could correspond to iconographical elements or simple signs which the viewer uses to provide a stable identity to a visual object.</rdfs:comment>
         <rdfs:label xml:lang="en">Iconographical Attribute</rdfs:label>
     </rdfs:Class>
+    <rdfs:Class rdf:about="IC16_Character">
+        <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F38_Character"/>
+        <rdfs:comment>This class comprises fictional individuals, or groups, appearing in a representation. Each character portrayed can have a type, for example "Saint or "layman". Every saint portrayed is considered here as a character and not as an actor.</rdfs:comment>
+        <rdfs:label xml:lang="en">Character</rdfs:label>
+    </rdfs:Class>
     <rdfs:Class rdf:about="IC11_Personification">
         <rdfs:subClassOf rdf:resource="IC16_Character"/>
         <rdfs:comment>A human, or anthropomorphic figure, that represents an abstract idea or a concept</rdfs:comment>
