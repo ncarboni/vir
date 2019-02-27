@@ -13,7 +13,7 @@
 
 <http://w3id.org/vir#> rdf:type owl:Ontology ;
                         dc:creator "Nicola Carboni" ;
-                        dc:date "2019-02-26"^^xsd:gYear ;
+                        dc:date "2019-02-26" ;
                         dc:description """This ontology, called VIR, is an extension of CIDOC-CRM created to sustain propositions on the nature of visual elements and permit these descriptions to be published on the Web.
 With the term visual element, we refer to those signs identified in the visual space as distinct and documentable units, and subject to an analytical interpretation.
 The scope of this ontology is to s to provide a framework to support the identification, annotation and interconnections between diverse visual elements and presents and assist their documentation and retrieval. Specifically, the model aims to clarify the identity and the relation of these visual signs, providing the necessary classes to characterise their constituent elements, reference, symbolic content and source of interpretation.
@@ -21,6 +21,7 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
                         dc:rights "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)."@en ;
                         dc:title "VIR - Visual Representation ontology"@en ;
                         vann:preferredNamespacePrefix "vir" ;
+                        vann:preferredNamespaceUri "http://w3id.org/vir#" ;
                         owl:versionInfo "1.1" .
 
 
@@ -47,8 +48,7 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
     vir:IC12_Visual_Recognition a rdf:Class ;
         rdfs:subClassOf crmsci:S4_Observation ;
         rdfs:comment "The activity of assigning the iconographical status to a man-made object, or to one of its parts. It takes into account the possibility to link it to a speech act or a document where the authoritative proposition is clearly made" ;
-        rdfs:label "Visual Recognition" ;
-        skos:exactMatch <https://www.wikidata.org/wiki/Q9368452> .
+        rdfs:label "Visual Recognition" .
     
     vir:IC19_Recto a rdf:Class ;
         rdfs:subClassOf crm:E26_Physical_Feature ;
@@ -64,7 +64,8 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
     vir:IC20_Verso a rdf:Class ;
         rdfs:subClassOf crm:E26_Physical_Feature ;
         rdfs:comment "The back or underside of a single sheet of paper, or the left-hand page of an open book. The feature is presents in object such as codex, books, pamphlets, documents, photographs and painting." ;
-        rdfs:label "Verso" .
+        rdfs:label "Verso" ;
+        skos:exactMatch <https://www.wikidata.org/wiki/Q9368452> .
     
     vir:IC9_Representation a rdf:Class ;
         rdfs:subClassOf crm:E36_Visual_Item ;
