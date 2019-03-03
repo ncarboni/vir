@@ -22,6 +22,7 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
                         dc:title "VIR - Visual Representation ontology"@en ;
                         vann:preferredNamespacePrefix "vir" ;
                         vann:preferredNamespaceUri "http://w3id.org/vir#" ;
+                        rdfs:comment "On 03/03/2019 change the range of K11 to E36_Visual_Item in order to accomodate the description of the recognition of Attributes" ;
                         owl:versionInfo "1.1" .
 
 
@@ -101,11 +102,11 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         rdfs:domain vir:IC12_Visual_Recognition ;
         rdfs:comment "The property indicates the status assigned during the visual recognition event" ;
         rdfs:label "assigned" ;
-        rdfs:range vir:IC9_Representation ;
+        rdfs:range crm:E36_Visual_Item ;
         rdfs:subPropertyOf crm:P141_assigned .
     
     vir:K11i_was_assigned_by a rdf:Property ;
-        rdfs:domain vir:IC9_Representation ;
+        rdfs:domain crm:E36_Visual_Item ;
         rdfs:comment "The property indicates the status assigned during the visual recognition event" ;
         rdfs:label "was assigned by" ;
         rdfs:range vir:IC12_Visual_Recognition ;
