@@ -10,6 +10,8 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix lio: <https://w3id.org/lio/v1>
+
 
 <http://w3id.org/vir#> rdf:type owl:Ontology ;
                         dc:creator "Nicola Carboni" ;
@@ -71,7 +73,8 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
     vir:IC9_Representation a rdf:Class ;
         rdfs:subClassOf crm:E36_Visual_Item ;
         rdfs:comment "A visual item that represent the nuclear characteristic of a particular set of symbols associate with a cognitive type of a person, animal or concept" ;
-        rdfs:label "Iconographical Object" .
+        rdfs:label "Iconographical Object" ;
+        skos:exactMatch lio:PictorialElement .
     
     vir:PCK4_is_visual_prototype_of a rdf:Class ;
         rdfs:subClassOf crm:PC0_Typed_CRM_Property ;
