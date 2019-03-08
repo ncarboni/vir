@@ -10,7 +10,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix lio: <https://w3id.org/lio/v1>
+@prefix lio: <https://w3id.org/lio/v1> .
 
 
 <http://w3id.org/vir#> rdf:type owl:Ontology ;
