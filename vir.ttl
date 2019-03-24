@@ -72,8 +72,8 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
     
     vir:IC9_Representation a rdf:Class ;
         rdfs:subClassOf crm:E36_Visual_Item ;
-        rdfs:comment "A visual item that represent the nuclear characteristic of a particular set of symbols associate with a cognitive type of a person, animal or concept" ;
-        rdfs:label "Iconographical Object" ;
+        rdfs:comment "A single pictorial item or a part of it.  Single representations or region of the same representations are instance of this class." ;
+        rdfs:label "Representation" ;
         skos:exactMatch lio:PictorialElement .
     
     vir:PCK4_is_visual_prototype_of a rdf:Class ;
