@@ -172,14 +172,14 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
     
     vir:K20_forms_part_of a rdf:Property ;
         rdfs:domain vir:IC9_Representation ;
-        rdfs:comment "This property put in relation an iconographical object with a part of itself." ;
+        rdfs:comment "This property put in relation a representation with a part of itself." ;
         rdfs:label "forms part of" ;
         rdfs:range vir:IC9_Representation ;
         rdfs:subPropertyOf crm:P148_has_component .
     
     vir:K20i_is_composed_of a rdf:Property ;
         rdfs:domain vir:IC9_Representation ;
-        rdfs:comment "This property put in relation an iconographical object with a part of itself." ;
+        rdfs:comment "This property put in relation a representation with a part of itself." ;
         rdfs:label "is composed of" ;
         rdfs:range vir:IC9_Representation ;
         rdfs:subPropertyOf crm:P148i_is_component_of .
