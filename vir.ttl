@@ -84,7 +84,7 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
     ### PROPERTIES
 
 
-    vir:K4.1_prototypical_model a rdf:Property ;
+    vir:K4_1_prototypical_model a rdf:Property ;
             rdfs:domain vir:PCK4_is_visual_prototype_of ;
             rdfs:range crm:E55_Type .  
         
