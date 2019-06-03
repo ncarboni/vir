@@ -1,0 +1,278 @@
+<http://w3id.org/vir#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://w3id.org/vir#> <http://purl.org/dc/elements/1.1/creator> "Nicola Carboni" .
+<http://w3id.org/vir#> <http://purl.org/dc/elements/1.1/date> "2019-02-26" .
+<http://w3id.org/vir#> <http://purl.org/dc/elements/1.1/description> "This ontology, called VIR, is an extension of CIDOC-CRM created to sustain propositions on the nature of visual elements and permit these descriptions to be published on the Web.\nWith the term visual element, we refer to those signs identified in the visual space as distinct and documentable units, and subject to an analytical interpretation.\nThe scope of this ontology is to s to provide a framework to support the identification, annotation and interconnections between diverse visual elements and presents and assist their documentation and retrieval. Specifically, the model aims to clarify the identity and the relation of these visual signs, providing the necessary classes to characterise their constituent elements, reference, symbolic content and source of interpretation.\nVIR expands on key entities and properties from CIDOC-CRM, introducing new classes and relationships responding to the visual and art historical community, specifically building up on the iconographical tradition. The result is a model which differentiates between interpretation and element identified, providing a clear distinction between denotation and signification of an element. As a consequence of such distinction, the ontology allows for the definition of diverse denotative criteria for the same representation, which could change based on traditions and perspective. Visual objects can be, in fact, polysemic and ambiguous, and it is not so easy to pin down a denotative or connotative meaning because they are very much context-dependent." .
+<http://w3id.org/vir#> <http://purl.org/dc/elements/1.1/rights> "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)."@en .
+<http://w3id.org/vir#> <http://purl.org/dc/elements/1.1/title> "VIR - Visual Representation ontology"@en .
+<http://w3id.org/vir#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "vir" .
+<http://w3id.org/vir#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://w3id.org/vir#" .
+<http://w3id.org/vir#> <http://www.w3.org/2000/01/rdf-schema#comment> "On 03/03/2019 change the range of K11 to E36_Visual_Item in order to accomodate the description of the recognition of Attributes" .
+<http://w3id.org/vir#> <http://www.w3.org/2002/07/owl#versionInfo> "1.1" .
+<http://w3id.org/vir#IC10_Attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Class> .
+<http://w3id.org/vir#IC10_Attribute> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> .
+<http://w3id.org/vir#IC10_Attribute> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure> .
+<http://w3id.org/vir#IC10_Attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "A set of features considered by a viewer more salient than others and used as a key for the identification of a Representation. The attribute could correspond to iconographical elements or simple signs which the viewer uses to provide a stable identity to a visual object." .
+<http://w3id.org/vir#IC10_Attribute> <http://www.w3.org/2000/01/rdf-schema#label> "Iconographical Attribute" .
+<http://w3id.org/vir#IC10_Attribute> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/ontology/iconographicAttributes> .
+<http://w3id.org/vir#IC10_Attribute> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://www.wikidata.org/wiki/Q204231> .
+<http://w3id.org/vir#IC16_Character> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Class> .
+<http://w3id.org/vir#IC16_Character> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iflastandards.info/ns/fr/frbr/frbroo/F38_Character> .
+<http://w3id.org/vir#IC16_Character> <http://www.w3.org/2000/01/rdf-schema#comment> "This class comprises fictional individuals, or groups, appearing in a representation. Each character portrayed can have a type, for example 'Saint' or 'layman'. Every saint portrayed is considered here as a character and not as an actor." .
+<http://w3id.org/vir#IC16_Character> <http://www.w3.org/2000/01/rdf-schema#label> "Character" .
+<http://w3id.org/vir#IC11_Personification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Class> .
+<http://w3id.org/vir#IC11_Personification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/vir#IC16_Character> .
+<http://w3id.org/vir#IC11_Personification> <http://www.w3.org/2000/01/rdf-schema#comment> "A human, or anthropomorphic figure, that represents an abstract idea or a concept" .
+<http://w3id.org/vir#IC11_Personification> <http://www.w3.org/2000/01/rdf-schema#label> "Personification" .
+<http://w3id.org/vir#IC11_Personification> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://www.wikidata.org/wiki/Q207174> .
+<http://w3id.org/vir#IC12_Visual_Recognition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Class> .
+<http://w3id.org/vir#IC12_Visual_Recognition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/CRMsci/S4_Observation> .
+<http://w3id.org/vir#IC12_Visual_Recognition> <http://www.w3.org/2000/01/rdf-schema#comment> "The activity of assigning the iconographical status to a man-made object, or to one of its parts. It takes into account the possibility to link it to a speech act or a document where the authoritative proposition is clearly made" .
+<http://w3id.org/vir#IC12_Visual_Recognition> <http://www.w3.org/2000/01/rdf-schema#label> "Visual Recognition" .
+<http://w3id.org/vir#IC19_Recto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Class> .
+<http://w3id.org/vir#IC19_Recto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature> .
+<http://w3id.org/vir#IC19_Recto> <http://www.w3.org/2000/01/rdf-schema#comment> "The front or face of a single sheet or the right-hand page of an open book. The feature is presents in object such as codex, books, pamphlets, documents, photographs and painting." .
+<http://w3id.org/vir#IC19_Recto> <http://www.w3.org/2000/01/rdf-schema#label> "Recto" .
+<http://w3id.org/vir#IC19_Recto> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://www.wikidata.org/wiki/Q9305022> .
+<http://w3id.org/vir#IC1_Iconographical_Atom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Class> .
+<http://w3id.org/vir#IC1_Iconographical_Atom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature> .
+<http://w3id.org/vir#IC1_Iconographical_Atom> <http://www.w3.org/2000/01/rdf-schema#comment> "An Iconographical Atom is a physical arrangement of forms and colours created by human activity" .
+<http://w3id.org/vir#IC1_Iconographical_Atom> <http://www.w3.org/2000/01/rdf-schema#label> "Iconographical Atom" .
+<http://w3id.org/vir#IC20_Verso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Class> .
+<http://w3id.org/vir#IC20_Verso> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature> .
+<http://w3id.org/vir#IC20_Verso> <http://www.w3.org/2000/01/rdf-schema#comment> "The back or underside of a single sheet of paper, or the left-hand page of an open book. The feature is presents in object such as codex, books, pamphlets, documents, photographs and painting." .
+<http://w3id.org/vir#IC20_Verso> <http://www.w3.org/2000/01/rdf-schema#label> "Verso" .
+<http://w3id.org/vir#IC20_Verso> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://www.wikidata.org/wiki/Q9368452> .
+<http://w3id.org/vir#IC9_Representation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Class> .
+<http://w3id.org/vir#IC9_Representation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> .
+<http://w3id.org/vir#IC9_Representation> <http://www.w3.org/2000/01/rdf-schema#comment> "A single pictorial item or a part of it.  Single representations or region of the same representations are instance of this class." .
+<http://w3id.org/vir#IC9_Representation> <http://www.w3.org/2000/01/rdf-schema#label> "Representation" .
+<http://w3id.org/vir#IC9_Representation> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://w3id.org/lio/v1PictorialElement> .
+<http://w3id.org/vir#PCK4_is_visual_prototype_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Class> .
+<http://w3id.org/vir#PCK4_is_visual_prototype_of> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/PC0_Typed_CRM_Property> .
+<http://w3id.org/vir#PCK4_is_visual_prototype_of> <http://www.w3.org/2000/01/rdf-schema#comment> "n-ary construct to document the use of a specific prototypical example for an image. The nature of the relationships helps define a map of relationships between prototypical items used in the arts. To be used together with 'K4.1_prototypical_model'" .
+<http://w3id.org/vir#K4_1_prototypical_model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K4_1_prototypical_model> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#PCK4_is_visual_prototype_of> .
+<http://w3id.org/vir#K4_1_prototypical_model> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://w3id.org/vir#K10_on_the_base_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K10_on_the_base_of> <http://www.w3.org/2000/01/rdf-schema#comment> "The property describes the source used for the status assignment" .
+<http://w3id.org/vir#K10_on_the_base_of> <http://www.w3.org/2000/01/rdf-schema#label> "On the base of" .
+<http://w3id.org/vir#K10_on_the_base_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> .
+<http://w3id.org/vir#K10_on_the_base_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> .
+<http://w3id.org/vir#K10i_is_basis_for> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K10i_is_basis_for> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> .
+<http://w3id.org/vir#K10i_is_basis_for> <http://www.w3.org/2000/01/rdf-schema#comment> "The property describes the source used for the status assignment" .
+<http://w3id.org/vir#K10i_is_basis_for> <http://www.w3.org/2000/01/rdf-schema#label> "is based on" .
+<http://w3id.org/vir#K10i_is_basis_for> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for> .
+<http://w3id.org/vir#K11_assigned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K11_assigned> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC12_Visual_Recognition> .
+<http://w3id.org/vir#K11_assigned> <http://www.w3.org/2000/01/rdf-schema#comment> "The property indicates the status assigned during the visual recognition event" .
+<http://w3id.org/vir#K11_assigned> <http://www.w3.org/2000/01/rdf-schema#label> "assigned" .
+<http://w3id.org/vir#K11_assigned> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> .
+<http://w3id.org/vir#K11_assigned> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P141_assigned> .
+<http://w3id.org/vir#K11i_was_assigned_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K11i_was_assigned_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> .
+<http://w3id.org/vir#K11i_was_assigned_by> <http://www.w3.org/2000/01/rdf-schema#comment> "The property indicates the status assigned during the visual recognition event" .
+<http://w3id.org/vir#K11i_was_assigned_by> <http://www.w3.org/2000/01/rdf-schema#label> "was assigned by" .
+<http://w3id.org/vir#K11i_was_assigned_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC12_Visual_Recognition> .
+<http://w3id.org/vir#K11i_was_assigned_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by> .
+<http://w3id.org/vir#K14_symbolize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K14_symbolize> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC10_Attribute> .
+<http://w3id.org/vir#K14_symbolize> <http://www.w3.org/2000/01/rdf-schema#comment> "The property indicates the symbolic value of the attribute presents in a representation" .
+<http://w3id.org/vir#K14_symbolize> <http://www.w3.org/2000/01/rdf-schema#label> "symbolize" .
+<http://w3id.org/vir#K14_symbolize> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object> .
+<http://w3id.org/vir#K14_symbolize> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P138_represents> .
+<http://w3id.org/vir#K14i_has_symbolic_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K14i_has_symbolic_value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object> .
+<http://w3id.org/vir#K14i_has_symbolic_value> <http://www.w3.org/2000/01/rdf-schema#comment> "The property indicates the symbolic value of the attribute presents in a representation" .
+<http://w3id.org/vir#K14i_has_symbolic_value> <http://www.w3.org/2000/01/rdf-schema#label> "has symbolic value" .
+<http://w3id.org/vir#K14i_has_symbolic_value> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC10_Attribute> .
+<http://w3id.org/vir#K14i_has_symbolic_value> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation> .
+<http://w3id.org/vir#K15_use_feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K15_use_feature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E12_Production> .
+<http://w3id.org/vir#K15_use_feature> <http://www.w3.org/2000/01/rdf-schema#comment> "The property indicates the specific attribute used during the production of a visual object" .
+<http://w3id.org/vir#K15_use_feature> <http://www.w3.org/2000/01/rdf-schema#label> "use feature" .
+<http://w3id.org/vir#K15_use_feature> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC10_Attribute> .
+<http://w3id.org/vir#K15_use_feature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique> .
+<http://w3id.org/vir#K15i_has_been_used_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K15i_has_been_used_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC10_Attribute> .
+<http://w3id.org/vir#K15i_has_been_used_by> <http://www.w3.org/2000/01/rdf-schema#comment> "The property indicates the specific attribute used during the production of a visual object" .
+<http://w3id.org/vir#K15i_has_been_used_by> <http://www.w3.org/2000/01/rdf-schema#label> "has been used by" .
+<http://w3id.org/vir#K15i_has_been_used_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E12_Production> .
+<http://w3id.org/vir#K15i_has_been_used_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P33i_was_used_by> .
+<http://w3id.org/vir#K17_has_attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K17_has_attribute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K17_has_attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "This property associates an attribute with the iconographical object where it is depicted" .
+<http://w3id.org/vir#K17_has_attribute> <http://www.w3.org/2000/01/rdf-schema#label> "has attribute" .
+<http://w3id.org/vir#K17_has_attribute> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC10_Attribute> .
+<http://w3id.org/vir#K17_has_attribute> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> .
+<http://w3id.org/vir#K17i_is_attribute_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K17i_is_attribute_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC10_Attribute> .
+<http://w3id.org/vir#K17i_is_attribute_of> <http://www.w3.org/2000/01/rdf-schema#comment> "This property associates an attribute with the iconographical object where it is depicted" .
+<http://w3id.org/vir#K17i_is_attribute_of> <http://www.w3.org/2000/01/rdf-schema#label> "is attribute of" .
+<http://w3id.org/vir#K17i_is_attribute_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K17i_is_attribute_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of> .
+<http://w3id.org/vir#K1_denotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K1_denotes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> .
+<http://w3id.org/vir#K1_denotes> <http://www.w3.org/2000/01/rdf-schema#comment> "The property documents the assignment of an iconographical object to a specific physical man-made object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation" .
+<http://w3id.org/vir#K1_denotes> <http://www.w3.org/2000/01/rdf-schema#label> "Denote" .
+<http://w3id.org/vir#K1_denotes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> .
+<http://w3id.org/vir#K1_denotes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P65_shows_visual_item> .
+<http://w3id.org/vir#K1i_is_denoted_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K1i_is_denoted_by> <http://www.w3.org/2000/01/rdf-schema#comment> "The property documents the assignment of an iconographical object to a specific physical man-made object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation." .
+<http://w3id.org/vir#K1i_is_denoted_by> <http://www.w3.org/2000/01/rdf-schema#label> "is denoted by" .
+<http://w3id.org/vir#K1i_is_denoted_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> .
+<http://w3id.org/vir#K1i_is_denoted_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by> .
+<http://w3id.org/vir#K20_forms_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K20_forms_part_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K20_forms_part_of> <http://www.w3.org/2000/01/rdf-schema#comment> "This property put in relation a representation with a part of itself." .
+<http://w3id.org/vir#K20_forms_part_of> <http://www.w3.org/2000/01/rdf-schema#label> "forms part of" .
+<http://w3id.org/vir#K20_forms_part_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K20_forms_part_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P148_has_component> .
+<http://w3id.org/vir#K20i_is_composed_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K20i_is_composed_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K20i_is_composed_of> <http://www.w3.org/2000/01/rdf-schema#comment> "This property put in relation a representation with a part of itself." .
+<http://w3id.org/vir#K20i_is_composed_of> <http://www.w3.org/2000/01/rdf-schema#label> "is composed of" .
+<http://w3id.org/vir#K20i_is_composed_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K20i_is_composed_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P148i_is_component_of> .
+<http://w3id.org/vir#K21_depict_things_of_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K21_depict_things_of_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC10_Attribute> .
+<http://w3id.org/vir#K21_depict_things_of_type> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the type of object depicted by an iconographical attribute" .
+<http://w3id.org/vir#K21_depict_things_of_type> <http://www.w3.org/2000/01/rdf-schema#label> "depict things of type" .
+<http://w3id.org/vir#K21_depict_things_of_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://w3id.org/vir#K21_depict_things_of_type> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies> .
+<http://w3id.org/vir#K21i_is_depiction_of_attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K21i_is_depiction_of_attribute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://w3id.org/vir#K21i_is_depiction_of_attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the type of object depicted by an iconographical attribute" .
+<http://w3id.org/vir#K21i_is_depiction_of_attribute> <http://www.w3.org/2000/01/rdf-schema#label> "is depiction of attribute" .
+<http://w3id.org/vir#K21i_is_depiction_of_attribute> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC10_Attribute> .
+<http://w3id.org/vir#K21i_is_depiction_of_attribute> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by> .
+<http://w3id.org/vir#K22_has_personification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K22_has_personification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K22_has_personification> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the membership of a personification in an iconographical object" .
+<http://w3id.org/vir#K22_has_personification> <http://www.w3.org/2000/01/rdf-schema#label> "has personification" .
+<http://w3id.org/vir#K22_has_personification> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC11_Personification> .
+<http://w3id.org/vir#K22_has_personification> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P138_represents> .
+<http://w3id.org/vir#K22i_is_present_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K22i_is_present_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC16_Character> .
+<http://w3id.org/vir#K22i_is_present_in> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the membership of a personification in an iconographical object" .
+<http://w3id.org/vir#K22i_is_present_in> <http://www.w3.org/2000/01/rdf-schema#label> "is present in" .
+<http://w3id.org/vir#K22i_is_present_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K22i_is_present_in> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation> .
+<http://w3id.org/vir#K23_connote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K23_connote> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K23_connote> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the connotation relationships, formalised by Barthes, between a conceptual entity and an iconographical object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It doesn&#8217;t offer any information about when and whom established the connotation relationship" .
+<http://w3id.org/vir#K23_connote> <http://www.w3.org/2000/01/rdf-schema#label> "connote" .
+<http://w3id.org/vir#K23_connote> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K23_connote> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P138_represents> .
+<http://w3id.org/vir#K23i_is_connotation_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K23i_is_connotation_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K23i_is_connotation_of> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the connotation relationships, formalised by Barthes, between a conceptual entity and an iconographical object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It doesn&#8217;t offer any information about when and whom established the connotation relationship" .
+<http://w3id.org/vir#K23i_is_connotation_of> <http://www.w3.org/2000/01/rdf-schema#label> "is connoted by" .
+<http://w3id.org/vir#K23i_is_connotation_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K23i_is_connotation_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation> .
+<http://w3id.org/vir#K24_portray> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K24_portray> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K24_portray> <http://www.w3.org/2000/01/rdf-schema#comment> "This property put in relation an iconographical object with the portrayed character." .
+<http://w3id.org/vir#K24_portray> <http://www.w3.org/2000/01/rdf-schema#label> "portray" .
+<http://w3id.org/vir#K24_portray> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC16_Character> .
+<http://w3id.org/vir#K24_portray> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P138_represents> .
+<http://w3id.org/vir#K24i_is_portrayed_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K24i_is_portrayed_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC16_Character> .
+<http://w3id.org/vir#K24i_is_portrayed_in> <http://www.w3.org/2000/01/rdf-schema#comment> "This property put in relation an iconographical object with the portrayed character." .
+<http://w3id.org/vir#K24i_is_portrayed_in> <http://www.w3.org/2000/01/rdf-schema#label> "is portrayed by" .
+<http://w3id.org/vir#K24i_is_portrayed_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K24i_is_portrayed_in> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation> .
+<http://w3id.org/vir#K25_express> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K25_express> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC10_Attribute> .
+<http://w3id.org/vir#K25_express> <http://www.w3.org/2000/01/rdf-schema#comment> "This property put in relation a symbolic object with a personification in a work of art" .
+<http://w3id.org/vir#K25_express> <http://www.w3.org/2000/01/rdf-schema#label> "express" .
+<http://w3id.org/vir#K25_express> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object> .
+<http://w3id.org/vir#K25_express> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P138_represents> .
+<http://w3id.org/vir#K25i_is_abstraction_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K25i_is_abstraction_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object> .
+<http://w3id.org/vir#K25i_is_abstraction_of> <http://www.w3.org/2000/01/rdf-schema#comment> "This property put in relation a symbolic object with a personification in a work of art." .
+<http://w3id.org/vir#K25i_is_abstraction_of> <http://www.w3.org/2000/01/rdf-schema#label> "is abstraction of" .
+<http://w3id.org/vir#K25i_is_abstraction_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC10_Attribute> .
+<http://w3id.org/vir#K25i_is_abstraction_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation> .
+<http://w3id.org/vir#K26_has_source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K26_has_source> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC16_Character> .
+<http://w3id.org/vir#K26_has_source> <http://www.w3.org/2000/01/rdf-schema#comment> "This property associates an instance of IC16 Character with an instance of E39 Actor that the character is motivated by or is intended to represent" .
+<http://w3id.org/vir#K26_has_source> <http://www.w3.org/2000/01/rdf-schema#label> "has source" .
+<http://w3id.org/vir#K26_has_source> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/fr/frbr/frbroo/R57_is_based_on> .
+<http://w3id.org/vir#K26i_is_source_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K26i_is_source_of> <http://www.w3.org/2000/01/rdf-schema#comment> "This property associates an instance of IC16 Character with an instance of E39 Actor that the character is motivated by or is intended to represent" .
+<http://w3id.org/vir#K26i_is_source_of> <http://www.w3.org/2000/01/rdf-schema#label> "is source of" .
+<http://w3id.org/vir#K26i_is_source_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC16_Character> .
+<http://w3id.org/vir#K26i_is_source_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/fr/frbr/frbroo/R57i_is_basis_for> .
+<http://w3id.org/vir#K34_illustrate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K34_illustrate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K34_illustrate> <http://www.w3.org/2000/01/rdf-schema#comment> "This property associate an information object to a iconographical representation" .
+<http://w3id.org/vir#K34_illustrate> <http://www.w3.org/2000/01/rdf-schema#label> "illustrate" .
+<http://w3id.org/vir#K34_illustrate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
+<http://w3id.org/vir#K34_illustrate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P138_represents> .
+<http://w3id.org/vir#K34i_is_illustrated_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K34i_is_illustrated_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
+<http://w3id.org/vir#K34i_is_illustrated_by> <http://www.w3.org/2000/01/rdf-schema#comment> "This property associate an information object to a iconographical representation" .
+<http://w3id.org/vir#K34i_is_illustrated_by> <http://www.w3.org/2000/01/rdf-schema#label> "is illustrated by" .
+<http://w3id.org/vir#K34i_is_illustrated_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K34i_is_illustrated_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation> .
+<http://w3id.org/vir#K4_is_visual_prototype_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K4_is_visual_prototype_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K4_is_visual_prototype_of> <http://www.w3.org/2000/01/rdf-schema#comment> "The property documents the use of a specific prototypical example for an image. The nature of the relationships helps define a map of relationships between prototypical items used in the arts." .
+<http://w3id.org/vir#K4_is_visual_prototype_of> <http://www.w3.org/2000/01/rdf-schema#label> "is visual prototype of" .
+<http://w3id.org/vir#K4_is_visual_prototype_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K4_is_visual_prototype_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to> .
+<http://w3id.org/vir#K4i_has_visual_prototype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K4i_has_visual_prototype> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K4i_has_visual_prototype> <http://www.w3.org/2000/01/rdf-schema#comment> "The property documents the use of a specific prototypical example for an image. The nature of the relationships helps define a map of relationships between prototypical items used in the arts." .
+<http://w3id.org/vir#K4i_has_visual_prototype> <http://www.w3.org/2000/01/rdf-schema#label> "has visual prototype" .
+<http://w3id.org/vir#K4i_has_visual_prototype> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC9_Representation> .
+<http://w3id.org/vir#K4i_has_visual_prototype> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> .
+<http://w3id.org/vir#K6_has_back> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K6_has_back> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC19_Recto> .
+<http://w3id.org/vir#K6_has_back> <http://www.w3.org/2000/01/rdf-schema#comment> "The property documents the presence of a Verso or a Recto, respectively in the back or in the front of an object" .
+<http://w3id.org/vir#K6_has_back> <http://www.w3.org/2000/01/rdf-schema#label> "has back" .
+<http://w3id.org/vir#K6_has_back> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC20_Verso> .
+<http://w3id.org/vir#K6_has_back> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> .
+<http://w3id.org/vir#K6i_has_front> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K6i_has_front> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC20_Verso> .
+<http://w3id.org/vir#K6i_has_front> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC19_Recto> .
+<http://w3id.org/vir#K6i_has_front> <http://www.w3.org/2000/01/rdf-schema#comment> "The property documents the presence of a Verso or a Recto, respectively in the back or in the front of an object." .
+<http://w3id.org/vir#K6i_has_front> <http://www.w3.org/2000/01/rdf-schema#label> "has front" .
+<http://w3id.org/vir#K6i_has_front> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> .
+<http://w3id.org/vir#K7_is_recto_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K7_is_recto_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC19_Recto> .
+<http://w3id.org/vir#K7_is_recto_of> <http://www.w3.org/2000/01/rdf-schema#comment> "The property indicates the presence of a recto in the described object" .
+<http://w3id.org/vir#K7_is_recto_of> <http://www.w3.org/2000/01/rdf-schema#label> "is recto of" .
+<http://w3id.org/vir#K7_is_recto_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<http://w3id.org/vir#K7_is_recto_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P56_bears_feature> .
+<http://w3id.org/vir#K7i_has_recto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K7i_has_recto> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<http://w3id.org/vir#K7i_has_recto> <http://www.w3.org/2000/01/rdf-schema#comment> "The property indicates the presence of a recto in the described object" .
+<http://w3id.org/vir#K7i_has_recto> <http://www.w3.org/2000/01/rdf-schema#label> "has recto" .
+<http://w3id.org/vir#K7i_has_recto> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC19_Recto> .
+<http://w3id.org/vir#K7i_has_recto> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P56i_is_found_on> .
+<http://w3id.org/vir#K8_is_verso_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K8_is_verso_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC20_Verso> .
+<http://w3id.org/vir#K8_is_verso_of> <http://www.w3.org/2000/01/rdf-schema#comment> "The property indicates the presence of a verso in the described object" .
+<http://w3id.org/vir#K8_is_verso_of> <http://www.w3.org/2000/01/rdf-schema#label> "is verso of" .
+<http://w3id.org/vir#K8_is_verso_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<http://w3id.org/vir#K8_is_verso_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P56_bears_feature> .
+<http://w3id.org/vir#K8i_has_verso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K8i_has_verso> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<http://w3id.org/vir#K8i_has_verso> <http://www.w3.org/2000/01/rdf-schema#comment> "The property indicates the presence of a verso in the described object" .
+<http://w3id.org/vir#K8i_has_verso> <http://www.w3.org/2000/01/rdf-schema#label> "has verso" .
+<http://w3id.org/vir#K8i_has_verso> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC20_Verso> .
+<http://w3id.org/vir#K8i_has_verso> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P56i_is_found_on> .
+<http://w3id.org/vir#K9_Assigned_status_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K9_Assigned_status_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC12_Visual_Recognition> .
+<http://w3id.org/vir#K9_Assigned_status_to> <http://www.w3.org/2000/01/rdf-schema#comment> "The property documents the assignment of status to a specific physical thing" .
+<http://w3id.org/vir#K9_Assigned_status_to> <http://www.w3.org/2000/01/rdf-schema#label> "Assigned status to" .
+<http://w3id.org/vir#K9_Assigned_status_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> .
+<http://w3id.org/vir#K9_Assigned_status_to> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to> .
+<http://w3id.org/vir#K9i_has_status_assigned_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://w3id.org/vir#K9i_has_status_assigned_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> .
+<http://w3id.org/vir#K9i_has_status_assigned_by> <http://www.w3.org/2000/01/rdf-schema#comment> "The property documents the assignment of status to a specific physical thing." .
+<http://w3id.org/vir#K9i_has_status_assigned_by> <http://www.w3.org/2000/01/rdf-schema#label> "has status assigned by" .
+<http://w3id.org/vir#K9i_has_status_assigned_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC12_Visual_Recognition> .
+<http://w3id.org/vir#K9i_has_status_assigned_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by> .
