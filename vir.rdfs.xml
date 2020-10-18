@@ -108,7 +108,7 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by"/>
     </rdf:Property>
     <rdf:Property rdf:about="K14_symbolize">
-        <rdfs:domain rdf:resource="IC10_Attribute"/>
+        <rdfs:domain rdf:resource="IC9_Representation"/>
         <rdfs:comment>The property indicates the symbolic value of the attribute presents in a representation</rdfs:comment>
         <rdfs:label xml:lang="en">Symbolize</rdfs:label>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>

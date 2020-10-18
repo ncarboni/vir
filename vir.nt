@@ -76,7 +76,7 @@
 <http://w3id.org/vir#K11i_was_assigned_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/vir#IC12_Visual_Recognition> .
 <http://w3id.org/vir#K11i_was_assigned_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by> .
 <http://w3id.org/vir#K14_symbolize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://w3id.org/vir#K14_symbolize> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC10_Attribute> .
+<http://w3id.org/vir#K14_symbolize> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/vir#IC9_Representation> .
 <http://w3id.org/vir#K14_symbolize> <http://www.w3.org/2000/01/rdf-schema#comment> "The property indicates the symbolic value of the attribute presents in a representation" .
 <http://w3id.org/vir#K14_symbolize> <http://www.w3.org/2000/01/rdf-schema#label> "symbolize" .
 <http://w3id.org/vir#K14_symbolize> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object> .
