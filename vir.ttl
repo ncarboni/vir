@@ -116,7 +116,7 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         rdfs:subPropertyOf crm:P141i_was_assigned_by .
     
     vir:K14_symbolize a rdf:Property ;
-        rdfs:domain vir:IC9_Representation ;
+        rdfs:domain crm:E36_Visual_Item ;
         rdfs:comment "The property indicates the symbolic value of the attribute presents in a representation" ;
         rdfs:label "symbolize" ;
         rdfs:range crm:E90_Symbolic_Object ;
@@ -126,7 +126,7 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         rdfs:domain crm:E90_Symbolic_Object ;
         rdfs:comment "The property indicates the symbolic value of the attribute presents in a representation" ;
         rdfs:label "has symbolic value" ;
-        rdfs:range vir:IC10_Attribute ;
+        rdfs:range crm:E36_Visual_Item ;
         rdfs:subPropertyOf crm:P138i_has_representation .
     
     vir:K15_use_feature a rdf:Property ;
