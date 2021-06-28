@@ -14,6 +14,9 @@
 
 
 <http://w3id.org/vir#> rdf:type owl:Ontology ;
+                        owl:imports <http://www.ics.forth.gr/isl/CRMsci/> ;
+                        owl:imports <http://iflastandards.info/ns/fr/frbr/frbroo/>;
+                        owl:imports <http://www.cidoc-crm.org/cidoc-crm/>;
                         dc:creator "Nicola Carboni" ;
                         dc:date "2019-02-26" ;
                         dc:description """This ontology, called VIR, is an extension of CIDOC-CRM created to sustain propositions on the nature of visual elements and permit these descriptions to be published on the Web.
@@ -24,8 +27,8 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
                         dc:title "VIR - Visual Representation ontology"@en ;
                         vann:preferredNamespacePrefix "vir" ;
                         vann:preferredNamespaceUri "http://w3id.org/vir#" ;
-                        rdfs:comment "On 03/03/2019 change the range of K11 to E36_Visual_Item in order to accomodate the description of the recognition of Attributes" ;
-                        owl:versionInfo "1.1" .
+                        rdfs:comment "On 03/03/2019 change the range of K11 to E36_Visual_Item in order to accomodate the description of the recognition of Attributes. On 28/06/2021 added IC21_Similarity_Statement, together with K35_assigned_similarity_to and K36_is_similar_to to describe visual similarities annotations" ;
+                        owl:versionInfo "1.2" .
 
 
 ### CLASSES
@@ -81,6 +84,12 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         rdfs:comment "n-ary construct to document the use of a specific prototypical example for an image. The nature of the relationships helps define a map of relationships between prototypical items used in the arts. To be used together with 'K4.1_prototypical_model'" .
         
 
+    vir:IC21_Similarity_Statement a rdf:Class ;
+        rdfs:subClassOf crmsci:S4_Observation ;
+        rdfs:comment "The activity of associating two or more symbolic objects (representation, text, characters, musical score, identifiable structure) using one or more dimension of resemblances between each other. The similarity encoded here is always the result of a thought process performed by an agent, whatever source he may use (his vision, the result of a computed operation, secondary sources) and it is always to be considered belonging to the domain of the visual. The encoding of other type of similarities should use other constructs. Qualities used to assess and state the resemblance are to be encoded as a E55 Type." ;
+        rdfs:label "Similarity Statement" .
+
+
     ### PROPERTIES
 
 
@@ -88,7 +97,6 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
             rdfs:domain vir:PCK4_is_visual_prototype_of ;
             rdfs:range crm:E55_Type .  
         
-
     vir:K10_on_the_base_of a rdf:Property ;
         rdfs:comment "The property describes the source used for the status assignment" ;
         rdfs:label "On the base of" ;
@@ -349,4 +357,23 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         rdfs:label "has status assigned by" ;
         rdfs:range vir:IC12_Visual_Recognition ;
         rdfs:subPropertyOf crm:P140i_was_attributed_by .
-    
+
+    vir:K35_assigned_similarity_to a rdf:Property ;
+        rdfs:domain vir:IC21_Similarity_Statement ;
+        rdfs:range crm:E90_Symbolic_Object ;
+        rdfs:comment "The property document the assignment of the status of similarity to a symbolic object" ;
+        rdfs:subPropertyOf crm:P140_assigned_attribute_to .
+
+    vir:K35i_has_similarity_assigned_by a rdf:Property ;
+        rdfs:domain crm:E90_Symbolic_Object ;
+        rdfs:range vir:IC21_Similarity_Statement ;
+        rdfs:comment "The property document the assignment of the status of similarity to a symbolic object" ;
+        rdfs:subPropertyOf crm:P140i_was_attributed_by .
+
+    vir:K36_is_similar_to a rdf:Property ;
+        rdfs:domain crm:E90_Symbolic_Object ;
+        rdfs:range crm:E90_Symbolic_Object ;
+        rdfs:comment "The property documents the assignment of Similarity status of a symbolic object. It is a shortcut for the more fully developed path IC21 Similarity Statement assign similarity (K35) to two E90 Symbolic Objects ." ;
+        rdfs:subPropertyOf crm:P65_shows_visual_item .
+
+

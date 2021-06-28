@@ -30,7 +30,7 @@
                 <dt>IRI:</dt>
                 <dd>http://w3id.org/vir</dd>
                 <dt>Current version:</dt>
-                <dd>0.9</dd>
+                <dd>1.2</dd>
                 <dt>Imported ontologies</dt>
                 <dd>CIDOC-CRM: <a href="http://www.cidoc-crm.org/cidoc-crm/">http://www.cidoc-crm.org/cidoc-crm/</a></dd>
                 <dd>FRBRoo: <a href="http://iflastandards.info/ns/fr/frbr/frbroo/">http://iflastandards.info/ns/fr/frbr/frbroo</a></dd>
@@ -83,6 +83,7 @@
 <li><a href="#IC16_Character">IC16 Character</a></li>
 <li><a href="#IC19_Recto">IC19 Recto</a></li>
 <li><a href="#IC20_Verso">IC20 Verso</a></li>
+<li><a href="#IC21_Similarity_Statement">IC21 Similarity Statement</a></li>
 </ul></li>
 <li><a href="#properties">Properties</a>
 
@@ -107,6 +108,8 @@
 <li><a href="#K25_symbolize">K25 express (is abstraction of)</a></li>
 <li><a href="#K26_has_source">K26 has source (is source of)</a></li>
 <li><a href="#K34_illustrate">K34 illustrate (is illustrated by)</a></li>
+<li><a href="#K35_assigned_similarity_to">K35 assigned similarity to (has similarity assigned by)</a></li>
+<li><a href="#K36_is_similar_to">K36 is similar to</a></li>
 </ul></li>
 </ul>
 </div>
@@ -375,6 +378,29 @@ representation. Each character portrayed can have a type, for example "Saint" or
 </ul>
 
 
+
+<h3 id="IC21_Similarity_Statement">IC21 Similarity Statement</h3>
+
+<p>Subclass of: <strong>S4 Observation</strong></p>
+
+<p>The activity of associating two or more symbolic objects (representation, text, characters, musical score, identifiable structure) using one or more dimension of resemblances between each other. The similarity encoded here is always the result of a thought process performed by an agent, whatever source he may use (his vision, the result of a computed operation, secondary sources) and it is always to be considered belonging to the domain of the visual. The encoding of other type of similarities should use other constructs.
+Qualities used to assess and state the resemblance are to be encoded as a E55 Type.</p>
+
+<p><strong>Example</strong>:</p>
+
+<ul>
+<li>The recognition of the similarity between the Venus of Urbino by Titian and the Dresden Venus by Giorgione</li>
+</ul>
+
+<h5 id="proprieties">Proprieties:</h5>
+<li><a href="#K35_assigned_similarity_to">K35 assigned similarity to (has similarity assigned by)</a></li>
+<li><a href="#K36_is_similar_to">K36 is similar to</a></li>
+
+<ul>
+<li><a href="#K35_assigned_similarity_to">K35 assigned similarity to (has similarity assigned by)</a>: E90 Symbolic Object</li>
+<li><a href="#K36_is_similar_to">K36 is similar to</a>: E90 Symbolic Object</li>
+</ul>
+
 <!-- PROPERTIES -->
 
 
@@ -542,6 +568,32 @@ Range: E73 Information Object<br/>
 Subproperty: P67 Refers to </p>
 
 <p>This property associates an information object to a iconographical representation.</p>
+
+
+
+
+<h3 id="K35_assigned_similarity_to">K35 assigned similarity to (has similarity assigned by)</h3>
+
+<p>Domain: <a href="#IC21_Similarity_Statement">IC21 Similarity Statement</a><br/>
+Range: E90 Symbolic Object<br/>
+Subproperty: P140 Assigned Attribute To </p>
+
+<p>The property document the assignment of the status of visual similarity to a symbolic object.</p>
+
+
+
+<h3 id="K36_is_similar_to">K36 is similar to</h3>
+
+<p>Domain: E90 Symbolic Object<br/>
+Range: E90 Symbolic Object<br/>
+Subproperty: P65 Shows Visual Item </p>
+
+<p>The property documents the assignment of Similarity status of a symbolic object. It is a shortcut for the more fully developed path IC21 Similarity Statement assign similarity (K35) to two E90 Symbolic Objects.</p>
+
+
+
+
+
 <!-- ##END MARKED WRAPPER## -->
 
     </div>
