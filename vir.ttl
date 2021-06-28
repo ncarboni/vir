@@ -361,7 +361,7 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
     vir:K35_assigned_similarity_to a rdf:Property ;
         rdfs:domain vir:IC21_Similarity_Statement ;
         rdfs:range crm:E90_Symbolic_Object ;
-        rdfs:comment "The property document the assignment of the status of similarity to a symbolic object" ;
+        rdfs:comment "The property document the assignment of the status of visual similarity to a symbolic object" ;
         rdfs:subPropertyOf crm:P140_assigned_attribute_to .
 
     vir:K35i_has_similarity_assigned_by a rdf:Property ;
