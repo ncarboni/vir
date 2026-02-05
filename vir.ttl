@@ -33,58 +33,58 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
 
 ### CLASSES
 
-    vir:IC10_Attribute a rdf:Class ;
+    vir:IC10_Attribute a rdfs:Class ;
         rdfs:subClassOf crm:E36_Visual_Item, crm:E29_Design_or_Procedure ;
         rdfs:comment "A set of features considered by a viewer more salient than others and used as a key for the identification of a Representation. The attribute could correspond to iconographical elements or simple signs which the viewer uses to provide a stable identity to a visual object." ;
         rdfs:label "Iconographical Attribute" ;
         skos:closeMatch <http://dbpedia.org/ontology/iconographicAttributes> ;
         skos:closeMatch <https://www.wikidata.org/wiki/Q204231> .
     
-    vir:IC16_Character a rdf:Class ;
+    vir:IC16_Character a rdfs:Class ;
         rdfs:subClassOf frbroo:F38_Character ;
         rdfs:comment "This class comprises fictional individuals, or groups, appearing in a representation. Each character portrayed can have a type, for example 'Saint' or 'layman'. Every saint portrayed is considered here as a character and not as an actor." ;
         rdfs:label "Character" . 
     
-    vir:IC11_Personification a rdf:Class ;
+    vir:IC11_Personification a rdfs:Class ;
         rdfs:subClassOf vir:IC16_Character ;
         rdfs:comment "A human, or anthropomorphic figure, that represents an abstract idea or a concept" ;
         rdfs:label "Personification" ;
         skos:closeMatch <https://www.wikidata.org/wiki/Q207174> .
     
-    vir:IC12_Visual_Recognition a rdf:Class ;
+    vir:IC12_Visual_Recognition a rdfs:Class ;
         rdfs:subClassOf crmsci:S4_Observation ;
         rdfs:comment "The activity of assigning the iconographical status to a man-made object, or to one of its parts. It takes into account the possibility to link it to a speech act or a document where the authoritative proposition is clearly made" ;
         rdfs:label "Visual Recognition" .
     
-    vir:IC19_Recto a rdf:Class ;
+    vir:IC19_Recto a rdfs:Class ;
         rdfs:subClassOf crm:E26_Physical_Feature ;
         rdfs:comment "The front or face of a single sheet or the right-hand page of an open book. The feature is presents in object such as codex, books, pamphlets, documents, photographs and painting." ;
         rdfs:label "Recto" ;
         skos:exactMatch <https://www.wikidata.org/wiki/Q9305022> .
     
-    vir:IC1_Iconographical_Atom a rdf:Class ;
+    vir:IC1_Iconographical_Atom a rdfs:Class ;
         rdfs:subClassOf crm:E25_Man-Made_Feature ;
         rdfs:comment "An Iconographical Atom is a physical arrangement of forms and colours created by human activity" ;
         rdfs:label "Iconographical Atom" .
     
-    vir:IC20_Verso a rdf:Class ;
+    vir:IC20_Verso a rdfs:Class ;
         rdfs:subClassOf crm:E26_Physical_Feature ;
         rdfs:comment "The back or underside of a single sheet of paper, or the left-hand page of an open book. The feature is presents in object such as codex, books, pamphlets, documents, photographs and painting." ;
         rdfs:label "Verso" ;
         skos:exactMatch <https://www.wikidata.org/wiki/Q9368452> .
     
-    vir:IC9_Representation a rdf:Class ;
+    vir:IC9_Representation a rdfs:Class ;
         rdfs:subClassOf crm:E36_Visual_Item ;
         rdfs:comment "A single pictorial item or a part of it.  Single representations or region of the same representations are instance of this class." ;
         rdfs:label "Representation" ;
         skos:exactMatch lio:PictorialElement .
     
-    vir:PCK4_is_visual_prototype_of a rdf:Class ;
+    vir:PCK4_is_visual_prototype_of a rdfs:Class ;
         rdfs:subClassOf crm:PC0_Typed_CRM_Property ;
         rdfs:comment "n-ary construct to document the use of a specific prototypical example for an image. The nature of the relationships helps define a map of relationships between prototypical items used in the arts. To be used together with 'K4.1_prototypical_model'" .
         
 
-    vir:IC21_Similarity_Statement a rdf:Class ;
+    vir:IC21_Similarity_Statement a rdfs:Class ;
         rdfs:subClassOf crmsci:S4_Observation ;
         rdfs:comment "The activity of associating two or more symbolic objects (representation, text, characters, musical score, identifiable structure) using one or more dimension of resemblances between each other. The similarity encoded here is always the result of a thought process performed by an agent, whatever source he may use (his vision, the result of a computed operation, secondary sources) and it is always to be considered belonging to the domain of the visual. The encoding of other type of similarities should use other constructs. Qualities used to assess and state the resemblance are to be encoded as a E55 Type." ;
         rdfs:label "Similarity Statement" .
@@ -156,27 +156,31 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         rdfs:comment "This property associates an attribute with the iconographical object where it is depicted" ;
         rdfs:label "has attribute" ;
         rdfs:range vir:IC10_Attribute ;
-        rdfs:subPropertyOf crm:P106_is_composed_of .
+        rdfs:subPropertyOf crm:P106_is_composed_of ;
+        owl:inverseOf vir:K17i_is_attribute_of .
     
     vir:K17i_is_attribute_of a rdf:Property ;
         rdfs:domain vir:IC10_Attribute ;
         rdfs:comment "This property associates an attribute with the iconographical object where it is depicted" ;
         rdfs:label "is attribute of" ;
         rdfs:range vir:IC9_Representation ;
-        rdfs:subPropertyOf crm:P106i_forms_part_of .
+        rdfs:subPropertyOf crm:P106i_forms_part_of ;
+        owl:inverseOf vir:K17_has_attribute .
     
     vir:K1_denotes a rdf:Property ;
         rdfs:domain crm:E18_Physical_Thing ;
         rdfs:comment "The property documents the assignment of an iconographical object to a specific physical man-made object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation" ;
         rdfs:label "Denote" ;
         rdfs:range crm:E36_Visual_Item ;
-        rdfs:subPropertyOf crm:P65_shows_visual_item .
+        rdfs:subPropertyOf crm:P65_shows_visual_item ;
+        owl:inverseOf vir:K1i_is_denoted_by .
     
     vir:K1i_is_denoted_by a rdf:Property ;
         rdfs:comment "The property documents the assignment of an iconographical object to a specific physical man-made object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation." ;
         rdfs:label "is denoted by" ;
         rdfs:range crm:E18_Physical_Thing ;
-        rdfs:subPropertyOf crm:P65i_is_shown_by .
+        rdfs:subPropertyOf crm:P65i_is_shown_by ;
+        owl:inverseOf vir:K1_denotes .
     
     vir:K20_forms_part_of a rdf:Property ;
         rdfs:domain vir:IC9_Representation ;
