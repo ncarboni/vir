@@ -1,0 +1,1134 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://w3id.org/vir#"
+     xml:base="http://w3id.org/vir"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:vir="http://w3id.org/vir#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:voaf="http://purl.org/vocommons/voaf#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
+     xmlns:schema="https://schema.org/"
+     xmlns:cidoc-crm="http://www.cidoc-crm.org/cidoc-crm/">
+    <owl:Ontology rdf:about="http://w3id.org/vir#">
+        <dc:creator>Nicola Carboni</dc:creator>
+        <dc:description>This ontology, called VIR, is an extension of CIDOC-CRM created to sustain propositions on the nature of visual elements and permit these descriptions to be published on the Web.
+With the term visual element, we refer to those signs identified in the visual space as distinct and documentable units, and subject to an analytical interpretation.
+The scope of this ontology is to s to provide a framework to support the identification, annotation and interconnections between diverse visual elements and presents and assist their documentation and retrieval. Specifically, the model aims to clarify the identity and the relation of these visual signs, providing the necessary classes to characterise their constituent elements, reference, symbolic content and source of interpretation.
+VIR expands on key entities and properties from CIDOC-CRM, introducing new classes and relationships responding to the visual and art historical community, specifically building up on the iconographic tradition. The result is a model which differentiates between interpretation and element identified, providing a clear distinction between denotation and signification of an element. As a consequence of such distinction, the ontology allows for the definition of diverse denotative criteria for the same representation, which could change based on traditions and perspective. Visual objects can be, in fact, polysemic and ambiguous, and it is not so easy to pin down a denotative or connotative meaning because they are very much context-dependent.</dc:description>
+        <dc:rights xml:lang="en">This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/).</dc:rights>
+        <dc:title xml:lang="en">Visual Representation Ontology</dc:title>
+        <terms:abstract>CIDOC-CRM Extension for the annotation of visual features and iconographic details</terms:abstract>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-26</terms:created>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-4912-4947"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-21</terms:modified>
+        <vann:preferredNamespacePrefix>vir</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>http://w3id.org/vir#</vann:preferredNamespaceUri>
+        <voaf:extends rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
+        <rdfs:comment>On 2026-02-20 removed the class Verso/Recto and relative properties. On 2019-03-03 change the range of K11 to E36_Visual_Item in order to accomodate the description of the recognition of Attributes. On 28/06/2021 added IC21_Similarity_Statement, together with K35_assigned_similarity_to and K36_is_similar_to to describe visual similarities annotations</rdfs:comment>
+        <owl:versionInfo>1.3</owl:versionInfo>
+        <schema:codeRepository rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ncarboni/vir</schema:codeRepository>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://iflastandards.info/ns/fr/frbr/frbroo/R57_is_based_on -->
+
+
+    <owl:AnnotationProperty rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R57_is_based_on"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://purl.org/vocommons/voaf#extends -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocommons/voaf#extends"/>
+    
+
+
+    <!-- http://w3id.org/vir#K10_on_the_base_of -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K10_on_the_base_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K11_assigned -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K11_assigned">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P141_assigned"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K14_symbolize -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K14_symbolize">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K15_use_feature -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K15_use_feature">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K17_has_attribute -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K17_has_attribute">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K1_denotes -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K1_denotes">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P65_shows_visual_item"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K20_forms_part_of -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K20_forms_part_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K21_depict_things_of_type -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K21_depict_things_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K22_has_personification -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K22_has_personification">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K23_connote -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K23_connote">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K24_portray -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K24_portray">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K25_express -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K25_express">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K26_has_source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K26_has_source">
+        <rdfs:subPropertyOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/R57_is_based_on"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K34_illustrate -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K34_illustrate">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K4_is_visual_prototype_of -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K4_is_visual_prototype_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K9_Assigned_status_to -->
+
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/vir#K9_Assigned_status_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P138_represents -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P141_assigned -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P141_assigned"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P148_has_component -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P65_shows_visual_item -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P65_shows_visual_item"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P67_refers_to -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- https://schema.org/codeRepository -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/codeRepository"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://iflastandards.info/ns/fr/frbr/frbroo/R57i_is_basis_for -->
+
+
+    <owl:ObjectProperty rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R57i_is_basis_for"/>
+    
+
+
+    <!-- http://w3id.org/vir#K10_on_the_base_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K10_on_the_base_of">
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K10i_is_basis_for"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K10i_is_basis_for -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K10i_is_basis_for">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+        <rdfs:comment>The property describes the source used for the status assignment</rdfs:comment>
+        <rdfs:label>is based on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K11_assigned -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K11_assigned">
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K11i_was_assigned_by"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC12_Visual_Recognition"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K11i_was_assigned_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K11i_was_assigned_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC12_Visual_Recognition"/>
+        <rdfs:comment>The property indicates the status assigned during the visual recognition event</rdfs:comment>
+        <rdfs:label>was assigned by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K14_symbolize -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K14_symbolize">
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K14i_has_symbolic_value"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K14i_has_symbolic_value -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K14i_has_symbolic_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+        <rdfs:comment>The property indicates the symbolic value of the attribute presents in a representation</rdfs:comment>
+        <rdfs:label>has symbolic value</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K15_use_feature -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K15_use_feature">
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K15i_has_been_used_by"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC10_Attribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K15i_has_been_used_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K15i_has_been_used_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P33i_was_used_by"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC10_Attribute"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+        <rdfs:comment>The property indicates the specific attribute used during the production of a visual object</rdfs:comment>
+        <rdfs:label>has been used by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K17_has_attribute -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K17_has_attribute">
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC10_Attribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K17i_is_attribute_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K17i_is_attribute_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of"/>
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K17_has_attribute"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC10_Attribute"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:comment>This property associates an attribute with the iconographic object where it is depicted</rdfs:comment>
+        <rdfs:label>is attribute of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K1_denotes -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K1_denotes">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K1i_is_denoted_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K1i_is_denoted_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by"/>
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K1_denotes"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+        <rdfs:comment>The property documents the assignment of an iconographic object to a specific physical man-made object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation.</rdfs:comment>
+        <rdfs:label>is denoted by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K20_forms_part_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K20_forms_part_of">
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K20i_is_composed_of"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K20i_is_composed_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K20i_is_composed_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P148i_is_component_of"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:comment>This property put in relation a representation with a part of itself.</rdfs:comment>
+        <rdfs:label>is composed of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K21_depict_things_of_type -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K21_depict_things_of_type">
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC10_Attribute"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K21i_is_depiction_of_attribute -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K21i_is_depiction_of_attribute">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by"/>
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K21_depict_things_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC10_Attribute"/>
+        <rdfs:comment>This property indicates the type of object depicted by an iconographic attribute</rdfs:comment>
+        <rdfs:label>is depiction of attribute</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K22_has_personification -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K22_has_personification">
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC11_Personification"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K22i_is_present_in -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K22i_is_present_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K22_has_personification"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC16_Character"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:comment>This property indicates the membership of a personification in an iconographic object</rdfs:comment>
+        <rdfs:label>is present in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K23_connote -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K23_connote">
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K23i_is_connotation_of"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K23i_is_connotation_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K23i_is_connotation_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:comment>This property indicates the connotation relationships, formalised by Barthes, between a conceptual entity and an iconographic object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It doesn&amp;#8217;t offer any information about when and whom established the connotation relationship</rdfs:comment>
+        <rdfs:label>is connoted by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K24_portray -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K24_portray">
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K24i_is_portrayed_in"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC16_Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K24i_is_portrayed_in -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K24i_is_portrayed_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC16_Character"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:comment>This property put in relation an iconographic object with the portrayed character.</rdfs:comment>
+        <rdfs:label>is portrayed by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K25_express -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K25_express">
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC10_Attribute"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K25i_is_abstraction_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K25i_is_abstraction_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K25_express"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC10_Attribute"/>
+        <rdfs:comment>This property put in relation a symbolic object with a personification in a work of art.</rdfs:comment>
+        <rdfs:label>is abstraction of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K26_has_source -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K26_has_source">
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC16_Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K26i_is_source_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K26i_is_source_of">
+        <rdfs:subPropertyOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/R57i_is_basis_for"/>
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K26_has_source"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC16_Character"/>
+        <rdfs:comment>This property associates an instance of IC16 Character with an instance of E39 Actor that the character is motivated by or is intended to represent</rdfs:comment>
+        <rdfs:label>is source of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K34_illustrate -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K34_illustrate">
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K34i_is_illustrated_by"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K34i_is_illustrated_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K34i_is_illustrated_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:comment>This property associate an information object to a iconographic representation</rdfs:comment>
+        <rdfs:label>is illustrated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K4_is_visual_prototype_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K4_is_visual_prototype_of">
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K4i_has_visual_prototype"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K4i_has_visual_prototype -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K4i_has_visual_prototype">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC9_Representation"/>
+        <rdfs:comment>The property documents the use of a specific prototypical example for an image. The nature of the relationships helps define a map of relationships between prototypical items used in the arts.</rdfs:comment>
+        <rdfs:label>has visual prototype</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K9_Assigned_status_to -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K9_Assigned_status_to">
+        <owl:inverseOf rdf:resource="http://w3id.org/vir#K9i_has_status_assigned_by"/>
+        <rdfs:domain rdf:resource="http://w3id.org/vir#IC12_Visual_Recognition"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/vir#K9i_has_status_assigned_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/vir#K9i_has_status_assigned_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+        <rdfs:range rdf:resource="http://w3id.org/vir#IC12_Visual_Recognition"/>
+        <rdfs:comment>The property documents the assignment of status to a specific physical thing.</rdfs:comment>
+        <rdfs:label>has status assigned by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P148i_is_component_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P148i_is_component_of"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P33i_was_used_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P33i_was_used_by"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://iflastandards.info/ns/fr/frbr/frbroo/F38_Character -->
+
+
+    <owl:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/F38_Character"/>
+    
+
+
+    <!-- http://w3id.org/vir#IC10_Attribute -->
+
+
+    <owl:Class rdf:about="http://w3id.org/vir#IC10_Attribute">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+        <rdfs:comment>A set of features considered by a viewer more salient than others and used as a key for the identification of a Representation. The attribute could correspond to iconographic elements or simple signs which the viewer uses to provide a stable identity to a visual object.</rdfs:comment>
+        <rdfs:label>Iconographic Attribute</rdfs:label>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/ontology/iconographicAttributes"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q204231"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/vir#IC11_Personification -->
+
+
+    <owl:Class rdf:about="http://w3id.org/vir#IC11_Personification">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/vir#IC16_Character"/>
+        <rdfs:comment>A human, or anthropomorphic figure, that represents an abstract idea or a concept</rdfs:comment>
+        <rdfs:label>Personification</rdfs:label>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q207174"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/vir#IC12_Visual_Recognition -->
+
+
+    <owl:Class rdf:about="http://w3id.org/vir#IC12_Visual_Recognition">
+        <rdfs:subClassOf rdf:resource="http://www.ics.forth.gr/isl/CRMsci/S4_Observation"/>
+        <rdfs:comment>The activity of assigning the iconographic status to a man-made object, or to one of its parts. It takes into account the possibility to link it to a speech act or a document where the authoritative proposition is clearly made</rdfs:comment>
+        <rdfs:label>Visual Recognition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/vir#IC16_Character -->
+
+
+    <owl:Class rdf:about="http://w3id.org/vir#IC16_Character">
+        <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F38_Character"/>
+        <rdfs:comment>This class comprises fictional individuals, or groups, appearing in a representation. Each character portrayed can have a type, for example &apos;Saint&apos; or &apos;layman&apos;. Every saint portrayed is considered here as a character and not as an actor.</rdfs:comment>
+        <rdfs:label>Character</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/vir#IC1_Iconographic_Atom -->
+
+
+    <owl:Class rdf:about="http://w3id.org/vir#IC1_Iconographic_Atom">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature"/>
+        <rdfs:comment>An Iconographic Atom is a physical arrangement of forms and colours created by human activity</rdfs:comment>
+        <rdfs:label>Iconographic Atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/vir#IC9_Representation -->
+
+
+    <owl:Class rdf:about="http://w3id.org/vir#IC9_Representation">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+        <rdfs:comment>A single pictorial item or a part of it.  Single representations or region of the same representations are instance of this class.</rdfs:comment>
+        <rdfs:label>Representation</rdfs:label>
+        <skos:exactMatch rdf:resource="https://w3id.org/lio/v1PictorialElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E12_Production -->
+
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing -->
+
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature -->
+
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure -->
+
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item -->
+
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E55_Type -->
+
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object -->
+
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object -->
+
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object -->
+
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/CRMsci/S4_Observation -->
+
+
+    <owl:Class rdf:about="http://www.ics.forth.gr/isl/CRMsci/S4_Observation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://orcid.org/0000-0003-0454-7145 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-0454-7145">
+        <foaf:name xml:lang="en">Nicola Carboni</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://w3id.org/vir#K10_on_the_base_of">
+        <rdfs:comment>The property describes the source used for the status assignment</rdfs:comment>
+        <rdfs:label>on the base of</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K11_assigned">
+        <rdfs:comment>The property indicates the status assigned during the visual recognition event</rdfs:comment>
+        <rdfs:label>assigned</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K14_symbolize">
+        <rdfs:comment>The property indicates the symbolic value of the attribute presents in a representation</rdfs:comment>
+        <rdfs:label>symbolize</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K15_use_feature">
+        <rdfs:comment>The property indicates the specific attribute used during the production of a visual object</rdfs:comment>
+        <rdfs:label>use feature</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K17_has_attribute">
+        <rdfs:comment>This property associates an attribute with the iconographic object where it is depicted</rdfs:comment>
+        <rdfs:label>has attribute</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K1_denotes">
+        <rdfs:comment>The property documents the assignment of an iconographic object to a specific physical man-made object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation</rdfs:comment>
+        <rdfs:label>denote</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K20_forms_part_of">
+        <rdfs:comment>This property put in relation a representation with a part of itself.</rdfs:comment>
+        <rdfs:label>forms part of</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K21_depict_things_of_type">
+        <rdfs:comment>This property indicates the type of object depicted by an iconographic attribute</rdfs:comment>
+        <rdfs:label>depict things of type</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K22_has_personification">
+        <rdfs:comment>This property indicates the membership of a personification in an iconographic object</rdfs:comment>
+        <rdfs:label>has personification</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K23_connote">
+        <rdfs:comment>This property indicates the connotation relationships, formalised by Barthes, between a conceptual entity and an iconographic object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It doesn&amp;#8217;t offer any information about when and whom established the connotation relationship</rdfs:comment>
+        <rdfs:label>connote</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K24_portray">
+        <rdfs:comment>This property put in relation an iconographic object with the portrayed character.</rdfs:comment>
+        <rdfs:label>portray</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K25_express">
+        <rdfs:comment>This property put in relation a symbolic object with a personification in a work of art</rdfs:comment>
+        <rdfs:label>express</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K26_has_source">
+        <rdfs:comment>This property associates an instance of IC16 Character with an instance of E39 Actor that the character is motivated by or is intended to represent</rdfs:comment>
+        <rdfs:label>has source</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K34_illustrate">
+        <rdfs:comment>This property associate an information object to a iconographic representation</rdfs:comment>
+        <rdfs:label>illustrate</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K4_is_visual_prototype_of">
+        <rdfs:comment>The property documents the use of a specific prototypical example for an image. The nature of the relationships helps define a map of relationships between prototypical items used in the arts.</rdfs:comment>
+        <rdfs:label>is visual prototype of</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/vir#K9_Assigned_status_to">
+        <rdfs:comment>The property documents the assignment of status to a specific physical thing</rdfs:comment>
+        <rdfs:label>assigned status to</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,1182 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.ics.forth.gr/isl/CRMsci", "http://iflastandards.info/ns/fr/frbr/frbroo", "http://w3id.org/vir", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.cidoc-crm.org/cidoc-crm" ],
+    "title" : {
+      "en" : "Visual Representation Ontology"
+    },
+    "iri" : "http://w3id.org/vir#",
+    "version" : "1.3",
+    "author" : [ "Nicola Carboni", "https://orcid.org/0000-0003-4912-4947" ],
+    "description" : {
+      "undefined" : "This ontology, called VIR, is an extension of CIDOC-CRM created to sustain propositions on the nature of visual elements and permit these descriptions to be published on the Web.\nWith the term visual element, we refer to those signs identified in the visual space as distinct and documentable units, and subject to an analytical interpretation.\nThe scope of this ontology is to s to provide a framework to support the identification, annotation and interconnections between diverse visual elements and presents and assist their documentation and retrieval. Specifically, the model aims to clarify the identity and the relation of these visual signs, providing the necessary classes to characterise their constituent elements, reference, symbolic content and source of interpretation.\nVIR expands on key entities and properties from CIDOC-CRM, introducing new classes and relationships responding to the visual and art historical community, specifically building up on the iconographic tradition. The result is a model which differentiates between interpretation and element identified, providing a clear distinction between denotation and signification of an element. As a consequence of such distinction, the ontology allows for the definition of diverse denotative criteria for the same representation, which could change based on traditions and perspective. Visual objects can be, in fact, polysemic and ambiguous, and it is not so easy to pin down a denotative or connotative meaning because they are very much context-dependent."
+    },
+    "comments" : {
+      "undefined" : "On 2026-02-20 removed the class Verso/Recto and relative properties. On 2019-03-03 change the range of K11 to E36_Visual_Item in order to accomodate the description of the recognition of Attributes. On 28/06/2021 added IC21_Similarity_Statement, together with K35_assigned_similarity_to and K36_is_similar_to to describe visual similarities annotations"
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Nicola Carboni",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0003-4912-4947",
+        "type" : "iri"
+      } ],
+      "extends" : [ {
+        "identifier" : "extends",
+        "language" : "undefined",
+        "value" : "http://www.cidoc-crm.org/cidoc-crm/",
+        "type" : "iri"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2019-02-26",
+        "type" : "label"
+      } ],
+      "rights" : [ {
+        "identifier" : "rights",
+        "language" : "en",
+        "value" : "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/).",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "vir",
+        "type" : "label"
+      } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2026-02-21",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "http://w3id.org/vir#",
+        "type" : "label"
+      } ],
+      "abstract" : [ {
+        "identifier" : "abstract",
+        "language" : "undefined",
+        "value" : "CIDOC-CRM Extension for the annotation of visual features and iconographic details",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.3",
+        "type" : "label"
+      } ],
+      "codeRepository" : [ {
+        "identifier" : "codeRepository",
+        "language" : "undefined",
+        "value" : "https://github.com/ncarboni/vir",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Visual Representation Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E89_Propositional_Object"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://w3id.org/vir#IC10_Attribute",
+    "baseIri" : "http://w3id.org/vir",
+    "instances" : 0,
+    "annotations" : {
+      "closeMatch" : [ {
+        "identifier" : "closeMatch",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/wiki/Q204231",
+        "type" : "iri"
+      }, {
+        "identifier" : "closeMatch",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/ontology/iconographicAttributes",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IC10_Attribute",
+      "undefined" : "Iconographic Attribute"
+    },
+    "comment" : {
+      "undefined" : "A set of features considered by a viewer more salient than others and used as a key for the identification of a Representation. The attribute could correspond to iconographic elements or simple signs which the viewer uses to provide a stable identity to a visual object."
+    },
+    "id" : "2",
+    "superClasses" : [ "15", "24" ]
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E12_Production",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E12_Production"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://w3id.org/vir#IC11_Personification",
+    "baseIri" : "http://w3id.org/vir",
+    "instances" : 0,
+    "annotations" : {
+      "closeMatch" : [ {
+        "identifier" : "closeMatch",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/wiki/Q207174",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IC11_Personification",
+      "undefined" : "Personification"
+    },
+    "comment" : {
+      "undefined" : "A human, or anthropomorphic figure, that represents an abstract idea or a concept"
+    },
+    "id" : "29",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E29_Design_or_Procedure"
+    },
+    "subClasses" : [ "2" ],
+    "attributes" : [ "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://w3id.org/vir#IC12_Visual_Recognition",
+    "baseIri" : "http://w3id.org/vir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IC12_Visual_Recognition",
+      "undefined" : "Visual Recognition"
+    },
+    "comment" : {
+      "undefined" : "The activity of assigning the iconographic status to a man-made object, or to one of its parts. It takes into account the possibility to link it to a speech act or a document where the authoritative proposition is clearly made"
+    },
+    "id" : "42",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E73_Information_Object"
+    },
+    "attributes" : [ "external" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E90_Symbolic_Object"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E55_Type"
+    },
+    "attributes" : [ "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "34",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://w3id.org/vir#IC16_Character",
+    "baseIri" : "http://w3id.org/vir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IC16_Character",
+      "undefined" : "Character"
+    },
+    "subClasses" : [ "29" ],
+    "comment" : {
+      "undefined" : "This class comprises fictional individuals, or groups, appearing in a representation. Each character portrayed can have a type, for example 'Saint' or 'layman'. Every saint portrayed is considered here as a character and not as an actor."
+    },
+    "id" : "11",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/F38_Character",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "F38_Character"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "20",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E36_Visual_Item"
+    },
+    "subClasses" : [ "7", "2" ],
+    "attributes" : [ "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "10",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E25_Man-Made_Feature"
+    },
+    "subClasses" : [ "59" ],
+    "attributes" : [ "external" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E18_Physical_Thing"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.ics.forth.gr/isl/CRMsci/S4_Observation",
+    "baseIri" : "http://www.ics.forth.gr/isl/CRMsci",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "S4_Observation"
+    },
+    "subClasses" : [ "42" ],
+    "attributes" : [ "external" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://w3id.org/vir#IC9_Representation",
+    "baseIri" : "http://w3id.org/vir",
+    "instances" : 0,
+    "annotations" : {
+      "exactMatch" : [ {
+        "identifier" : "exactMatch",
+        "language" : "undefined",
+        "value" : "https://w3id.org/lio/v1PictorialElement",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IC9_Representation",
+      "undefined" : "Representation"
+    },
+    "comment" : {
+      "undefined" : "A single pictorial item or a part of it.  Single representations or region of the same representations are instance of this class."
+    },
+    "id" : "7",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://w3id.org/vir#IC1_Iconographic_Atom",
+    "baseIri" : "http://w3id.org/vir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IC1_Iconographic_Atom",
+      "undefined" : "Iconographic Atom"
+    },
+    "comment" : {
+      "undefined" : "An Iconographic Atom is a physical arrangement of forms and colours created by human activity"
+    },
+    "id" : "59",
+    "superClasses" : [ "60" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://w3id.org/vir#K25i_is_abstraction_of",
+    "inverse" : "3",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "K25i_is_abstraction_of",
+      "undefined" : "is abstraction of"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "This property put in relation a symbolic object with a personification in a work of art."
+    },
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://w3id.org/vir#K20_forms_part_of",
+    "inverse" : "8",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "K20_forms_part_of",
+      "undefined" : "forms part of"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "This property put in relation a representation with a part of itself."
+    },
+    "attributes" : [ "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://w3id.org/vir#K26i_is_source_of",
+    "inverse" : "12",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "K26i_is_source_of",
+      "undefined" : "is source of"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "10",
+    "comment" : {
+      "undefined" : "This property associates an instance of IC16 Character with an instance of E39 Actor that the character is motivated by or is intended to represent"
+    },
+    "attributes" : [ "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://w3id.org/vir#K1i_is_denoted_by",
+    "inverse" : "17",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "K1i_is_denoted_by",
+      "undefined" : "is denoted by"
+    },
+    "superproperty" : [ "18" ],
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "The property documents the assignment of an iconographic object to a specific physical man-made object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation."
+    },
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "P106i_forms_part_of"
+    },
+    "domain" : "20",
+    "subproperty" : [ "21" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "P137i_is_exemplified_by"
+    },
+    "domain" : "20",
+    "subproperty" : [ "23" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://w3id.org/vir#K26_has_source",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "K26_has_source",
+      "undefined" : "has source"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "This property associates an instance of IC16 Character with an instance of E39 Actor that the character is motivated by or is intended to represent"
+    },
+    "attributes" : [ "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "P65i_is_shown_by"
+    },
+    "domain" : "20",
+    "subproperty" : [ "14" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://w3id.org/vir#K14_symbolize",
+    "inverse" : "26",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "K14_symbolize",
+      "undefined" : "symbolize"
+    },
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "The property indicates the symbolic value of the attribute presents in a representation"
+    },
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://w3id.org/vir#K17i_is_attribute_of",
+    "inverse" : "27",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "K17i_is_attribute_of",
+      "undefined" : "is attribute of"
+    },
+    "superproperty" : [ "19" ],
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "This property associates an attribute with the iconographic object where it is depicted"
+    },
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://w3id.org/vir#K22_has_personification",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "K22_has_personification",
+      "undefined" : "has personification"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "This property indicates the membership of a personification in an iconographic object"
+    },
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "P16i_was_used_for"
+    },
+    "domain" : "20",
+    "subproperty" : [ "32" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://w3id.org/vir#K10_on_the_base_of",
+    "inverse" : "32",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "K10_on_the_base_of",
+      "undefined" : "on the base of"
+    },
+    "domain" : "34",
+    "comment" : {
+      "undefined" : "The property describes the source used for the status assignment"
+    },
+    "attributes" : [ "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/R57i_is_basis_for",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "R57i_is_basis_for"
+    },
+    "domain" : "20",
+    "subproperty" : [ "9" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/P148i_is_component_of",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "P148i_is_component_of"
+    },
+    "domain" : "20",
+    "subproperty" : [ "8" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://w3id.org/vir#K20i_is_composed_of",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "K20i_is_composed_of",
+      "undefined" : "is composed of"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "This property put in relation a representation with a part of itself."
+    },
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://w3id.org/vir#K4_is_visual_prototype_of",
+    "inverse" : "37",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "K4_is_visual_prototype_of",
+      "undefined" : "is visual prototype of"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The property documents the use of a specific prototypical example for an image. The nature of the relationships helps define a map of relationships between prototypical items used in the arts."
+    },
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://w3id.org/vir#K14i_has_symbolic_value",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "K14i_has_symbolic_value",
+      "undefined" : "has symbolic value"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The property indicates the symbolic value of the attribute presents in a representation"
+    },
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "P141i_was_assigned_by"
+    },
+    "domain" : "20",
+    "subproperty" : [ "39" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://w3id.org/vir#K34i_is_illustrated_by",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "K34i_is_illustrated_by",
+      "undefined" : "is illustrated by"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "41",
+    "comment" : {
+      "undefined" : "This property associate an information object to a iconographic representation"
+    },
+    "attributes" : [ "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://w3id.org/vir#K11i_was_assigned_by",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "K11i_was_assigned_by",
+      "undefined" : "was assigned by"
+    },
+    "superproperty" : [ "38" ],
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "The property indicates the status assigned during the visual recognition event"
+    },
+    "attributes" : [ "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://w3id.org/vir#K21_depict_things_of_type",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "K21_depict_things_of_type",
+      "undefined" : "depict things of type"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "This property indicates the type of object depicted by an iconographic attribute"
+    },
+    "attributes" : [ "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "P67i_is_referred_to_by"
+    },
+    "domain" : "20",
+    "subproperty" : [ "37" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://w3id.org/vir#K22i_is_present_in",
+    "inverse" : "28",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "K22i_is_present_in",
+      "undefined" : "is present in"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "This property indicates the membership of a personification in an iconographic object"
+    },
+    "attributes" : [ "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://w3id.org/vir#K21i_is_depiction_of_attribute",
+    "inverse" : "44",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "K21i_is_depiction_of_attribute",
+      "undefined" : "is depiction of attribute"
+    },
+    "superproperty" : [ "22" ],
+    "domain" : "45",
+    "comment" : {
+      "undefined" : "This property indicates the type of object depicted by an iconographic attribute"
+    },
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "P140i_was_attributed_by"
+    },
+    "domain" : "20",
+    "subproperty" : [ "49" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "48"
+  }, {
+    "range" : "24",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "11",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "53",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://w3id.org/vir#K23_connote",
+    "inverse" : "55",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "K23_connote",
+      "undefined" : "connote"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "This property indicates the connotation relationships, formalised by Barthes, between a conceptual entity and an iconographic object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It doesn&#8217;t offer any information about when and whom established the connotation relationship"
+    },
+    "attributes" : [ "object" ],
+    "id" : "54"
+  }, {
+    "range" : "15",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "15",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "60",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "43",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/P33i_was_used_by",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "P33i_was_used_by"
+    },
+    "domain" : "20",
+    "subproperty" : [ "63" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://w3id.org/vir#K34_illustrate",
+    "inverse" : "40",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "K34_illustrate",
+      "undefined" : "illustrate"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "This property associate an information object to a iconographic representation"
+    },
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://w3id.org/vir#K15_use_feature",
+    "inverse" : "63",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "K15_use_feature",
+      "undefined" : "use feature"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "The property indicates the specific attribute used during the production of a visual object"
+    },
+    "attributes" : [ "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://w3id.org/vir#K9_Assigned_status_to",
+    "inverse" : "49",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "K9_Assigned_status_to",
+      "undefined" : "assigned status to"
+    },
+    "domain" : "42",
+    "comment" : {
+      "undefined" : "The property documents the assignment of status to a specific physical thing"
+    },
+    "attributes" : [ "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://w3id.org/vir#K24_portray",
+    "inverse" : "68",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "K24_portray",
+      "undefined" : "portray"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "This property put in relation an iconographic object with the portrayed character."
+    },
+    "attributes" : [ "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://w3id.org/vir#K4i_has_visual_prototype",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "K4i_has_visual_prototype",
+      "undefined" : "has visual prototype"
+    },
+    "superproperty" : [ "46" ],
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The property documents the use of a specific prototypical example for an image. The nature of the relationships helps define a map of relationships between prototypical items used in the arts."
+    },
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://w3id.org/vir#K11_assigned",
+    "inverse" : "39",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "K11_assigned",
+      "undefined" : "assigned"
+    },
+    "domain" : "42",
+    "comment" : {
+      "undefined" : "The property indicates the status assigned during the visual recognition event"
+    },
+    "attributes" : [ "object" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://w3id.org/vir#K1_denotes",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "K1_denotes",
+      "undefined" : "denote"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "The property documents the assignment of an iconographic object to a specific physical man-made object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation"
+    },
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "P138i_has_representation"
+    },
+    "domain" : "20",
+    "subproperty" : [ "26", "0", "47", "40", "68", "55" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://w3id.org/vir#K24i_is_portrayed_in",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "K24i_is_portrayed_in",
+      "undefined" : "is portrayed by"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "This property put in relation an iconographic object with the portrayed character."
+    },
+    "attributes" : [ "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://w3id.org/vir#K9i_has_status_assigned_by",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "K9i_has_status_assigned_by",
+      "undefined" : "has status assigned by"
+    },
+    "superproperty" : [ "48" ],
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "The property documents the assignment of status to a specific physical thing."
+    },
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://w3id.org/vir#K23i_is_connotation_of",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "K23i_is_connotation_of",
+      "undefined" : "is connoted by"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "This property indicates the connotation relationships, formalised by Barthes, between a conceptual entity and an iconographic object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It doesn&#8217;t offer any information about when and whom established the connotation relationship"
+    },
+    "attributes" : [ "object" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://w3id.org/vir#K15i_has_been_used_by",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "K15i_has_been_used_by",
+      "undefined" : "has been used by"
+    },
+    "superproperty" : [ "62" ],
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "The property indicates the specific attribute used during the production of a visual object"
+    },
+    "attributes" : [ "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://w3id.org/vir#K17_has_attribute",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "K17_has_attribute",
+      "undefined" : "has attribute"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "This property associates an attribute with the iconographic object where it is depicted"
+    },
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://w3id.org/vir#K10i_is_basis_for",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "K10i_is_basis_for",
+      "undefined" : "is based on"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The property describes the source used for the status assignment"
+    },
+    "attributes" : [ "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://w3id.org/vir#K25_express",
+    "baseIri" : "http://w3id.org/vir",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "K25_express",
+      "undefined" : "express"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "This property put in relation a symbolic object with a personification in a work of art"
+    },
+    "attributes" : [ "object" ],
+    "id" : "3"
+  } ]
+}

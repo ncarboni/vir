@@ -30,7 +30,7 @@
                 <dt>IRI:</dt>
                 <dd>http://w3id.org/vir</dd>
                 <dt>Current version:</dt>
-                <dd>1.2</dd>
+                <dd>1.3</dd>
                 <dt>Imported ontologies</dt>
                 <dd>CIDOC-CRM: <a href="http://www.cidoc-crm.org/cidoc-crm/">http://www.cidoc-crm.org/cidoc-crm/</a></dd>
                 <dd>FRBRoo: <a href="http://iflastandards.info/ns/fr/frbr/frbroo/">http://iflastandards.info/ns/fr/frbr/frbroo</a></dd>
@@ -75,7 +75,7 @@
 </ul></li>
 <li><a href="#classes">Classes</a>
 <ul>
-<li><a href="#IC1_Iconographical_Atom">IC1 Iconographical Atom</a></li>
+<li><a href="#IC1_Iconographic_Atom">IC1 Iconographic Atom</a></li>
 <li><a href="#IC9_Representation">IC9 Representation</a></li>
 <li><a href="#IC10_Attribute">IC10 Attribute</a></li>
 <li><a href="#IC11_Personification">IC11 Personification</a></li>
@@ -120,7 +120,7 @@
 With the term visual element, we refer to those signs identified in the visual space as distinct and documentable units, and subject to an analytical interpretation.<br/>
 The scope of this ontology is to s to provide a framework to support the identification, annotation and interconnections between diverse visual elements and presents and assist their documentation and retrieval. Specifically, the model aims to clarify the identity and the relation of these visual signs, providing the necessary classes to characterise their constituent elements, reference, symbolic content and source of interpretation.</p>
 
-<p>VIR expands on key entities and properties from CIDOC-CRM, introducing new classes and relationships responding to the visual and art historical community, specifically building up on the iconographical tradition. The result is a model which differentiates between interpretation and element identified, providing a clear distinction between denotation and signification of an element. As a consequence of such distinction, the ontology allows for the definition of diverse denotative criteria for the same representation, which could change based on traditions and perspective. Visual objects can be, in fact, polysemic and ambiguous, and it is not so easy to pin down a denotative or connotative meaning because they are very much context-dependent.</p>
+<p>VIR expands on key entities and properties from CIDOC-CRM, introducing new classes and relationships responding to the visual and art historical community, specifically building up on the iconographic tradition. The result is a model which differentiates between interpretation and element identified, providing a clear distinction between denotation and signification of an element. As a consequence of such distinction, the ontology allows for the definition of diverse denotative criteria for the same representation, which could change based on traditions and perspective. Visual objects can be, in fact, polysemic and ambiguous, and it is not so easy to pin down a denotative or connotative meaning because they are very much context-dependent.</p>
 <!--
 <figure>
 <img src="img/khmer_filonzana.png" alt="" />
@@ -172,11 +172,11 @@ Inverse properties share the same identifier, the letter K followed by the same 
 <br/><br/>
 <center><small>Figure 4</small></center> </p>
 
-<p>The flask presents two sides, with two different representations, a standing woman and the depiction of St. George on horseback. Both representations appear in the mapping but slightly differently. For the saint, it has been used the modelling proposed in Figure 3 the statue in Berlin, but only two attributes have been recognised in this case, the horse and the spear. The other representation has been described using the property Denote, a shortcut of the full path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation. In this examples, the statue of Saint George has been classified in relation to two of its Attribute (IC10), which are modelled using a controlled vocabulary. It is important to state that the type here does not identify the attribute depicted but its iconographical type. </p>
+<p>The flask presents two sides, with two different representations, a standing woman and the depiction of St. George on horseback. Both representations appear in the mapping but slightly differently. For the saint, it has been used the modelling proposed in Figure 3 the statue in Berlin, but only two attributes have been recognised in this case, the horse and the spear. The other representation has been described using the property Denote, a shortcut of the full path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation. In this examples, the statue of Saint George has been classified in relation to two of its Attribute (IC10), which are modelled using a controlled vocabulary. It is important to state that the type here does not identify the attribute depicted but its iconographic type. </p>
 
 <h3 id="photoarchive">Photo Archive</h3>
 
-<p>The third example is about the photograph of the work of art <a href="https://commons.wikimedia.org/wiki/File:Vittore_carpaccio,_san_giorgio_e_il_drago_01.jpg">&#8220;St. George killing the dragon&#8221;</a> by Vittore Carpaccio. The aim of this example it is not to map the information about the original work of art, or the origin of the photo, but only on the iconographical attribution and representation. The mapping is a bit more complicated than the one above, therefore it appears divided into two parts, <strong>a</strong> and <strong>b</strong>. Part <strong>a</strong> presents a mapping of the information about the attribution of the artwork.</p>
+<p>The third example is about the photograph of the work of art <a href="https://commons.wikimedia.org/wiki/File:Vittore_carpaccio,_san_giorgio_e_il_drago_01.jpg">&#8220;St. George killing the dragon&#8221;</a> by Vittore Carpaccio. The aim of this example it is not to map the information about the original work of art, or the origin of the photo, but only on the iconographic attribution and representation. The mapping is a bit more complicated than the one above, therefore it appears divided into two parts, <strong>a</strong> and <strong>b</strong>. Part <strong>a</strong> presents a mapping of the information about the attribution of the artwork.</p>
 
 <p><br/><br/>
 <img src="img/carpaccio_note.svg" alt="" /><br/>
@@ -206,15 +206,15 @@ The inscription is described as a (E12) production event, which results in the e
 
 <h3 id="diverserepresentations">Diverse representations</h3>
 
-<p>Other cases where VIR can be extremely useful would include the description of similar iconographical types which differ in attributes/features, such as episodes having the same character but diverse denotative meaning (diverse episodes of the saint life), or similar attributes over very much diverse representations (St George killing a Dragon and St. Micheal killing a dragon). The examples are numerous and the time limited, but if some help is required the <a href="https://github.com/ncarboni/vir/issues">issue section in the github repository of VIR</a> would be the best place to ask.</p>
+<p>Other cases where VIR can be extremely useful would include the description of similar iconographic types which differ in attributes/features, such as episodes having the same character but diverse denotative meaning (diverse episodes of the saint life), or similar attributes over very much diverse representations (St George killing a Dragon and St. Micheal killing a dragon). The examples are numerous and the time limited, but if some help is required the <a href="https://github.com/ncarboni/vir/issues">issue section in the github repository of VIR</a> would be the best place to ask.</p>
 
 <h2 id="classes">Classes</h2>
 
-<h3 id="IC1_Iconographical_Atom">IC1 Iconographical Atom</h3>
+<h3 id="IC1_Iconographic_Atom">IC1 Iconographic Atom</h3>
 
 <p>Subclass of: <strong>E25 Man-Made Feature</strong></p>
 
-<p>An iconographical atom is a physical arrangement of forms/colours created by human activity</p>
+<p>An iconographic atom is a physical arrangement of forms/colours created by human activity</p>
 
 <h5 id="proprieties">Proprieties</h5>
 
@@ -257,7 +257,7 @@ The inscription is described as a (E12) production event, which results in the e
 
 <p><strong>E29 Design or Procedure</strong></p>
 
-<p>A set of features considered by a viewer more salient than others and used as a key for the identification of a Representation. The attribute could correspond to iconographical elements or simple signs which the viewer uses to provide a stable identity to a visual object.</p>
+<p>A set of features considered by a viewer more salient than others and used as a key for the identification of a Representation. The attribute could correspond to iconographic elements or simple signs which the viewer uses to provide a stable identity to a visual object.</p>
 
 <p><strong>Example:</strong></p>
 
@@ -297,7 +297,7 @@ The inscription is described as a (E12) production event, which results in the e
 
 <p>Subclass of: <strong>S4 Observation</strong></p>
 
-<p>The activity of assigning the iconographical status to a man-made<br/>
+<p>The activity of assigning the iconographic status to a man-made<br/>
 object, or to one of its parts. It takes into account the possibility to<br/>
 link it to a speech act or a document where the authoritative<br/>
 proposition is clearly made.</p>
@@ -412,7 +412,7 @@ Qualities used to assess and state the resemblance are to be encoded as a E55 Ty
 Range: E36 Visual Item<br/>
 Subproperty: P65 show visual items </p>
 
-<p>The property documents the assignment of an iconographical object to a specific physical man-made object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation.</p>
+<p>The property documents the assignment of an iconographic object to a specific physical man-made object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a E18 Physical Thing the status of (K11) IC9 Representation.</p>
 
 <h3 id="K4_is_visual_prototype_of">K4 is visual prototype of (has visual prototype)</h3>
 
@@ -518,7 +518,7 @@ Subproperty: P148 has component (is component of) </p>
 Range: E55 Type<br/>
 Subproperty: P137 exemplifies (is exemplified by) </p>
 
-<p>This property indicates the type of object depicted by an iconographical attribute.</p>
+<p>This property indicates the type of object depicted by an iconographic attribute.</p>
 
 <h3 id="K22_has_personification">K22 has personification (is present in)</h3>
 
@@ -526,7 +526,7 @@ Subproperty: P137 exemplifies (is exemplified by) </p>
 Range: <a href="#IC11_Personification">IC11 Personification</a><br/>
 Subproperty: P138 Represents </p>
 
-<p>This property indicates the membership of a personification in an iconographical object.</p>
+<p>This property indicates the membership of a personification in an iconographic object.</p>
 
 <h3 id="K23_connote">K23 Connote (is connotation of)</h3>
 
@@ -534,7 +534,7 @@ Subproperty: P138 Represents </p>
 Range: <a href="#IC9_Representation">IC9 Representation</a><br/>
 Subproperty: P138 Represents </p>
 
-<p>This property indicates the connotation relationships, formalized by Barthes, between a conceptual entity and an iconographical object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It doesn't offer any information about when and whom established the connotation relationship.<br/>
+<p>This property indicates the connotation relationships, formalized by Barthes, between a conceptual entity and an iconographic object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It doesn't offer any information about when and whom established the connotation relationship.<br/>
 <a name="k24"> </p>
 
 <h3 id="K24_portray">K24 portray (is portrayed in)</a></h3>
@@ -543,7 +543,7 @@ Subproperty: P138 Represents </p>
 Range: <a href="#IC16_Character">IC16 Character</a><br/>
 Subproperty: P138 Represents </p>
 
-<p>This property put in relation an iconographical object with the portrayed character.</p>
+<p>This property put in relation an iconographic object with the portrayed character.</p>
 
 <h3 id="K25_symbolize">K25 express (is abstraction of)</h3>
 
@@ -567,7 +567,7 @@ Shortcut: E57 is based on </p>
 Range: E73 Information Object<br/>
 Subproperty: P67 Refers to </p>
 
-<p>This property associates an information object to a iconographical representation.</p>
+<p>This property associates an information object to a iconographic representation.</p>
 
 
 
