@@ -101,55 +101,63 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         rdfs:comment "The property describes the source used for the status assignment" ;
         rdfs:label "On the base of" ;
         rdfs:range crm:E89_Propositional_Object ;
-        rdfs:subPropertyOf crm:P16_used_specific_object .
+        rdfs:subPropertyOf crm:P16_used_specific_object ;
+        owl:inverseOf vir:K10i_is_basis_for .
     
     vir:K10i_is_basis_for a rdf:Property ;
         rdfs:domain crm:E89_Propositional_Object ;
         rdfs:comment "The property describes the source used for the status assignment" ;
         rdfs:label "is based on" ;
-        rdfs:subPropertyOf crm:P16i_was_used_for .
+        rdfs:subPropertyOf crm:P16i_was_used_for ;
+        owl:inverseOf vir:K10_on_the_base_of.
     
     vir:K11_assigned a rdf:Property ;
         rdfs:domain vir:IC12_Visual_Recognition ;
         rdfs:comment "The property indicates the status assigned during the visual recognition event" ;
         rdfs:label "assigned" ;
         rdfs:range crm:E36_Visual_Item ;
-        rdfs:subPropertyOf crm:P141_assigned .
+        rdfs:subPropertyOf crm:P141_assigned ;
+        owl:inverseOf vir:K11i_was_assigned_by .
     
     vir:K11i_was_assigned_by a rdf:Property ;
         rdfs:domain crm:E36_Visual_Item ;
         rdfs:comment "The property indicates the status assigned during the visual recognition event" ;
         rdfs:label "was assigned by" ;
         rdfs:range vir:IC12_Visual_Recognition ;
-        rdfs:subPropertyOf crm:P141i_was_assigned_by .
+        rdfs:subPropertyOf crm:P141i_was_assigned_by ;
+        owl:inverseOf vir:K11_assigned .
     
     vir:K14_symbolize a rdf:Property ;
         rdfs:domain crm:E36_Visual_Item ;
         rdfs:comment "The property indicates the symbolic value of the attribute presents in a representation" ;
         rdfs:label "symbolize" ;
         rdfs:range crm:E90_Symbolic_Object ;
-        rdfs:subPropertyOf crm:P138_represents .
+        rdfs:subPropertyOf crm:P138_represents ;
+        owl:inverseOf vir:K14i_has_symbolic_value .
     
     vir:K14i_has_symbolic_value a rdf:Property ;
         rdfs:domain crm:E90_Symbolic_Object ;
         rdfs:comment "The property indicates the symbolic value of the attribute presents in a representation" ;
         rdfs:label "has symbolic value" ;
         rdfs:range crm:E36_Visual_Item ;
-        rdfs:subPropertyOf crm:P138i_has_representation .
+        rdfs:subPropertyOf crm:P138i_has_representation ;
+        owl:inverseOf vir:K14_symbolize .
     
     vir:K15_use_feature a rdf:Property ;
         rdfs:domain crm:E12_Production ;
         rdfs:comment "The property indicates the specific attribute used during the production of a visual object" ;
         rdfs:label "use feature" ;
         rdfs:range vir:IC10_Attribute ;
-        rdfs:subPropertyOf crm:P33_used_specific_technique .
+        rdfs:subPropertyOf crm:P33_used_specific_technique ;
+        owl:inverseOf vir:K15i_has_been_used_by .
     
     vir:K15i_has_been_used_by a rdf:Property ;
         rdfs:domain vir:IC10_Attribute ;
         rdfs:comment "The property indicates the specific attribute used during the production of a visual object" ;
         rdfs:label "has been used by" ;
         rdfs:range crm:E12_Production ;
-        rdfs:subPropertyOf crm:P33i_was_used_by .
+        rdfs:subPropertyOf crm:P33i_was_used_by ;
+        owl:inverseOf vir:K15_use_feature .
     
     vir:K17_has_attribute a rdf:Property ;
         rdfs:domain vir:IC9_Representation ;
@@ -187,124 +195,142 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         rdfs:comment "This property put in relation a representation with a part of itself." ;
         rdfs:label "forms part of" ;
         rdfs:range vir:IC9_Representation ;
-        rdfs:subPropertyOf crm:P148_has_component .
+        rdfs:subPropertyOf crm:P148_has_component ;
+        owl:inverseOf vir:K20i_is_composed_of .
     
     vir:K20i_is_composed_of a rdf:Property ;
         rdfs:domain vir:IC9_Representation ;
         rdfs:comment "This property put in relation a representation with a part of itself." ;
         rdfs:label "is composed of" ;
         rdfs:range vir:IC9_Representation ;
-        rdfs:subPropertyOf crm:P148i_is_component_of .
+        rdfs:subPropertyOf crm:P148i_is_component_of ;
+        owl:inverseOf vir:K20_forms_part_of .
     
     vir:K21_depict_things_of_type a rdf:Property ;
         rdfs:domain vir:IC10_Attribute ;
         rdfs:comment "This property indicates the type of object depicted by an iconographical attribute" ;
         rdfs:label "depict things of type" ;
         rdfs:range crm:E55_Type ;
-        rdfs:subPropertyOf crm:P137_exemplifies .
+        rdfs:subPropertyOf crm:P137_exemplifies ;
+        owl:inverseOf vir:K21i_is_depiction_of_attribute .
     
     vir:K21i_is_depiction_of_attribute a rdf:Property ;
         rdfs:domain crm:E55_Type ;
         rdfs:comment "This property indicates the type of object depicted by an iconographical attribute" ;
         rdfs:label "is depiction of attribute" ;
         rdfs:range vir:IC10_Attribute ;
-        rdfs:subPropertyOf crm:P137i_is_exemplified_by .
+        rdfs:subPropertyOf crm:P137i_is_exemplified_by ;
+        owl:inverseOf vir:K21_depict_things_of_type .
     
     vir:K22_has_personification a rdf:Property ;
         rdfs:domain vir:IC9_Representation ;
         rdfs:comment "This property indicates the membership of a personification in an iconographical object" ;
         rdfs:label "has personification" ;
         rdfs:range vir:IC11_Personification ;
-        rdfs:subPropertyOf crm:P138_represents .
+        rdfs:subPropertyOf crm:P138_represents ;
+        owl:inverseOf vir:K22i_is_present_in .
     
     vir:K22i_is_present_in a rdf:Property ;
         rdfs:domain vir:IC16_Character ;
         rdfs:comment "This property indicates the membership of a personification in an iconographical object" ;
         rdfs:label "is present in" ;
         rdfs:range vir:IC9_Representation ;
-        rdfs:subPropertyOf crm:P138i_has_representation .
+        rdfs:subPropertyOf crm:P138i_has_representation ;
+        owl:inverseOf vir:K22_has_personification .
     
     vir:K23_connote a rdf:Property ;
         rdfs:domain vir:IC9_Representation ;
         rdfs:comment "This property indicates the connotation relationships, formalised by Barthes, between a conceptual entity and an iconographical object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It doesn&#8217;t offer any information about when and whom established the connotation relationship" ;
         rdfs:label "connote" ;
         rdfs:range vir:IC9_Representation ;
-        rdfs:subPropertyOf crm:P138_represents .
+        rdfs:subPropertyOf crm:P138_represents ;
+        owl:inverseOf vir:K23i_is_connotation_of .
     
     vir:K23i_is_connotation_of a rdf:Property ;
         rdfs:domain vir:IC9_Representation ;
         rdfs:comment "This property indicates the connotation relationships, formalised by Barthes, between a conceptual entity and an iconographical object. It is a shortcut for the more fully developed path IC12 Visual Recognition assign (K9) to a IC9 Representation a new (K11) IC9 Representation. It doesn&#8217;t offer any information about when and whom established the connotation relationship" ;
         rdfs:label "is connoted by" ;
         rdfs:range vir:IC9_Representation ;
-        rdfs:subPropertyOf crm:P138i_has_representation .
+        rdfs:subPropertyOf crm:P138i_has_representation ;
+        owl:inverseOf vir:K23_connote .
     
     vir:K24_portray a rdf:Property ;
         rdfs:domain vir:IC9_Representation ;
         rdfs:comment "This property put in relation an iconographical object with the portrayed character." ;
         rdfs:label "portray" ;
         rdfs:range vir:IC16_Character ;
-        rdfs:subPropertyOf crm:P138_represents .
+        rdfs:subPropertyOf crm:P138_represents ;
+        owl:inverseOf vir:K24i_is_portrayed_in .
     
     vir:K24i_is_portrayed_in a rdf:Property ;
         rdfs:domain vir:IC16_Character ;
         rdfs:comment "This property put in relation an iconographical object with the portrayed character." ;
         rdfs:label "is portrayed by" ;
         rdfs:range vir:IC9_Representation ;
-        rdfs:subPropertyOf crm:P138i_has_representation .
+        rdfs:subPropertyOf crm:P138i_has_representation ;
+        owl:inverseOf  vir:K24_portray .
     
     vir:K25_express a rdf:Property ;
         rdfs:domain vir:IC10_Attribute ;
         rdfs:comment "This property put in relation a symbolic object with a personification in a work of art" ;
         rdfs:label "express" ;
         rdfs:range crm:E90_Symbolic_Object ;
-        rdfs:subPropertyOf crm:P138_represents .
+        rdfs:subPropertyOf crm:P138_represents ;
+        owl:inverseOf vir:K25i_is_abstraction_of .
     
     vir:K25i_is_abstraction_of a rdf:Property ;
         rdfs:domain crm:E90_Symbolic_Object ;
         rdfs:comment "This property put in relation a symbolic object with a personification in a work of art." ;
         rdfs:label "is abstraction of" ;
         rdfs:range vir:IC10_Attribute ;
-        rdfs:subPropertyOf crm:P138i_has_representation .
+        rdfs:subPropertyOf crm:P138i_has_representation ;
+        owl:inverseOf vir:K25_express .
     
     vir:K26_has_source a rdf:Property ;
         rdfs:domain vir:IC16_Character ;
         rdfs:comment "This property associates an instance of IC16 Character with an instance of E39 Actor that the character is motivated by or is intended to represent" ;
         rdfs:label "has source" ;
-        rdfs:subPropertyOf frbroo:R57_is_based_on .
+        rdfs:subPropertyOf frbroo:R57_is_based_on ;
+        owl:inverseOf vir:K26i_is_source_of .
     
     vir:K26i_is_source_of a rdf:Property ;
         rdfs:comment "This property associates an instance of IC16 Character with an instance of E39 Actor that the character is motivated by or is intended to represent" ;
         rdfs:label "is source of" ;
         rdfs:range vir:IC16_Character ;
-        rdfs:subPropertyOf frbroo:R57i_is_basis_for .
+        rdfs:subPropertyOf frbroo:R57i_is_basis_for ;
+        owl:inverseOf  vir:K26_has_source .
     
     vir:K34_illustrate a rdf:Property ;
         rdfs:domain vir:IC9_Representation ;
         rdfs:comment "This property associate an information object to a iconographical representation" ;
         rdfs:label "illustrate" ;
         rdfs:range crm:E73_Information_Object ;
-        rdfs:subPropertyOf crm:P138_represents .
+        rdfs:subPropertyOf crm:P138_represents ;
+        owl:inverseOf vir:K34i_is_illustrated_by .
     
     vir:K34i_is_illustrated_by a rdf:Property ;
         rdfs:domain crm:E73_Information_Object ;
         rdfs:comment "This property associate an information object to a iconographical representation" ;
         rdfs:label "is illustrated by" ;
         rdfs:range vir:IC9_Representation ;
-        rdfs:subPropertyOf crm:P138i_has_representation .
+        rdfs:subPropertyOf crm:P138i_has_representation ;
+        owl:inverseOf vir:K34_illustrate .
     
     vir:K4_is_visual_prototype_of a rdf:Property ;
         rdfs:domain vir:IC9_Representation ;
         rdfs:comment "The property documents the use of a specific prototypical example for an image. The nature of the relationships helps define a map of relationships between prototypical items used in the arts." ;
         rdfs:label "is visual prototype of" ;
         rdfs:range vir:IC9_Representation ;
-        rdfs:subPropertyOf crm:P67_refers_to .
+        rdfs:subPropertyOf crm:P67_refers_to ;
+        owl:inverseOf vir:K4i_has_visual_prototype .
     
     vir:K4i_has_visual_prototype a rdf:Property ;
         rdfs:domain vir:IC9_Representation ;
         rdfs:comment "The property documents the use of a specific prototypical example for an image. The nature of the relationships helps define a map of relationships between prototypical items used in the arts." ;
         rdfs:label "has visual prototype" ;
         rdfs:range vir:IC9_Representation ;
-        rdfs:subPropertyOf crm:P67i_is_referred_to_by .
+        rdfs:subPropertyOf crm:P67i_is_referred_to_by ;
+        owl:inverseOf vir:K4_is_visual_prototype_of .
         
     vir:K6_has_back a rdf:Property ;
         rdfs:domain vir:IC19_Recto ;
@@ -318,7 +344,7 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         rdfs:range vir:IC19_Recto ;
         rdfs:comment "The property documents the presence of a Verso or a Recto, respectively in the back or in the front of an object." ;
         rdfs:label "has front" ;
-    rdfs:subPropertyOf crm:P46i_forms_part_of .
+        rdfs:subPropertyOf crm:P46i_forms_part_of .
     
     vir:K7_is_recto_of a rdf:Property ;
         rdfs:domain vir:IC19_Recto ;
@@ -353,14 +379,16 @@ VIR expands on key entities and properties from CIDOC-CRM, introducing new class
         rdfs:comment "The property documents the assignment of status to a specific physical thing" ;
         rdfs:label "Assigned status to" ;
         rdfs:range crm:E18_Physical_Thing ;
-        rdfs:subPropertyOf crm:P140_assigned_attribute_to .
+        rdfs:subPropertyOf crm:P140_assigned_attribute_to ;
+        owl:inverseOf vir:K9i_has_status_assigned_by .
     
     vir:K9i_has_status_assigned_by a rdf:Property ;
         rdfs:domain crm:E18_Physical_Thing ;
         rdfs:comment "The property documents the assignment of status to a specific physical thing." ;
         rdfs:label "has status assigned by" ;
         rdfs:range vir:IC12_Visual_Recognition ;
-        rdfs:subPropertyOf crm:P140i_was_attributed_by .
+        rdfs:subPropertyOf crm:P140i_was_attributed_by ;
+        owl:inverseOf vir:K9_Assigned_status_to .
 
     vir:K35_assigned_similarity_to a rdf:Property ;
         rdfs:domain vir:IC21_Similarity_Statement ;
